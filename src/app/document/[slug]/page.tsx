@@ -40,7 +40,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const name =
     DOC_NAME[slug as (typeof SLUGS)[number]] ??
-    (slug.charAt(0).toUpperCase() + slug.slice(1));
+    slug.charAt(0).toUpperCase() + slug.slice(1);
   return { title: `${name} — WorkBuddy` };
 }
 
