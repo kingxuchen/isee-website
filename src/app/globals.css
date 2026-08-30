@@ -2,14 +2,30 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+@font-face {
+  font-family: "Alimama ShuHeiTi";
+  src: url("/fonts/AlimamaShuHeiTi-Bold.subset.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Alimama FangYuanTi";
+  src: url("/fonts/AlimamaFangYuanTiVF-Thin.subset.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "PingFang SC", "Microsoft YaHei", var(--font-alimama-fangyuanti), -apple-system, "system-ui", "Segoe UI", Roboto, sans-serif;
-  --font-heading: var(--font-alimama-shuheiti), "PingFang SC", sans-serif;
-  --font-round: var(--font-alimama-fangyuanti), -apple-system, "system-ui", sans-serif;
+  --font-sans: "PingFang SC", "Microsoft YaHei", "Alimama FangYuanTi", var(--font-alimama-fangyuanti), -apple-system, "system-ui", "Segoe UI", Roboto, sans-serif;
+  --font-heading: var(--font-alimama-shuheiti), "Alimama ShuHeiTi", "PingFang SC", sans-serif;
+  --font-round: var(--font-alimama-fangyuanti), "Alimama FangYuanTi", -apple-system, "system-ui", sans-serif;
   /* WorkBuddy brand tokens */
   --color-wb-green: #28b894;
   --color-wb-teal: #32e6b9;
@@ -94,6 +110,9 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  /* Local font family aliases */
+  --font-alimama-shuheiti: "Alimama ShuHeiTi";
+  --font-alimama-fangyuanti: "Alimama FangYuanTi";
 }
 
 .dark {
