@@ -7,9 +7,22 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-sans);
+  --font-sans: "PingFang SC", "Microsoft YaHei", var(--font-alimama-fangyuanti), -apple-system, "system-ui", "Segoe UI", Roboto, sans-serif;
+  --font-heading: var(--font-alimama-shuheiti), "PingFang SC", sans-serif;
+  --font-round: var(--font-alimama-fangyuanti), -apple-system, "system-ui", sans-serif;
+  /* WorkBuddy brand tokens */
+  --color-wb-green: #28b894;
+  --color-wb-teal: #32e6b9;
+  --color-wb-deepgreen: #00b578;
+  --color-wb-ink: #0d0d0d;
+  --color-wb-ink-2: #191a23;
+  --color-wb-text: #333333;
+  --color-wb-muted: #666666;
+  --color-wb-muted-2: #727272;
+  --color-wb-gray: #999999;
+  --color-wb-panel: #f4f5f5;
+  --color-wb-panel-2: #f5f5f5;
+  --color-wb-line: #e5e5e5;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -55,7 +68,7 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
+  --primary: #28b894;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -126,5 +139,19 @@
   }
   html {
     @apply font-sans;
+  }
+  /* Lenis smooth scroll */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
   }
 }
