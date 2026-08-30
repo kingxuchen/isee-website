@@ -81,32 +81,36 @@ export function Capabilities() {
           {/* Header */}
           <div className="mx-auto mb-[60px] max-w-[70%] text-center lg:mb-[160px]">
             <div className="flex items-center justify-center gap-3">
-              <img src="/icons-inline/HeroBuddySvg.svg" alt="WorkBuddy" className="h-10 w-auto lg:h-14" />
+              <img
+                src="/icons-inline/HeroBuddySvg.svg"
+                alt="WorkBuddy"
+                className="h-10 w-auto lg:h-14"
+              />
               <h2 className="font-heading text-[28px] leading-tight text-wb-ink lg:text-[48px]">
                 你的工作好帮手
               </h2>
             </div>
             <p className="mt-4 text-sm text-wb-muted lg:text-base">
-              把任务交给它，WorkBuddy 会自主规划、调用工具、生成文件，并把过程与结果都留给你审核
+              把任务交给它，WorkBuddy
+              会自主规划、调用工具、生成文件，并把过程与结果都留给你审核
             </p>
           </div>
 
-          {/* Mascots */}
-          <img
-            src="/cap/scenario1-feature1.png"
-            alt=""
-            aria-hidden
-            className="absolute bottom-[380px] left-[40px] hidden w-[120px] lg:block"
-          />
-          <img
-            src="/cap/scenario1-feature2.png"
-            alt=""
-            aria-hidden
-            className="absolute bottom-[360px] left-[150px] hidden w-[200px] lg:block"
-          />
-
           {/* White content wrapper */}
           <div className="relative grid grid-cols-1 gap-10 bg-white px-6 py-10 lg:grid-cols-[40%_60%] lg:px-[60px] lg:py-[60px]">
+            {/* Mascots anchored to the wrapper's top edge, sitting in the gray zone */}
+            <img
+              src="/cap/scenario1-feature1.png"
+              alt=""
+              aria-hidden
+              className="absolute -top-[96px] left-[40px] z-10 hidden w-[120px] lg:block"
+            />
+            <img
+              src="/cap/scenario1-feature2.png"
+              alt=""
+              aria-hidden
+              className="absolute -top-[165px] left-[150px] z-10 hidden w-[200px] lg:block"
+            />
             <div className="text-left">
               {/* Tabs */}
               <div className="inline-flex gap-1 rounded-lg bg-wb-panel p-1">
@@ -128,8 +132,12 @@ export function Capabilities() {
                 ))}
               </div>
 
-              <h3 className="mt-8 font-heading text-[26px] text-wb-ink lg:text-[32px]">{tab.title}</h3>
-              <h4 className="mt-2 text-lg font-semibold text-[#191A23] lg:text-xl">{tab.subtitle}</h4>
+              <h3 className="mt-8 font-heading text-[26px] text-wb-ink lg:text-[32px]">
+                {tab.title}
+              </h3>
+              <h4 className="mt-2 text-lg font-semibold text-[#191A23] lg:text-xl">
+                {tab.subtitle}
+              </h4>
               <p className="mt-4 max-w-[420px] text-sm leading-[26px] text-wb-muted lg:text-base">
                 {tab.description}
               </p>
@@ -138,7 +146,12 @@ export function Capabilities() {
                 className="mt-8 flex h-12 w-12 items-center justify-center rounded-lg bg-black transition-colors duration-300 hover:bg-[#333]"
                 aria-label="scenario detail link"
               >
-                <img src="/icons-inline/ArrowUpRightIcon.svg" alt="" aria-hidden className="h-[30px] w-[30px]" />
+                <img
+                  src="/icons-inline/ArrowUpRightIcon.svg"
+                  alt=""
+                  aria-hidden
+                  className="h-[30px] w-[30px]"
+                />
               </a>
             </div>
 
@@ -172,7 +185,12 @@ export function Capabilities() {
                   <span className="h-3 w-[3px] bg-black" />
                 </span>
               ) : (
-                <img src="/icons-inline/PlayIcon.svg" alt="" aria-hidden className="h-3 w-3" />
+                <img
+                  src="/icons-inline/PlayIcon.svg"
+                  alt=""
+                  aria-hidden
+                  className="h-3 w-3"
+                />
               )}
             </button>
             <div className="h-3 w-16 overflow-hidden rounded-full bg-[#E5E5E5]">

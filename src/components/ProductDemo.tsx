@@ -53,28 +53,56 @@ export function ProductDemo() {
 
           {/* Sidebar */}
           <aside className="hidden flex-col gap-1 bg-[#F3F3F3] p-4 md:flex">
-            <img src="/brand/workbuddy-logo.png" alt="WorkBuddy" className="mb-3 h-6 w-auto self-start" />
+            <img
+              src="/brand/workbuddy-logo.png"
+              alt="WorkBuddy"
+              className="mb-3 h-6 w-auto self-start"
+            />
             {NAV_ITEMS.map((item) => (
-              <div key={item.label} className="flex items-center gap-2 rounded px-2 py-1.5 text-sm text-[#333]">
+              <div
+                key={item.label}
+                className="flex items-center gap-2 rounded px-2 py-1.5 text-sm text-[#333]"
+              >
                 <img src={item.icon} alt="" aria-hidden className="h-4 w-4" />
                 {item.label}
               </div>
             ))}
             <div className="mt-4 px-2 text-xs text-[#999]">任务</div>
             {TASKS.map((t) => (
-              <div key={t} className="flex items-center justify-between gap-2 rounded px-2 py-1.5 text-[13px] text-[#333]">
+              <div
+                key={t}
+                className="flex items-center justify-between gap-2 rounded px-2 py-1.5 text-[13px] text-[#333]"
+              >
                 <span className="flex items-center gap-2 truncate">
-                  <img src="/icons-inline/ConvActionIcon1.svg" alt="" aria-hidden className="h-4 w-4 shrink-0" />
+                  <img
+                    src="/icons-inline/ConvActionIcon1.svg"
+                    alt=""
+                    aria-hidden
+                    className="h-4 w-4 shrink-0"
+                  />
                   <span className="truncate">{t}</span>
                 </span>
-                <img src="/icons-inline/ChevronSmallIcon.svg" alt="" aria-hidden className="h-3 w-3 shrink-0" />
+                <img
+                  src="/icons-inline/ChevronSmallIcon.svg"
+                  alt=""
+                  aria-hidden
+                  className="h-3 w-3 shrink-0"
+                />
               </div>
             ))}
             <div className="mt-4 px-2 text-xs text-[#999]">工作空间</div>
             {WORKSPACES.map((w) => (
-              <div key={w} className="flex items-center justify-between gap-2 rounded px-2 py-1.5 text-[13px] text-[#333]">
+              <div
+                key={w}
+                className="flex items-center justify-between gap-2 rounded px-2 py-1.5 text-[13px] text-[#333]"
+              >
                 <span className="flex items-center gap-2">
-                  <img src="/icons-inline/PlusSquareIcon.svg" alt="" aria-hidden className="h-4 w-4" />
+                  <img
+                    src="/icons-inline/PlusSquareIcon.svg"
+                    alt=""
+                    aria-hidden
+                    className="h-4 w-4"
+                  />
                   {w}
                 </span>
                 <span className="text-[#999]">›</span>
@@ -94,41 +122,79 @@ export function ProductDemo() {
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <img src="/demo/work-face.svg" alt="WorkBuddy" className="h-6 w-6" />
-                <span className="text-[13px] font-semibold text-[#191A23]">WorkBuddy</span>
+                <img
+                  src="/demo/work-face.svg"
+                  alt="WorkBuddy"
+                  className="h-6 w-6"
+                />
+                <span className="text-[13px] font-semibold text-[#191A23]">
+                  WorkBuddy
+                </span>
               </div>
-              <p className="text-sm leading-[22px] text-[#333]">我开始执行深度研究：先搜集最新行业动态，再产出结构化报告。</p>
+              <p className="text-sm leading-[22px] text-[#333]">
+                我开始执行深度研究：先搜集最新行业动态，再产出结构化报告。
+              </p>
               <div className="flex items-center justify-between border-t border-[#F0F0F0] py-2 text-[13px] text-[#666]">
                 <span className="flex items-center gap-2">
-                  <img src="/icons-inline/SearchToolIcon.svg" alt="" aria-hidden className="h-3.5 w-3.5" />
+                  <img
+                    src="/icons-inline/SearchToolIcon.svg"
+                    alt=""
+                    aria-hidden
+                    className="h-3.5 w-3.5"
+                  />
                   搜索 20 篇行业深度报告
                 </span>
                 <span className="flex items-center gap-1 text-[#999]">
                   展开详情
-                  <img src="/icons-inline/ExpandDetailIcon.svg" alt="" aria-hidden className="h-3.5 w-3.5" />
+                  <img
+                    src="/icons-inline/ExpandDetailIcon.svg"
+                    alt=""
+                    aria-hidden
+                    className="h-3.5 w-3.5"
+                  />
                 </span>
               </div>
-              <p className="text-sm leading-[22px] text-[#333]">信息已经足够丰富，我整合现有调研结果，撰写报告并交付。</p>
+              <p className="text-sm leading-[22px] text-[#333]">
+                信息已经足够丰富，我整合现有调研结果，撰写报告并交付。
+              </p>
               <div className="flex items-center justify-between border-t border-[#F0F0F0] py-2 text-[13px] text-[#666]">
                 <span className="flex items-center gap-2">
-                  <img src="/icons-inline/CreateFileToolIcon.svg" alt="" aria-hidden className="h-3.5 w-3.5" />
+                  <img
+                    src="/icons-inline/CreateFileToolIcon.svg"
+                    alt=""
+                    aria-hidden
+                    className="h-3.5 w-3.5"
+                  />
                   创建 .md .pptx .docx 格式的研究报告
                 </span>
                 <span className="flex items-center gap-1 text-[#999]">
                   展开详情
-                  <img src="/icons-inline/ExpandDetailIcon.svg" alt="" aria-hidden className="h-3.5 w-3.5" />
+                  <img
+                    src="/icons-inline/ExpandDetailIcon.svg"
+                    alt=""
+                    aria-hidden
+                    className="h-3.5 w-3.5"
+                  />
                 </span>
               </div>
-              <p className="text-sm leading-[22px] text-[#333]">交付 AI 行业趋势研究报告</p>
+              <p className="text-sm leading-[22px] text-[#333]">
+                交付 AI 行业趋势研究报告
+              </p>
 
               <div className="rounded-lg bg-[#F8F9FA] p-4 text-[13px] leading-[22px] text-[#333]">
-                <div className="font-semibold text-[#191A23]">核心要点速览：</div>
+                <div className="font-semibold text-[#191A23]">
+                  核心要点速览：
+                </div>
                 <ul className="mb-2 list-disc pl-5">
                   <li>
-                    <b>一句话结论：</b>2026 年的 AI 行业焦点已经从“模型参数大战”切换到“Agent 落地战”，资本仍在加速涌入算力，但 ROI 兑现窗口正在收紧。
+                    <b>一句话结论：</b>2026 年的 AI
+                    行业焦点已经从“模型参数大战”切换到“Agent
+                    落地战”，资本仍在加速涌入算力，但 ROI 兑现窗口正在收紧。
                   </li>
                 </ul>
-                <div className="font-semibold text-[#191A23]">六个最值得您关注的拐点：</div>
+                <div className="font-semibold text-[#191A23]">
+                  六个最值得您关注的拐点：
+                </div>
                 <ul className="list-disc pl-5">
                   {REPORT_POINTS.map((p) => (
                     <li key={p.slice(0, 12)}>{p}</li>
@@ -137,11 +203,21 @@ export function ProductDemo() {
               </div>
 
               <div>
-                <div className="mb-2 text-sm font-semibold text-[#191A23]">产物汇总 6</div>
+                <div className="mb-2 text-sm font-semibold text-[#191A23]">
+                  产物汇总 6
+                </div>
                 <div className="flex flex-wrap gap-2">
                   {FILES.map((f) => (
-                    <span key={f.name} className="flex items-center gap-1.5 rounded-md border border-wb-line px-2.5 py-1.5 text-[13px] text-[#333]">
-                      <img src={f.icon} alt="" aria-hidden className="h-4 w-4" />
+                    <span
+                      key={f.name}
+                      className="flex items-center gap-1.5 rounded-md border border-wb-line px-2.5 py-1.5 text-[13px] text-[#333]"
+                    >
+                      <img
+                        src={f.icon}
+                        alt=""
+                        aria-hidden
+                        className="h-4 w-4"
+                      />
                       {f.name}
                     </span>
                   ))}
@@ -149,10 +225,26 @@ export function ProductDemo() {
               </div>
 
               <div className="flex items-center gap-3 text-[#999]">
-                <img src="/icons-inline/CopyIcon.svg" alt="复制" className="h-4 w-4" />
-                <img src="/icons-inline/ThumbUpIcon.svg" alt="点赞" className="h-4 w-4" />
-                <img src="/icons-inline/ThumbDownIcon.svg" alt="点踩" className="h-4 w-4" />
-                <img src="/icons-inline/MoreOpsIcon.svg" alt="更多操作" className="h-4 w-4" />
+                <img
+                  src="/icons-inline/CopyIcon.svg"
+                  alt="复制"
+                  className="h-4 w-4"
+                />
+                <img
+                  src="/icons-inline/ThumbUpIcon.svg"
+                  alt="点赞"
+                  className="h-4 w-4"
+                />
+                <img
+                  src="/icons-inline/ThumbDownIcon.svg"
+                  alt="点踩"
+                  className="h-4 w-4"
+                />
+                <img
+                  src="/icons-inline/MoreOpsIcon.svg"
+                  alt="更多操作"
+                  className="h-4 w-4"
+                />
               </div>
             </div>
 
@@ -160,25 +252,51 @@ export function ProductDemo() {
             <div className="border-t border-[#F0F0F0] px-6 py-4">
               <div className="rounded-xl border border-wb-line p-3">
                 <div className="flex items-center gap-2 text-sm text-[#999]">
-                  <img src="/icons-inline/AttachIcon.svg" alt="" aria-hidden className="h-4 w-4" />
+                  <img
+                    src="/icons-inline/AttachIcon.svg"
+                    alt=""
+                    aria-hidden
+                    className="h-4 w-4"
+                  />
                   输入消息...
                 </div>
                 <div className="mt-2 flex items-center justify-between">
                   <div className="flex items-center gap-3 text-[13px] text-[#666]">
                     <span className="flex items-center gap-1">
-                      <img src="/demo/junheng.svg" alt="" aria-hidden className="h-4 w-4" />
+                      <img
+                        src="/demo/junheng.svg"
+                        alt=""
+                        aria-hidden
+                        className="h-4 w-4"
+                      />
                       Craft
-                      <img src="/icons-inline/ChevronSmallIcon.svg" alt="" aria-hidden className="h-3 w-3" />
+                      <img
+                        src="/icons-inline/ChevronSmallIcon.svg"
+                        alt=""
+                        aria-hidden
+                        className="h-3 w-3"
+                      />
                     </span>
                     <span className="flex items-center gap-1">
                       均衡
-                      <img src="/icons-inline/ChevronSmallIcon.svg" alt="" aria-hidden className="h-3 w-3" />
+                      <img
+                        src="/icons-inline/ChevronSmallIcon.svg"
+                        alt=""
+                        aria-hidden
+                        className="h-3 w-3"
+                      />
                     </span>
                   </div>
-                  <img src="/icons-inline/SendIcon.svg" alt="发送" className="h-4 w-4" />
+                  <img
+                    src="/icons-inline/SendIcon.svg"
+                    alt="发送"
+                    className="h-4 w-4"
+                  />
                 </div>
               </div>
-              <div className="mt-2 text-center text-xs text-[#999]">内容由 AI 生成，请核实重要信息。</div>
+              <div className="mt-2 text-center text-xs text-[#999]">
+                内容由 AI 生成，请核实重要信息。
+              </div>
             </div>
           </section>
         </section>

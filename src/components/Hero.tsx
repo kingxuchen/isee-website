@@ -52,7 +52,8 @@ const DOWNLOAD_ITEMS = [
 ];
 
 /** Body/label font of the original hero (raw/hero.json). */
-const SYSTEM_FONT = '-apple-system, "system-ui", "Segoe UI", Roboto, sans-serif';
+const SYSTEM_FONT =
+  '-apple-system, "system-ui", "Segoe UI", Roboto, sans-serif';
 
 const letterStyle = (i: number) =>
   ({
@@ -89,7 +90,11 @@ function RotatingWord() {
         className="relative inline-flex overflow-hidden py-1 whitespace-pre"
       >
         {word.split("").map((letter, i) => (
-          <span key={`${index}-${i}`} className="inline-block" style={letterStyle(i)}>
+          <span
+            key={`${index}-${i}`}
+            className="inline-block"
+            style={letterStyle(i)}
+          >
             {letter}
           </span>
         ))}
@@ -180,7 +185,7 @@ export function Hero() {
       style={{ fontFamily: SYSTEM_FONT, color: "rgb(25, 26, 35)" }}
     >
       {/* ---------- background artwork ---------- */}
-      <div className="pointer-events-none absolute inset-y-0 right-0 z-[1] hidden overflow-hidden lg:block lg:h-full lg:w-[1224px] lg:max-w-[1500px]">
+      <div className="pointer-events-none absolute top-0 left-0 z-[1] hidden lg:block">
         <Image
           src={BG_SRC}
           alt="Background"
@@ -188,7 +193,7 @@ export function Hero() {
           height={BG_SIZE.height}
           priority
           decoding="async"
-          className="h-full w-full max-w-[1500px] object-contain object-right"
+          className="h-auto w-[1224px] max-w-[1500px]"
         />
       </div>
       <div className="pointer-events-none absolute inset-x-0 top-0 z-[1] overflow-hidden lg:hidden">
@@ -221,11 +226,15 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-[720px] text-center font-round text-[16px] leading-[1.8] font-medium text-wb-ink-2 md:mt-0 md:text-[20px] md:leading-[40px]">
-            WorkBuddy 是腾讯出品的全场景 AI 办公工作台。说出要求、开始执行任务、交付完整成果。完美连接腾讯办公生态，你的办公好搭子
+            WorkBuddy 是腾讯出品的全场景 AI
+            办公工作台。说出要求、开始执行任务、交付完整成果。完美连接腾讯办公生态，你的办公好搭子
           </p>
         </div>
 
-        <div id="download-section" className="relative z-10 flex flex-wrap items-center justify-center gap-6">
+        <div
+          id="download-section"
+          className="relative z-10 flex flex-wrap items-center justify-center gap-6"
+        >
           <DownloadButton />
           <a
             href="#"

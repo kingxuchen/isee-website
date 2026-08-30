@@ -2,7 +2,7 @@
   "id": "dccbbf4b",
   "title": "Phase 4: Page assembly",
   "tags": [],
-  "status": "open",
+  "status": "done",
   "created_at": "2026-08-30T04:20:34.247Z"
 }
 
