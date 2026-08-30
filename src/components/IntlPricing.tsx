@@ -180,7 +180,12 @@ const COMPARE_ROWS: CompareRow[] = [
     pro: { value: "" },
     checks: true,
   },
-  { label: "注释生成代码", free: { value: "" }, pro: { value: "" }, checks: true },
+  {
+    label: "注释生成代码",
+    free: { value: "" },
+    pro: { value: "" },
+    checks: true,
+  },
   {
     label: "专家、技能与连接器",
     free: { value: "" },
