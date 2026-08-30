@@ -1,0 +1,10 @@
+packages:
+  - "."
+
+# Disable pnpm 11.20's default 24h minimum-release-age supply-chain policy
+# (blocks installing freshly published packages like lucide-react@1.37.0)
+minimumReleaseAge: 0
+
+# Allow build scripts for native/legitimate packages
+allowBuilds:
+  unrs-resolver: true
