@@ -49,26 +49,29 @@ const COLUMNS: FooterColumn[] = [
   {
     title: "条款与政策",
     links: [
-      { label: "服务协议", href: "#" },
-      { label: "企业版服务协议", href: "#" },
-      { label: "隐私协议", href: "#" },
+      { label: "服务协议", href: "/document/term" },
+      {
+        label: "企业版服务协议",
+        href: "/document/enterprise-agreement",
+      },
+      { label: "隐私协议", href: "/document/privacy-policy" },
       {
         label: "企业版隐私协议",
         href: "https://www.tencentcloud.com/document/product/1316/82099",
       },
-      { label: "可接受使用政策", href: "#" },
+      { label: "可接受使用政策", href: "/document/acceptable-use-policy" },
     ],
   },
   {
     title: "文档指引",
     links: [
-      { label: "产品介绍", href: "#" },
-      { label: "常见问题", href: "#" },
+      { label: "产品介绍", href: "/#" },
+      { label: "常见问题", href: "/#" },
     ],
   },
   {
     title: "产品下载",
-    links: [{ label: "客户端下载", href: "#" }],
+    links: [{ label: "客户端下载", href: "/#" }],
   },
   {
     title: "联系我们",

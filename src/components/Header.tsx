@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import {
   useCallback,
   useEffect,
@@ -24,8 +25,8 @@ const LOGO_SRC = "/brand/workbuddy-logo.png";
 const LOGO_SIZE = { width: 162, height: 56 };
 
 const NAV_ITEMS = [
-  { label: "首页", href: "/", active: true },
-  { label: "定价", href: "/pricing", active: false },
+  { label: "首页", href: "/" },
+  { label: "定价", href: "/pricing" },
 ];
 
 const LANGUAGES = [
@@ -166,6 +167,9 @@ function LanguageSwitcher({ block = false }: { block?: boolean }) {
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  // Exact /pricing matches the pricing page; everything else is 首页.
+  const activeHref = pathname.startsWith("/pricing") ? "/pricing" : "/";
   const openMenu = useCallback(() => setMenuOpen(true), []);
   const closeMenu = useCallback(() => setMenuOpen(false), []);
 
@@ -214,25 +218,28 @@ export function Header() {
 
           {/* Desktop menu */}
           <ul className="m-0 hidden list-none items-center justify-center gap-6 whitespace-nowrap p-0 lg:flex">
-            {NAV_ITEMS.map((item) => (
-              <li key={item.label} className="relative">
-                <Link
-                  href={item.href}
-                  aria-current={item.active ? "page" : undefined}
-                  className="relative flex items-center gap-1 overflow-hidden rounded-[8px] px-2 py-1.5 font-heading text-sm leading-[22.4px] font-bold whitespace-nowrap text-wb-ink-2 transition-colors duration-300 hover:text-wb-green"
-                >
-                  {item.label}
-                  {/* active / hover underline bar */}
-                  <span
-                    aria-hidden="true"
-                    className={cn(
-                      "pointer-events-none absolute inset-x-0 bottom-0 h-0.5 bg-wb-green transition-transform duration-300",
-                      item.active ? "scale-x-100" : "scale-x-0",
-                    )}
-                  />
-                </Link>
-              </li>
-            ))}
+            {NAV_ITEMS.map((item) => {
+              const active = item.href === activeHref;
+              return (
+                <li key={item.label} className="relative">
+                  <Link
+                    href={item.href}
+                    aria-current={active ? "page" : undefined}
+                    className="relative flex items-center gap-1 overflow-hidden rounded-[8px] px-2 py-1.5 font-heading text-sm leading-[22.4px] font-bold whitespace-nowrap text-wb-ink-2 transition-colors duration-300 hover:text-wb-green"
+                  >
+                    {item.label}
+                    {/* active / hover underline bar */}
+                    <span
+                      aria-hidden="true"
+                      className={cn(
+                        "pointer-events-none absolute inset-x-0 bottom-0 h-0.5 bg-wb-green transition-transform duration-300",
+                        active ? "scale-x-100" : "scale-x-0",
+                      )}
+                    />
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
 
           {/* Desktop actions */}
@@ -317,23 +324,26 @@ export function Header() {
 
         {/* Drawer nav list */}
         <ul className="m-0 shrink-0 list-none p-0">
-          {NAV_ITEMS.map((item) => (
-            <li key={item.label}>
-              <Link
-                href={item.href}
-                onClick={closeMenu}
-                aria-current={item.active ? "page" : undefined}
-                className={cn(
-                  "flex items-center justify-between border-b border-[rgba(226,232,240,0.3)] px-6 py-4 text-base leading-[25.6px] font-medium transition-colors duration-300",
-                  item.active
-                    ? "bg-wb-green/5 text-wb-green"
-                    : "text-[#4c4f6b] hover:text-wb-green",
-                )}
-              >
-                {item.label}
-              </Link>
-            </li>
-          ))}
+          {NAV_ITEMS.map((item) => {
+            const active = item.href === activeHref;
+            return (
+              <li key={item.label}>
+                <Link
+                  href={item.href}
+                  onClick={closeMenu}
+                  aria-current={active ? "page" : undefined}
+                  className={cn(
+                    "flex items-center justify-between border-b border-[rgba(226,232,240,0.3)] px-6 py-4 text-base leading-[25.6px] font-medium transition-colors duration-300",
+                    active
+                      ? "bg-wb-green/5 text-wb-green"
+                      : "text-[#4c4f6b] hover:text-wb-green",
+                  )}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
 
         {/* Drawer bottom actions */}

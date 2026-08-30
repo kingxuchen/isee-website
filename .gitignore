@@ -4,4 +4,4 @@ out/
 .open-next/
 .wrangler/
 .env*
-.pi/
+.pi/tsbuildinfo
