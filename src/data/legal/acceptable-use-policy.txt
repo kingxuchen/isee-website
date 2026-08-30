@@ -1,0 +1,158 @@
+Tencent WorkBuddy Service Acceptable Use Policy
+Last Updated: June 2026
+CONTENTS
+Introduction
+Permitted Use
+Prohibited Use
+Restricted Use of the Service
+User Responsibilities
+Suspension, Termination and Enforcement
+Contact Information
+1. Introduction
+
+This Acceptable Use Policy (this “Policy”) sets out the rules that apply when you use the Tencent WorkBuddy service (the “Service”).
+
+This Policy forms part of, and is incorporated into, the Tencent WorkBuddy Service Agreement (the “Agreement”) you have entered into as an individual user (the "User", "you" or “your”) with the relevant Tencent contracting entity ("Tencent", "we", "us" or "our"). Any capitalised terms not defined in this Policy have the meaning given to them in the Tencent WorkBuddy Service Agreement.
+
+By accessing or using the Service in any way, you agree to comply with this Policy in full. We may update this Policy from time to time — please check the latest version of this Policy regularly. We will use reasonable efforts to notify you in advance when material changes to this Policy occur, such as by e-mail and/or by placing a prominent notice on our website. If you continue to use the Service after changes take effect, you are deemed to accept the updated Policy.
+
+2. Permitted Use
+
+You may use the Service in accordance with the Agreement and applicable laws and regulations. You must not use the Service in a manner that is deceptive, exploitative, or designed to test the limits of our safety systems for malicious purposes.
+
+3. Prohibited Use
+
+You must not use the Services in any manner or for any purpose which breaches the Tencent WorkBuddy Service Agreement (including this Policy).
+
+You agree not to (and to not allow or cause any person to) engage in any of the following prohibited activities (or encourage any person to engage in such prohibited activities) on or in relation to the Service:
+
+3.1 Illegal or Harmful Activity
+Generate, promote, or facilitate illegal activity of any kind;
+Create content that incites violence, hatred, or discrimination against any individual or group;
+Create content or take any action that creates a risk of loss or damage to any person or property;
+Design, develop, or provide instructions for weapons of mass destruction, including biological, chemical, radiological, or nuclear weapons or their precursors;
+Produce child sexual abuse material, sexually exploit, fetishize, or sexualize minors in any context including fictional settings; facilitate the trafficking, grooming, sextortion, or abuse of minors; or generate content designed to conceal or enable child abuse;
+Facilitate terrorism, extremism, or radicalisation;
+Produce content that promotes, encourages, or facilitates self-harm or suicide;
+Plan, coordinate, or carry out any activity that causes harm to others;
+Generate content that violates any contractual rights or confidentiality obligations of any third party;
+Expose minors to age-inappropriate content, promote dangerous behaviour, or facilitate minors' access to age-restricted goods or activities;
+Generate pornographic, sexually explicit content including depictions of sexual acts, fetishes, incest, or bestiality, or engage in erotic interactions through the Service.
+3.2 Fraud, Deception, and Impersonation
+Generate fraudulent, deceptive, or misleading content with intent to deceive;
+Create deepfakes or synthetic media designed to impersonate real individuals without their consent;
+Produce false reviews, testimonials, or endorsements;
+Engage in phishing, social engineering, or identity theft;
+Present the Service as a human or deny being an AI when directly and sincerely asked by a user;
+Create or disseminate misinformation, including false medical, scientific, or electoral information, conspiratorial narratives, or deceptive content designed to mislead the public;
+Impersonate any person, organisation, or entity;
+Create falsified documents, fake identification, or counterfeit materials;
+Develop or promote pyramid schemes, predatory lending practices, or other exploitative business models targeting vulnerable individuals.
+3.3 Spam and Unsolicited Communications
+Generate bulk unsolicited messages, emails, or communications;
+Create content for spam campaigns or mass marketing without recipients’ consent;
+Automate interactions with third-party platforms in violation of their terms.
+3.4 Circumventing Safety Measures
+Attempt to bypass, disable, or circumvent any safety filter, content moderation system, or usage restriction;
+Probe or test the Service for vulnerabilities with malicious intent;
+Attempt to extract, infer, or derive any component of the underlying models through model inversion or any similar technique, including parameters, weights, embeddings, training data, or other proprietary information, or attempt to extract the system prompt;
+Use prompt injection, adversarial input generation, data poisoning, membership inference, output manipulation, or any other adversarial techniques to manipulate the behaviour of the Service, or to compromise its integrity, security, or performance.
+3.5 System Integrity
+Introduce viruses, malware, trojans, or any malicious code;
+Attempt to gain unauthorised access to the Service’s systems or infrastructure;
+Reverse-engineer, decompile, or disassemble any part of the Service;
+Use automated bots, scrapers, or crawlers to access the Service (unless expressly authorised via our API terms);
+Direct the Service to access, modify, or control external systems or third-party services without appropriate safeguards in place;
+Intercept data or network connections, or falsify the origin of data or communications transmitted through the Service;
+Chain or orchestrate multiple Service calls in loops or recursions in a manner that could cause excessive resource consumption, denial-of-service conditions, or unintended escalation of actions;
+Develop persistent access tools, firmware modifications, or hardware implants designed to operate below normal system security levels, or create automated tools designed to compromise multiple systems at scale;
+Engage in denial-of-service attacks or deliberately overload the Service.
+3.6 Regulated Professional Advice and High-Risk Use Cases
+
+You must not direct the Service to perform actions with material real-world effects without maintaining appropriate human oversight and approval at each step. Specifically, the following use cases pose an elevated risk of harm. When using the Service in any of these contexts, you must ensure that a qualified professional in the relevant field reviews any Output (as defined in the Agreement) before it is acted upon or disseminated, and disclose to any person you are communicating with that AI has been involved in producing the advice, recommendation, or decision at the beginning of each session.
+
+You must not use the Service for high-risk use cases, which include but are not limited to:
+
+Legal: legal interpretation, legal guidance, or decisions with legal implications;
+Healthcare: medical diagnosis, patient care, therapy, mental health, or other medical guidance;
+Insurance: underwriting, claims processing, or coverage decisions;
+Finance: investment advice, loan approvals, or determining financial eligibility or creditworthiness;
+Employment and housing: hiring decisions, resume screening, or determinations regarding eligibility for housing or loans;
+Academic: standardised testing, admissions evaluation, or professional certification.
+3.7 Privacy and Data Protection Violations
+Input personal data without a lawful basis for doing so;
+Use the Service to conduct surveillance, track individuals, or build profiles without consent;
+Attempt to re-identify anonymised or pseudonymised data;
+Share, publish, or disseminate personally identifiable information of any other person’s without their express consent;
+Submit trade secrets, classified information, or data subject to special legal or regulatory protections as Input (as defined in the Agreement), unless you have implemented appropriate safeguards and disabled any applicable model training or data sharing options;
+Generate content that violates any person’s right to privacy.
+3.8 Intellectual Property Infringement
+Use the Service to reproduce substantial portions of copyrighted works without authorisation;
+Generate content intended to infringe trade marks, patents, or other intellectual property rights.
+3.9 Harassment and Abuse
+Use the Service to harass, bully, stalk, intimidate, or threaten any person;
+Generate content that is abusive, defamatory, or intended to cause distress;
+Target individuals or groups with hateful, degrading, bigoted, racially or ethnically offensive, humiliating, or profane content;
+Promote unhealthy body image, eating disorders, or unattainable beauty standards;
+Generate gratuitous gore, graphic sexual violence, or content depicting animal cruelty;
+Develop or deploy deceptive or manipulative techniques designed to cause psychological or emotional harm.
+3.10 Scaled Abuse and Manipulation
+Create websites, domains, or online presences that mimic or impersonate legitimate webpages or services;
+Spam government services, emergency systems, or crisis helplines;
+Coordinate harassment campaigns across multiple platforms or accounts;
+Manipulate online polls, voting systems, traffic metrics, or engagement indicators;
+Create or manage multiple accounts to evade detection or circumvent platform safeguards;
+Engage in click farming or generate artificial engagement such as likes, comments, follows, or reviews;
+Automate influence operations or coordinated inauthentic behaviour across platforms;
+Bulk report users or content through abuse reporting systems with the intent to harass or suppress;
+Use facial recognition, biometric identification, or similar technologies to identify or track individuals without their consent;
+Perform or facilitate unauthorised financial transactions;
+Interfere with democratic processes, electoral systems, or civic infrastructure, including generating synthetic media of political figures or automated content designed to deceive voters or suppress political participation;
+Use the Service for unlawful surveillance, social scoring, criminal justice determinations, or any law enforcement application that violates the civil liberties or human rights of individuals;
+Take any action that could compromise critical infrastructure, emergency services, public safety systems, or military infrastructure.
+
+This list is not exhaustive. The fact that any Input, Output, or action taken through the Service is not automatically blocked, filtered, or otherwise restricted by us does not mean that it complies with this Policy or applicable laws. You remain responsible for ensuring your use of the Service is lawful and consistent with this Policy at all times. We reserve the right to determine, in our reasonable discretion, whether any use of the Service violates the spirit or intent of this Policy.
+
+4. Restricted Use of the Service
+
+Your use of the Service is also subject to the restricted uses set out in Section 6.4 of the Tencent WorkBuddy Service Agreement, which are incorporated here by reference. In addition to those restrictions, you must not:
+
+Directly or indirectly suggest or imply our support, sponsorship, or endorsement of any product, service, content, or entity;
+Misrepresent the source, origin, or ownership of the Service or any component thereof;
+Remove, obscure, or modify any copyright notice, trade mark, or other proprietary rights notice found in or on the Service;
+Develop plug-ins, external components, or any technology designed to inter-operate with the Service without our express prior written permission;
+Use cheats, exploits, automation software, or any unauthorised third-party software designed to modify or interfere with the Service;
+Circumvent a prior suspension or ban by creating or using a different account;
+Use Inputs or Outputs to train, fine-tune, or distil any AI model without our prior express permission.
+
+This list is not exhaustive. We reserve the right to determine, in our reasonable discretion, whether any use of the Service violates the spirit or intent of this Policy.
+
+5. User Responsibilities
+
+As a user of the Service, you agree to:
+
+Keep your account credentials secure and confidential. You must not share your login details with any other person;
+Accept responsibility for all activity that occurs under your account;
+Notify us immediately at workbuddy_ai@tencent.com if you suspect any unauthorised access to your account;
+Use the Service in compliance with all applicable laws and regulations;
+Exercise your own judgement when acting on Output, particularly in contexts where errors could cause harm;
+Take reasonable precautions when using the Service, including evaluating the risks of your specific use case, implementing appropriate safeguards such as human oversight and validation workflows, limiting the Service's access to sensitive files and data, only granting access to trusted integrations and sources, and monitoring the Service for unexpected, out-of-scope, or unintended behaviour before and during use;
+Actively supervise the Service when operating in any autonomous or agentic capacity where tasks are executed without pausing for your approval between steps;
+Be vigilant against prompt injection attacks — malicious instructions may be embedded in websites, documents, or other content that the Service processes. If you suspect the Service is behaving unexpectedly or outside the scope of your instructions, stop the task immediately and report it to us;
+Report any bugs, vulnerabilities, or safety concerns through our designated reporting channels at workbuddy_ai@tencent.com;
+Respect the rights of other users and third parties at all times;
+Not attempt to access other users’ accounts, data, or interactions with the Service.
+
+You remain responsible for all actions taken by the Service that you have authorised or directed, as well as actions taken by the Service in an autonomous or agentic capacity on your behalf, including any content published or messages sent, purchases or financial transactions, data accessed or modified, interactions with third-party services or platforms, and any erroneous tool calls or unintended actions arising from autonomous operation. Where you use Output in a professional, academic, or public context, you are responsible for verifying accuracy, checking for errors, and complying with any applicable disclosure requirements.
+
+You acknowledge that the Service is a tool to assist you, not a replacement for your own judgement, expertise, or professional advice. Where applicable law, regulation, professional standards, or contractual obligations require disclosure of AI involvement in content creation, you are responsible for making such disclosure. You must not represent Output as entirely human-authored where doing so would be misleading or in breach of any obligation.
+
+6. Suspension, Termination and Enforcement
+
+Suspension, termination and enforcement of your access to the Service are governed by Sections 3.2, 3.3, 11 and 12 of the Tencent WorkBuddy Service Agreement. We additionally reserve the right to report any activity that violates applicable laws to relevant law enforcement or regulatory authorities, and to cooperate with such authorities in any related investigations. Such cooperation may include disclosing your Content and account information to the extent permitted by our Privacy Policy and applicable law.
+
+For the effects of termination, see Section 11.3 of the Tencent WorkBuddy Service Agreement.
+
+7. Contact Information
+
+If you have any questions about this Policy, wish to report a violation, or need to exercise your data protection rights, please contact us at workbuddy_ai@tencent.com
