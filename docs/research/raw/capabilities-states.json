@@ -1,0 +1,150 @@
+{
+ "研究": {
+  "headings": [
+   "深度调研",
+   "从查资料到给结论，15 分钟交付报告"
+  ],
+  "paragraphs": [],
+  "videos": [
+   {
+    "src": "scene1-DiX-ru14.mp4",
+    "poster": "scene1-poster-CvKY8O-u.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene2-C37WCerk.mp4",
+    "poster": "scene2-poster-CAhH4oGP.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene3-DIUqixOO.mp4",
+    "poster": "scene3-poster-COx3UjFN.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene4-BpGxcuu9.mp4",
+    "poster": "scene4-poster-DN-OFEG7.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   }
+  ]
+ },
+ "文档": {
+  "headings": [
+   "办公文件生成",
+   "Word、Excel、PPT 描述需求，拿到成品"
+  ],
+  "paragraphs": [],
+  "videos": [
+   {
+    "src": "scene1-DiX-ru14.mp4",
+    "poster": "scene1-poster-CvKY8O-u.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene2-C37WCerk.mp4",
+    "poster": "scene2-poster-CAhH4oGP.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene3-DIUqixOO.mp4",
+    "poster": "scene3-poster-COx3UjFN.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene4-BpGxcuu9.mp4",
+    "poster": "scene4-poster-DN-OFEG7.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   }
+  ]
+ },
+ "设计": {
+  "headings": [
+   "AI 设计",
+   "不用设计工具也能产出专业视觉"
+  ],
+  "paragraphs": [],
+  "videos": [
+   {
+    "src": "scene1-DiX-ru14.mp4",
+    "poster": "scene1-poster-CvKY8O-u.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene2-C37WCerk.mp4",
+    "poster": "scene2-poster-CAhH4oGP.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene3-DIUqixOO.mp4",
+    "poster": "scene3-poster-COx3UjFN.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene4-BpGxcuu9.mp4",
+    "poster": "scene4-poster-DN-OFEG7.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   }
+  ]
+ },
+ "开发": {
+  "headings": [
+   "应用构建",
+   "把想法变成能落地的应用"
+  ],
+  "paragraphs": [],
+  "videos": [
+   {
+    "src": "scene1-DiX-ru14.mp4",
+    "poster": "scene1-poster-CvKY8O-u.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene2-C37WCerk.mp4",
+    "poster": "scene2-poster-CAhH4oGP.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene3-DIUqixOO.mp4",
+    "poster": "scene3-poster-COx3UjFN.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   },
+   {
+    "src": "scene4-BpGxcuu9.mp4",
+    "poster": "scene4-poster-DN-OFEG7.webp",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   }
+  ]
+ }
+}
