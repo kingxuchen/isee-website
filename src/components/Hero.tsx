@@ -2,27 +2,17 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState, type CSSProperties } from "react";
-import { DownloadDogIcon, HeroBuddySvg } from "@/components/icons";
+import { DownloadDogIcon } from "@/components/icons";
 import { cn } from "@/lib/utils";
 
 /* ------------------------------------------------------------------ *
  * Hero — white section, 490px tall at ≥768px (raw/hero.json: h=490 @1440w).
  *
- * Artwork notes (measured against docs/design-references/desktop-00-y0.jpg
- * and mobile-00-y0.jpg):
- *   · /hero/home-bg.png (2946×2293) holds the diagonal lines + the giant gray
- *     "WORK BUDDY >_" watermark. At ≥1280px it is right-anchored and
- *     height-boxed (1224×1080, object-contain object-right) so the watermark
- *     falls out of the LEFT edge — that is what puts the watermark at
- *     x 71–443 in the 1440 screenshot. Below 1280px the whole artwork is
- *     scaled to the viewport width instead, which reproduces the mobile
- *     screenshot (watermark centred behind the slogan, 我帮你写文档 on top).
- *   · The flag-bearing robot is NOT in home-bg.png: the original renders
- *     /demo/demo-ava.png as demo-shell-decoration (240×194.9, top -114.9px,
- *     right -20px of the 1024×768 demo shell, raw/demo.json), i.e. an
- *     overhang above the demo card. Reproduced here as its own absolute layer.
+ * Artwork note:
+ *   · The flag-bearing robot sits above the demo card as its own absolute
+ *     layer, matching the original desktop composition.
  *
- * Slogan line = WORK BUDDY wordmark (160×68) + 我帮你 + rolling word.
+ * Slogan line = iSee + 我帮你 + rolling word.
  * Raw snapshot computes 60px/80px Alimama ShuHeiTi 700 (the brief's ~48px is
  * the mobile size — see the "deviations" note in the PR summary).
  *
@@ -30,9 +20,6 @@ import { cn } from "@/lib/utils";
  * Raw:  docs/research/raw/hero.json · docs/research/raw/hero-main.html
  * ------------------------------------------------------------------ */
 
-const BG_SRC = "/hero/home-bg.png";
-/** Source 2946×2293 → rendered 1224×1080 (object-contain) at ≥1280px. */
-const BG_SIZE = { width: 2946, height: 2293 };
 /** Source 596×484 → rendered 240×194.9. */
 const AVA_SIZE = { width: 596, height: 484 };
 const AVA_SRC = "/demo/demo-ava.png";
@@ -184,41 +171,17 @@ export function Hero() {
       className="relative w-full overflow-hidden bg-white"
       style={{ fontFamily: SYSTEM_FONT, color: "rgb(25, 26, 35)" }}
     >
-      {/* ---------- background artwork ---------- */}
-      <div className="pointer-events-none absolute top-0 left-0 z-[1] hidden lg:block">
-        <Image
-          src={BG_SRC}
-          alt="Background"
-          width={BG_SIZE.width}
-          height={BG_SIZE.height}
-          priority
-          decoding="async"
-          className="h-auto w-[1224px] max-w-[1500px]"
-        />
-      </div>
-      <div className="pointer-events-none absolute inset-x-0 top-0 z-[1] overflow-hidden lg:hidden">
-        <Image
-          src={BG_SRC}
-          alt=""
-          aria-hidden
-          width={BG_SIZE.width}
-          height={BG_SIZE.height}
-          loading="eager"
-          decoding="async"
-          className="h-auto w-full"
-        />
-      </div>
-
       {/* ---------- content ---------- */}
       <div className="relative z-10 mx-auto flex min-h-[490px] max-w-[1920px] flex-col items-center justify-center gap-6 px-6 pt-[104px] pb-12 md:gap-[60px] md:px-[60px] md:pt-[120px] md:pb-[60px]">
         <div className="relative z-10 flex w-full max-w-[720px] flex-col items-center">
           <h1 className="flex max-w-[1000px] flex-wrap items-center justify-center gap-2 text-center font-heading text-[28px] leading-[40px] font-bold text-wb-ink-2 md:flex-nowrap md:text-[60px] md:leading-[80px]">
-            <span className="sr-only">WorkBuddy 我帮你</span>
-            <HeroBuddySvg
-              width={160}
-              height={68}
-              className="h-[41px] w-[96px] shrink-0 md:h-[68px] md:w-[160px]"
-            />
+            <span className="sr-only">iSee 我帮你</span>
+            <span
+              aria-hidden="true"
+              className="shrink-0 text-[42px] leading-none md:text-[68px]"
+            >
+              iSee
+            </span>
             <span className="whitespace-pre">
               我帮你
               <RotatingWord />
@@ -226,8 +189,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-[720px] text-center font-round text-[16px] leading-[1.8] font-medium text-wb-ink-2 md:mt-0 md:text-[20px] md:leading-[40px]">
-            WorkBuddy 是腾讯出品的全场景 AI
-            办公工作台。说出要求、开始执行任务、交付完整成果。完美连接腾讯办公生态，你的办公好搭子
+            iSee 是一款全场景 AI 办公工作台。说出要求、开始执行任务、交付完整成果。连接 iSee 办公生态，你的办公好搭子
           </p>
         </div>
 

@@ -20,9 +20,9 @@ import { cn } from "@/lib/utils";
  * Raw:  docs/research/raw/header.json
  * ------------------------------------------------------------------ */
 
-const LOGO_SRC = "/brand/workbuddy-logo.png";
-/** Source is 1620×560 → 162×56 (@2x) for the h-32px / h-28px renders. */
-const LOGO_SIZE = { width: 162, height: 56 };
+const LOGO_SRC = "/brand/logo.svg";
+/** Source is 40×40; the text wordmark is rendered alongside it. */
+const LOGO_SIZE = { width: 40, height: 40 };
 
 const NAV_ITEMS = [
   { label: "首页", href: "/" },
@@ -209,17 +209,20 @@ export function Header() {
           {/* Logo */}
           <Link
             href="/"
-            aria-label="WorkBuddy"
-            className="flex items-center gap-3 self-center overflow-hidden rounded-lg transition-opacity duration-300 hover:opacity-80"
+            aria-label="iSee"
+            className="flex items-center gap-2 self-center overflow-hidden rounded-lg transition-opacity duration-300 hover:opacity-80"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={LOGO_SRC}
-              alt="WorkBuddy"
+              alt=""
               width={LOGO_SIZE.width}
               height={LOGO_SIZE.height}
-              className="block h-8 w-auto"
+              className="block h-8 w-8"
             />
+            <span className="font-heading text-xl leading-none font-bold text-wb-ink-2">
+              iSee
+            </span>
           </Link>
 
           {/* Desktop menu */}
@@ -305,18 +308,21 @@ export function Header() {
         <div className="flex h-[73px] shrink-0 items-center justify-between border-b border-[rgba(226,232,240,0.6)] bg-white px-6">
           <Link
             href="/"
-            aria-label="WorkBuddy"
+            aria-label="iSee"
             onClick={closeMenu}
-            className="flex items-center"
+            className="flex items-center gap-2"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={LOGO_SRC}
-              alt="WorkBuddy"
+              alt=""
               width={LOGO_SIZE.width}
               height={LOGO_SIZE.height}
-              className="block h-7 w-auto"
+              className="block h-7 w-7"
             />
+            <span className="font-heading text-lg leading-none font-bold text-wb-ink-2">
+              iSee
+            </span>
           </Link>
           <button
             type="button"
@@ -365,7 +371,7 @@ export function Header() {
             type="button"
             className="flex h-11 w-full cursor-pointer items-center justify-center whitespace-nowrap rounded-[8px] bg-[#1a1a1a] font-round text-sm leading-[22.4px] font-medium text-white transition-all duration-300 hover:bg-black hover:opacity-90"
           >
-            下载 WorkBuddy
+            下载 iSee
           </button>
         </div>
       </aside>

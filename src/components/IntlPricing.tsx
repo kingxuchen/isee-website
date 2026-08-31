@@ -666,7 +666,7 @@ export function IntlPricing() {
             className="m-0 font-heading text-[56px] leading-[72px] font-extrabold tracking-[-2.56px] text-[#050505] max-lg:text-[48px] max-md:text-[40px] max-md:leading-[52px]"
             style={{ letterSpacing: "-2.56px" }}
           >
-            WorkBuddy {group === "personal" ? "个人版" : "企业版"}
+            iSee {group === "personal" ? "个人版" : "企业版"}
           </h1>
           <p
             className="mt-3 text-[24px] leading-[32px] text-[rgba(25,26,35,0.5)]"

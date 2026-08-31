@@ -1,4 +1,4 @@
-Tencent WorkBuddy Service Acceptable Use Policy
+iSee Service Acceptable Use Policy
 Last Updated: June 2026
 CONTENTS
 Introduction
@@ -10,9 +10,9 @@ Suspension, Termination and Enforcement
 Contact Information
 1. Introduction
 
-This Acceptable Use Policy (this “Policy”) sets out the rules that apply when you use the Tencent WorkBuddy service (the “Service”).
+This Acceptable Use Policy (this “Policy”) sets out the rules that apply when you use the iSee service (the “Service”).
 
-This Policy forms part of, and is incorporated into, the Tencent WorkBuddy Service Agreement (the “Agreement”) you have entered into as an individual user (the "User", "you" or “your”) with the relevant Tencent contracting entity ("Tencent", "we", "us" or "our"). Any capitalised terms not defined in this Policy have the meaning given to them in the Tencent WorkBuddy Service Agreement.
+This Policy forms part of, and is incorporated into, the iSee Service Agreement (the “Agreement”) you have entered into as an individual user (the "User", "you" or “your”) with the relevant iSee contracting entity ("iSee", "we", "us" or "our"). Any capitalised terms not defined in this Policy have the meaning given to them in the iSee Service Agreement.
 
 By accessing or using the Service in any way, you agree to comply with this Policy in full. We may update this Policy from time to time — please check the latest version of this Policy regularly. We will use reasonable efforts to notify you in advance when material changes to this Policy occur, such as by e-mail and/or by placing a prominent notice on our website. If you continue to use the Service after changes take effect, you are deemed to accept the updated Policy.
 
@@ -22,7 +22,7 @@ You may use the Service in accordance with the Agreement and applicable laws and
 
 3. Prohibited Use
 
-You must not use the Services in any manner or for any purpose which breaches the Tencent WorkBuddy Service Agreement (including this Policy).
+You must not use the Services in any manner or for any purpose which breaches the iSee Service Agreement (including this Policy).
 
 You agree not to (and to not allow or cause any person to) engage in any of the following prohibited activities (or encourage any person to engage in such prohibited activities) on or in relation to the Service:
 
@@ -115,7 +115,7 @@ This list is not exhaustive. The fact that any Input, Output, or action taken th
 
 4. Restricted Use of the Service
 
-Your use of the Service is also subject to the restricted uses set out in Section 6.4 of the Tencent WorkBuddy Service Agreement, which are incorporated here by reference. In addition to those restrictions, you must not:
+Your use of the Service is also subject to the restricted uses set out in Section 6.4 of the iSee Service Agreement, which are incorporated here by reference. In addition to those restrictions, you must not:
 
 Directly or indirectly suggest or imply our support, sponsorship, or endorsement of any product, service, content, or entity;
 Misrepresent the source, origin, or ownership of the Service or any component thereof;
@@ -133,13 +133,13 @@ As a user of the Service, you agree to:
 
 Keep your account credentials secure and confidential. You must not share your login details with any other person;
 Accept responsibility for all activity that occurs under your account;
-Notify us immediately at workbuddy_ai@tencent.com if you suspect any unauthorised access to your account;
+Notify us immediately at support@isee.ai if you suspect any unauthorised access to your account;
 Use the Service in compliance with all applicable laws and regulations;
 Exercise your own judgement when acting on Output, particularly in contexts where errors could cause harm;
 Take reasonable precautions when using the Service, including evaluating the risks of your specific use case, implementing appropriate safeguards such as human oversight and validation workflows, limiting the Service's access to sensitive files and data, only granting access to trusted integrations and sources, and monitoring the Service for unexpected, out-of-scope, or unintended behaviour before and during use;
 Actively supervise the Service when operating in any autonomous or agentic capacity where tasks are executed without pausing for your approval between steps;
 Be vigilant against prompt injection attacks — malicious instructions may be embedded in websites, documents, or other content that the Service processes. If you suspect the Service is behaving unexpectedly or outside the scope of your instructions, stop the task immediately and report it to us;
-Report any bugs, vulnerabilities, or safety concerns through our designated reporting channels at workbuddy_ai@tencent.com;
+Report any bugs, vulnerabilities, or safety concerns through our designated reporting channels at support@isee.ai;
 Respect the rights of other users and third parties at all times;
 Not attempt to access other users’ accounts, data, or interactions with the Service.
 
@@ -149,10 +149,10 @@ You acknowledge that the Service is a tool to assist you, not a replacement for 
 
 6. Suspension, Termination and Enforcement
 
-Suspension, termination and enforcement of your access to the Service are governed by Sections 3.2, 3.3, 11 and 12 of the Tencent WorkBuddy Service Agreement. We additionally reserve the right to report any activity that violates applicable laws to relevant law enforcement or regulatory authorities, and to cooperate with such authorities in any related investigations. Such cooperation may include disclosing your Content and account information to the extent permitted by our Privacy Policy and applicable law.
+Suspension, termination and enforcement of your access to the Service are governed by Sections 3.2, 3.3, 11 and 12 of the iSee Service Agreement. We additionally reserve the right to report any activity that violates applicable laws to relevant law enforcement or regulatory authorities, and to cooperate with such authorities in any related investigations. Such cooperation may include disclosing your Content and account information to the extent permitted by our Privacy Policy and applicable law.
 
-For the effects of termination, see Section 11.3 of the Tencent WorkBuddy Service Agreement.
+For the effects of termination, see Section 11.3 of the iSee Service Agreement.
 
 7. Contact Information
 
-If you have any questions about this Policy, wish to report a violation, or need to exercise your data protection rights, please contact us at workbuddy_ai@tencent.com
+If you have any questions about this Policy, wish to report a violation, or need to exercise your data protection rights, please contact us at support@isee.ai

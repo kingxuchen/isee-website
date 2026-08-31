@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 /* ------------------------------------------------------------------ *
- * /app — static welcome shell for the WorkBuddy web app.
+ * /app — static welcome shell for the iSee web app.
  * The live /app is a logged-in SPA; we reproduce its welcome surface
  * only: own minimal nav (logo + IDE | CLI | 定价 | 文档 | 博客 | 登录),
- * hero "WorkBuddy, 我帮你", 12 scenario chips, composer input, and a
+ * hero "iSee, 我帮你", 12 scenario chips, composer input, and a
  * right panel (默认权限 / 概览 / 产物 empty states).
  * Spec: docs/research/components/app-landing.spec.md
  * ------------------------------------------------------------------ */
@@ -39,8 +39,8 @@ const SCENARIOS = [
 const PANEL_TABS = ["默认权限", "概览", "产物"];
 
 export const metadata: Metadata = {
-  title: "WorkBuddy",
-  description: "WorkBuddy — 我帮你，你的 AI 办公工作台",
+  title: "iSee",
+  description: "iSee — 我帮你，你的 AI 办公工作台",
 };
 
 export default function AppLandingPage() {
@@ -53,14 +53,19 @@ export default function AppLandingPage() {
       <header className="sticky top-0 z-50 border-b border-[#EFEFEF] bg-white/90 backdrop-blur">
         <nav className="mx-auto flex h-14 w-full max-w-[1440px] items-center justify-between px-6">
           <div className="flex items-center gap-8">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/brand/workbuddy-logo.png"
-              alt="WorkBuddy"
-              width={98}
-              height={34}
-              className="block h-[26px] w-auto"
-            />
+            <span className="flex items-center gap-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/brand/logo.svg"
+                alt=""
+                width={40}
+                height={40}
+                className="block h-7 w-7"
+              />
+              <span className="font-heading text-xl leading-none font-bold text-wb-ink-2">
+                iSee
+              </span>
+            </span>
             <ul className="hidden items-center gap-6 md:flex">
               {NAV_LINKS.map((link) => (
                 <li key={link.label}>
@@ -88,8 +93,8 @@ export default function AppLandingPage() {
           {/* left — welcome + scenarios + composer */}
           <div className="flex flex-col">
             <h1 className="font-heading text-[40px] leading-[56px] font-bold text-wb-ink-2 md:text-[56px] md:leading-[76px]">
-              <span className="sr-only">WorkBuddy, 我帮你</span>
-              <span className="whitespace-pre">WorkBuddy, 我帮你</span>
+              <span className="sr-only">iSee, 我帮你</span>
+              <span className="whitespace-pre">iSee, 我帮你</span>
             </h1>
 
             <div className="mt-10 flex flex-wrap gap-3">

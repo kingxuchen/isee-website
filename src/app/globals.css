@@ -26,7 +26,7 @@
   --font-sans: "PingFang SC", "Microsoft YaHei", "Alimama FangYuanTi", var(--font-alimama-fangyuanti), -apple-system, "system-ui", "Segoe UI", Roboto, sans-serif;
   --font-heading: var(--font-alimama-shuheiti), "Alimama ShuHeiTi", "PingFang SC", sans-serif;
   --font-round: var(--font-alimama-fangyuanti), "Alimama FangYuanTi", -apple-system, "system-ui", sans-serif;
-  /* WorkBuddy brand tokens */
+  /* iSee brand tokens */
   --color-wb-green: #28b894;
   --color-wb-teal: #32e6b9;
   --color-wb-deepgreen: #00b578;
