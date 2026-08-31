@@ -1,0 +1,22 @@
+[Unit]
+Description=isee-website (Next.js)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/isee-website
+# Bound to loopback only. Public 8080 belongs to nginx.
+ExecStart=/var/www/isee-website/node_modules/.bin/next start --hostname 127.0.0.1 --port 3000
+Restart=on-failure
+RestartSec=5
+# Next.js after() callbacks need a drain window on SIGINT/SIGTERM.
+TimeoutStopSec=30
+KillSignal=SIGINT
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=HOSTNAME=127.0.0.1
+# NodeSource / distro Node live here. systemd does not inherit your SSH PATH.
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+
+[Install]
+WantedBy=multi-user.target
