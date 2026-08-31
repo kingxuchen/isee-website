@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------------ *
- * Footer — pale page band, 4 link cards, giant clipped WORKBUDD>
- * wordmark, copyright line. Server component (static + CSS hovers).
+ * Footer — pale page band, 4 link cards, giant clipped iSee wordmark,
+ * copyright line. Server component (static + CSS hovers).
  * Spec: docs/research/components/footer.spec.md
  * Raw:  docs/research/raw/footer.json
  * Ref:  docs/design-references/desktop-06-y5160.jpg / desktop-07-y5327.jpg
@@ -13,37 +13,13 @@
  *   card title  14px/700 #1A1A1A + 5px black square, pb 12,
  *               border-bottom 1px #E0E0E0
  *   links       14px #666, row pitch 30px (text 19.6 + gap 10), hover wb-green
- *   wordmark    161px logo + 9 glyphs, natural ~150px tall, gap 20,
- *               measured row 1177px → scales to 89.7% of the container
+ *   wordmark    large iSee text, centered and clipped at the footer edge
  *   copyright   14px rgb(160,174,192), pb 24
  * ------------------------------------------------------------------ */
 
-import type { CSSProperties } from "react";
 import type { FooterColumn } from "@/types";
 
-/** Natural sizes (width × height) of the 10 wordmark SVGs in public/icons-inline. */
-const WORDMARK_PIECES = [
-  { src: "/icons-inline/FooterLogoSvg.svg", width: 161, height: 161 },
-  { src: "/icons-inline/FooterW0.svg", width: 133, height: 150 },
-  { src: "/icons-inline/FooterW1.svg", width: 137, height: 152 },
-  { src: "/icons-inline/FooterW2.svg", width: 129, height: 150 },
-  { src: "/icons-inline/FooterW3.svg", width: 129, height: 152 },
-  { src: "/icons-inline/FooterW4.svg", width: 114, height: 151 },
-  { src: "/icons-inline/FooterW5.svg", width: 129, height: 152 },
-  { src: "/icons-inline/FooterW6.svg", width: 129, height: 149 },
-  { src: "/icons-inline/FooterW7.svg", width: 129, height: 149 },
-  { src: "/icons-inline/FooterW8.svg", width: 177, height: 152 },
-] as const;
-
-/** Natural row width: sum(piece widths) + 9 × gap(20) = 1477 + 180. */
-const WORDMARK_NATURAL_WIDTH = 1477 + 180;
-/** Gap between wordmark pieces (px at natural scale). */
-const WORDMARK_GAP = 20;
-/** Cap the wordmark at its natural size — never upscale past 1:1. */
-const WORDMARK_MAX_SCALE = 150 / 152;
-
-const COPYRIGHT =
-  "版权 © 2026 腾讯云计算（北京）有限责任公司丨腾讯科技（深圳）有限公司 版权所有";
+const COPYRIGHT = "版权 © 2026 iSee 版权所有";
 
 const COLUMNS: FooterColumn[] = [
   {
@@ -57,7 +33,7 @@ const COLUMNS: FooterColumn[] = [
       { label: "隐私协议", href: "/document/privacy-policy" },
       {
         label: "企业版隐私协议",
-        href: "https://www.tencentcloud.com/document/product/1316/82099",
+        href: "/document/privacy-policy",
       },
       { label: "可接受使用政策", href: "/document/acceptable-use-policy" },
     ],
@@ -77,7 +53,7 @@ const COLUMNS: FooterColumn[] = [
     title: "联系我们",
     links: [
       { label: "建议反馈", href: "#" },
-      { label: "售前咨询", href: "https://www.tencentcloud.com/contact-us" },
+      { label: "售前咨询", href: "mailto:support@isee.ai" },
     ],
   },
 ];
@@ -97,22 +73,12 @@ const LINK_CLASS =
 
 const LINK_ROW_CLASS = "flex flex-col gap-[10px]";
 
-/** Scales the wordmark row with the container; 1-2 cols on mobile. */
-const WORDMARK_SCALE = {
-  ["--wb-wordmark-scale" as string]: `min(100%, calc((100cqw - ${
-    2 * WORDMARK_GAP
-  }px) / ${WORDMARK_NATURAL_WIDTH}px))`,
-} as CSSProperties;
-
 export function Footer() {
   return (
     <footer className="relative z-[999] overflow-hidden bg-[#F8F9FA] pb-5 pt-[60px]">
       <div className="mx-auto w-full max-w-[1920px] px-[60px] max-lg:px-5">
-        {/* Link cards — container query drives the wordmark scale below. */}
-        <div
-          className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-8 py-7"
-          style={{ containerType: "inline-size" }}
-        >
+        {/* Link cards */}
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-8 py-7">
           {COLUMNS.map((column) => (
             <div key={column.title} className={COLUMN_CLASS}>
               <h3 className={COLUMN_TITLE_CLASS}>
@@ -138,36 +104,14 @@ export function Footer() {
           ))}
         </div>
 
-        {/* Giant WORKBUDD> wordmark — 10 SVGs in a row, scaled to the
-            container width, bottoms clipped by the footer's overflow. */}
+        {/* Giant iSee wordmark, clipped by the footer's overflow. */}
         <div
           aria-hidden
-          className="flex h-[150px] justify-center overflow-hidden pt-10 max-lg:h-[104px] max-sm:pt-6"
+          className="flex h-[150px] items-center justify-center overflow-hidden pt-10 max-lg:h-[104px] max-sm:pt-6"
         >
-          <div
-            className="flex shrink-0 items-start"
-            style={{
-              ...WORDMARK_SCALE,
-              gap: `calc(${WORDMARK_GAP}px * var(--wb-wordmark-scale))`,
-              transform: "scale(var(--wb-wordmark-scale))",
-              transformOrigin: "top center",
-              maxWidth: `calc(${WORDMARK_NATURAL_WIDTH}px * ${WORDMARK_MAX_SCALE})`,
-            }}
-          >
-            {WORDMARK_PIECES.map((piece) => (
-              <img
-                key={piece.src}
-                src={piece.src}
-                alt=""
-                width={piece.width}
-                height={piece.height}
-                className="block h-auto w-auto shrink-0"
-                style={{
-                  height: `calc(${piece.height}px * var(--wb-wordmark-scale))`,
-                }}
-              />
-            ))}
-          </div>
+          <span className="font-heading text-[clamp(88px,14vw,150px)] leading-none font-bold tracking-[-0.06em] text-wb-ink">
+            iSee
+          </span>
         </div>
 
         {/* Copyright */}

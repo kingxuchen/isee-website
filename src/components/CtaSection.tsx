@@ -26,7 +26,7 @@ export function CtaSection() {
 
           <p className="mx-auto mb-10 max-w-[658px] font-round text-[20px] leading-[32px] font-medium text-wb-ink-2 lg:mx-0">
             免费开始，无限可能。把重复、繁琐、跨工具的任务交给
-            WorkBuddy，把判断和创造力留给自己。
+            iSee，把判断和创造力留给自己。
           </p>
 
           <div className="flex justify-center lg:block">
@@ -51,7 +51,7 @@ export function CtaSection() {
             loop
             playsInline
             preload="auto"
-            aria-label="WorkBuddy 宣传视频"
+            aria-label="iSee 宣传视频"
           />
         </div>
       </div>

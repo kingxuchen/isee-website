@@ -41,7 +41,7 @@ export async function generateMetadata({
   const name =
     DOC_NAME[slug as (typeof SLUGS)[number]] ??
     slug.charAt(0).toUpperCase() + slug.slice(1);
-  return { title: `${name} — WorkBuddy` };
+  return { title: `${name} — iSee` };
 }
 
 export default async function LegalDocumentPage({
@@ -53,7 +53,7 @@ export default async function LegalDocumentPage({
   const doc = loadLegalDoc(slug);
 
   return (
-    <div className="workbuddy-page overflow-x-hidden bg-white text-[#191a23]">
+    <div className="isee-page overflow-x-hidden bg-white text-[#191a23]">
       <Header />
       <main className="mx-auto w-full max-w-[860px] px-6 pt-[104px] pb-20 md:pt-[120px] md:pb-[80px]">
         <h1

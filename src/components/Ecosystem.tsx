@@ -3,7 +3,7 @@ import type { CSSProperties } from "react";
 
 /* ------------------------------------------------------------------ *
  * Ecosystem — white section, heading + subtitle + 720×720 orbit stage.
- * Two ring SVGs, one gradient-bordered inner ring, centered WorkBuddy
+ * Two ring SVGs, one gradient-bordered inner ring, centered iSee
  * icon on a soft green radial glow, and 7 app pills orbiting on a
  * 60s CSS spin (each pill counter-spins so it stays upright).
  * Spec: docs/research/components/ecosystem.spec.md
@@ -70,10 +70,10 @@ export function Ecosystem() {
             id="ecosystem-title"
             className="mb-3 font-round text-[30px] leading-[36px] font-bold text-black md:mb-4 md:text-[50px] md:leading-[60px]"
           >
-            WorkBuddy 连接打通办公生态
+            iSee 连接打通办公生态
           </h2>
           <p className="mx-auto max-w-[720px] font-round text-[14px] leading-[22px] font-medium text-[#5A5A5A] md:text-[16px] md:leading-[25.6px]">
-            WorkBuddy 可以无缝连接办公 IM、文档、邮箱、会议、知识库等常用办公工具，打通办公生态
+            iSee 可以无缝连接办公 IM、文档、邮箱、会议、知识库等常用办公工具，打通办公生态
           </p>
         </div>
 
@@ -119,11 +119,11 @@ export function Ecosystem() {
                 "radial-gradient(circle, rgba(40,184,148,0.15) 0%, rgba(40,184,148,0.08) 45%, rgba(40,184,148,0) 70%)",
             }}
           />
-          {/* Centre WorkBuddy icon — 130 */}
+          {/* Centre iSee icon — 130 */}
           <div className="absolute top-1/2 left-1/2 z-[3] flex h-[calc(130px*var(--orbit-scale))] w-[calc(130px*var(--orbit-scale))] -translate-x-1/2 -translate-y-1/2 items-center justify-center">
             <Image
-              src="/brand/workbuddy-icon.svg"
-              alt="WorkBuddy"
+              src="/brand/logo.svg"
+              alt="iSee"
               width={130}
               height={130}
               className="h-full w-full object-contain"

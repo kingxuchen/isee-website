@@ -1,4 +1,4 @@
-/** Content types for the WorkBuddy clone. */
+/** Content types for the iSee landing page. */
 
 export interface CapabilityTab {
   id: "research" | "docs" | "design" | "dev";

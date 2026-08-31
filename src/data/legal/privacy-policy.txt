@@ -1,14 +1,14 @@
-Tencent WorkBuddy Privacy Policy
+iSee Privacy Policy
 Last Updated: July 2026
 
-Welcome to Tencent WorkBuddy (“WorkBuddy”)! This Privacy Policy explains the when, how, and why when it comes to the processing of your personal information in connection with the WorkBuddy (the “Service”), and sets out your choices and rights in relation to that information.
+Welcome to iSee (“iSee”)! This Privacy Policy explains the when, how, and why when it comes to the processing of your personal information in connection with the iSee (the “Service”), and sets out your choices and rights in relation to that information.
 
-For the purposes of data protection laws, the data controller of your personal information in relation to the Service is Tencent Cloud International Pte. Ltd., a Singapore registered company located at 10 Anson Road, #21-07, International Plaza, Singapore 079903 (“we”, “us”, “our”).
+For the purposes of data protection laws, the data controller of your personal information in relation to the Service is iSee Cloud International Pte. Ltd., a Singapore registered company located at 10 Anson Road, #21-07, International Plaza, Singapore 079903 (“we”, “us”, “our”).
 
-This Privacy Policy does not apply where we act as a data processor and process personal data on behalf of enterprise customers using WorkBuddy, for example when you are using the Service via a WorkBuddy sub-account. In those cases, the enterprise customer (i.e. administrator account holder) is the data controller, and you can review their policies for more information about how they handle your personal data.
+This Privacy Policy does not apply where we act as a data processor and process personal data on behalf of enterprise customers using iSee, for example when you are using the Service via an iSee sub-account. In those cases, the enterprise customer (i.e. administrator account holder) is the data controller, and you can review their policies for more information about how they handle your personal data.
 
 CONTENTS
-What is WorkBuddy?
+What is iSee?
 1. Children
 2. How We Process Your Personal Information
 3. How We Store and Share Your Personal Information
@@ -20,14 +20,14 @@ What is WorkBuddy?
 9. Changes
 10. Language
 11. Jurisdictional Addendum
-What is WorkBuddy?
+What is iSee?
 
-WorkBuddy is an agentic AI software that enables users to issue natural-language instructions to drive AI agents that autonomously plan and execute multi-step complex tasks on their local computer, delivering ready-to-use work outputs including documents, spreadsheets, presentations, charts, and more. WorkBuddy generates responses and perform automated tasks independently (e.g. browsing the internet, managing files, writing and executing code, creating documents, sending emails and scheduling reminders, etc.). We use various third-party large language models (“LLM”) to support the Service and you may select the specific category of LLM that you would like to use based on their capability, e.g. general purpose, fast thinking, complex tasks etc. The Service allows you to submit text, files, audio, commands, scheduled tasks, and any other documents or instructions (“Inputs”) via the Service or to integrate your chosen instant messaging channel such as Telegram, Slack and Discord, etc. (“Messaging Platforms”). These Inputs are processed by a third party LLM for inference, with the AI-generated responses and actions delivered back to you (“Outputs”).
+iSee is an agentic AI software that enables users to issue natural-language instructions to drive AI agents that autonomously plan and execute multi-step complex tasks on their local computer, delivering ready-to-use work outputs including documents, spreadsheets, presentations, charts, and more. iSee generates responses and perform automated tasks independently (e.g. browsing the internet, managing files, writing and executing code, creating documents, sending emails and scheduling reminders, etc.). We use various third-party large language models (“LLM”) to support the Service and you may select the specific category of LLM that you would like to use based on their capability, e.g. general purpose, fast thinking, complex tasks etc. The Service allows you to submit text, files, audio, commands, scheduled tasks, and any other documents or instructions (“Inputs”) via the Service or to integrate your chosen instant messaging channel such as Telegram, Slack and Discord, etc. (“Messaging Platforms”). These Inputs are processed by a third party LLM for inference, with the AI-generated responses and actions delivered back to you (“Outputs”).
 
-You can also install Skills and various model context protocol (“MCP”) connectors (e.g. GitHub) available through WorkBuddy or from other resources you select to integrate or connect external apps and tools of your choice with the Service.
+You can also install Skills and various model context protocol (“MCP”) connectors (e.g. GitHub) available through iSee or from other resources you select to integrate or connect external apps and tools of your choice with the Service.
 
 Important: We are not responsible for the processing of your personal information by third parties. Please review their data processing policies and other related documentation for more information. Any link to a third-party site or service does not mean our endorsement or approval of such site or service. For more information, please refer to Section 8 (Third-Party Websites and Links).
-Warning: When providing input to WorkBuddy, please do not disclose any of your personal information or those belonging to others. Any personal information you include in your prompts may be processed by third party providers of LLMs, Skills, MCP Connectors and integrated apps/tools etc. and reproduced in Outputs.
+Warning: When providing input to iSee, please do not disclose any of your personal information or those belonging to others. Any personal information you include in your prompts may be processed by third party providers of LLMs, Skills, MCP Connectors and integrated apps/tools etc. and reproduced in Outputs.
 
 Please note that this Privacy Policy only applies to the Service. If you use any other products or services, please refer to the privacy policy for that particular product or service.
 
@@ -105,7 +105,7 @@ Please note that by default, we do not use your Inputs or Outputs for model trai
 
 How to Turn Off AI Model Training
 
-Click your account name near the WorkBuddy icon on the lower-left corner of the screen.
+Click your account name near the iSee icon on the lower-left corner of the screen.
 Go to “System Settings”.
 Scroll down to the “Help improve the model” tab.
 Turn the toggle off.
@@ -345,7 +345,7 @@ You also have the right to lodge a complaint directly with us, as well as with t
 
 Please get in touch with us if you have any questions. You can reach us in the first instance at:
 
-Email: workbuddy_ai@tencent.com
+Email: support@isee.ai
 
 We will endeavor to deal with your request as soon as possible. This is without prejudice to any right you may have to launch a claim with a data protection authority in the jurisdiction in which you live or work where you think we have infringed data protection laws.
 
@@ -440,7 +440,7 @@ Thailand
 
 The contact details of our designated local representative in Thailand for the purposes of compliance with the PDPA is as follows and can be contacted via email. Please include the word “Thailand” in the subject line of your email.
 
-Name: Tencent (Thailand) Company Limited
+Name: iSee (Thailand) Company Limited
 
 Address: 8 T-One Building, Floor 10th, 11th & 12th (Unit 3-5), Soi Sukhumvit 40, Sukhumvit Road, Khwaeng Phra Khanong, Khet Khlong Toei, Bangkok 10110, Thailand
 
