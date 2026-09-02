@@ -20,7 +20,7 @@ const TABS: ScenarioTab[] = [
     title: "深度调研",
     subtitle: "从查资料到给结论，15 分钟交付报告",
     description:
-      "告诉 WorkBuddy 你要研究的课题，它会拆出检索路径、对信息源交叉验证，再生成结构化报告、竞品矩阵和策略建议。",
+      "告诉 iSee 你要研究的课题，它会拆出检索路径、对信息源交叉验证，再生成结构化报告、竞品矩阵和策略建议。",
     video: "/cap/scene1.mp4",
     poster: "/cap/scene1-poster.webp",
   },
@@ -30,7 +30,7 @@ const TABS: ScenarioTab[] = [
     title: "办公文件生成",
     subtitle: "Word、Excel、PPT 描述需求，拿到成品",
     description:
-      "描述你要的文档、表格或演示，WorkBuddy 直接生成可编辑的 Word、Excel、PPT 成品。",
+      "描述你要的文档、表格或演示，iSee 直接生成可编辑的 Word、Excel、PPT 成品。",
     video: "/cap/scene2.mp4",
     poster: "/cap/scene2-poster.webp",
   },
@@ -40,7 +40,7 @@ const TABS: ScenarioTab[] = [
     title: "AI 设计",
     subtitle: "不用设计工具也能产出专业视觉",
     description:
-      "说出想要的风格与内容，WorkBuddy 直接产出海报、配图与品牌视觉，拿到即可用。",
+      "说出想要的风格与内容，iSee 直接产出海报、配图与品牌视觉，拿到即可用。",
     video: "/cap/scene3.mp4",
     poster: "/cap/scene3-poster.webp",
   },
@@ -50,7 +50,7 @@ const TABS: ScenarioTab[] = [
     title: "应用构建",
     subtitle: "把想法变成能落地的应用",
     description:
-      "从想法到可运行的应用，WorkBuddy 自动完成搭建、编码与调试，交付能落地的成果。",
+      "从想法到可运行的应用，iSee 自动完成搭建、编码与调试，交付能落地的成果。",
     video: "/cap/scene4.mp4",
     poster: "/cap/scene4-poster.webp",
   },
@@ -81,17 +81,15 @@ export function Capabilities() {
           {/* Header */}
           <div className="mx-auto mb-[60px] max-w-[70%] text-center lg:mb-[160px]">
             <div className="flex items-center justify-center gap-3">
-              <img
-                src="/icons-inline/HeroBuddySvg.svg"
-                alt="WorkBuddy"
-                className="h-10 w-auto lg:h-14"
-              />
+              <span className="font-heading text-[40px] leading-none font-bold text-wb-ink lg:text-[56px]">
+                iSee
+              </span>
               <h2 className="font-heading text-[28px] leading-tight text-wb-ink lg:text-[48px]">
                 你的工作好帮手
               </h2>
             </div>
             <p className="mt-4 text-sm text-wb-muted lg:text-base">
-              把任务交给它，WorkBuddy
+              把任务交给它，iSee
               会自主规划、调用工具、生成文件，并把过程与结果都留给你审核
             </p>
           </div>

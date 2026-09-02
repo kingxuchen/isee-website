@@ -53,11 +53,16 @@ export function ProductDemo() {
 
           {/* Sidebar */}
           <aside className="hidden flex-col gap-1 bg-[#F3F3F3] p-4 md:flex">
-            <img
-              src="/brand/workbuddy-logo.png"
-              alt="WorkBuddy"
-              className="mb-3 h-6 w-auto self-start"
-            />
+            <div className="mb-3 flex items-center gap-2 self-start">
+              <img
+                src="/brand/logo.svg"
+                alt=""
+                className="h-6 w-6 shrink-0"
+              />
+              <span className="font-heading text-sm font-bold text-[#191A23]">
+                iSee
+              </span>
+            </div>
             {NAV_ITEMS.map((item) => (
               <div
                 key={item.label}
@@ -124,11 +129,11 @@ export function ProductDemo() {
               <div className="flex items-center gap-2">
                 <img
                   src="/demo/work-face.svg"
-                  alt="WorkBuddy"
+                  alt="iSee"
                   className="h-6 w-6"
                 />
                 <span className="text-[13px] font-semibold text-[#191A23]">
-                  WorkBuddy
+                  iSee
                 </span>
               </div>
               <p className="text-sm leading-[22px] text-[#333]">

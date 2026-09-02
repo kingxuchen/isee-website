@@ -10,7 +10,7 @@ import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="workbuddy-page overflow-x-hidden bg-white text-[#191a23]">
+    <div className="isee-page overflow-x-hidden bg-white text-[#191a23]">
       <SmoothScroll />
       <Header />
       <Hero />

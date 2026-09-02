@@ -190,7 +190,7 @@ function BillingToggle({
 function CompatibleNote() {
   return (
     <div className="flex flex-wrap items-center justify-center gap-3 py-10 text-base leading-[24px] font-medium text-wb-ink-2">
-      <span>WorkBuddy套餐同时适用于</span>
+      <span>iSee 套餐同时适用于</span>
       <a
         href={CODEBUDDY_HREF}
         target="_blank"
