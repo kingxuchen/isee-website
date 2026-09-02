@@ -10,3 +10,6 @@ out/
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary scratch
+.tmp*
