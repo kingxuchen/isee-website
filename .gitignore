@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+.env*
+.pi/
+
+# TypeScript
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
