@@ -1,0 +1,532 @@
+Tencent WorkBuddy Privacy Policy
+Last Updated: July 2026
+
+Welcome to Tencent WorkBuddy (“WorkBuddy”)! This Privacy Policy explains the when, how, and why when it comes to the processing of your personal information in connection with the WorkBuddy (the “Service”), and sets out your choices and rights in relation to that information.
+
+For the purposes of data protection laws, the data controller of your personal information in relation to the Service is Tencent Cloud International Pte. Ltd., a Singapore registered company located at 10 Anson Road, #21-07, International Plaza, Singapore 079903 (“we”, “us”, “our”).
+
+This Privacy Policy does not apply where we act as a data processor and process personal data on behalf of enterprise customers using WorkBuddy, for example when you are using the Service via a WorkBuddy sub-account. In those cases, the enterprise customer (i.e. administrator account holder) is the data controller, and you can review their policies for more information about how they handle your personal data.
+
+CONTENTS
+What is WorkBuddy?
+1. Children
+2. How We Process Your Personal Information
+3. How We Store and Share Your Personal Information
+4. The Security of Your Personal Information
+5. Data Retention
+6. Your Rights
+7. Contact
+8. Third-Party Websites and Links
+9. Changes
+10. Language
+11. Jurisdictional Addendum
+What is WorkBuddy?
+
+WorkBuddy is an agentic AI software that enables users to issue natural-language instructions to drive AI agents that autonomously plan and execute multi-step complex tasks on their local computer, delivering ready-to-use work outputs including documents, spreadsheets, presentations, charts, and more. WorkBuddy generates responses and perform automated tasks independently (e.g. browsing the internet, managing files, writing and executing code, creating documents, sending emails and scheduling reminders, etc.). We use various third-party large language models (“LLM”) to support the Service and you may select the specific category of LLM that you would like to use based on their capability, e.g. general purpose, fast thinking, complex tasks etc. The Service allows you to submit text, files, audio, commands, scheduled tasks, and any other documents or instructions (“Inputs”) via the Service or to integrate your chosen instant messaging channel such as Telegram, Slack and Discord, etc. (“Messaging Platforms”). These Inputs are processed by a third party LLM for inference, with the AI-generated responses and actions delivered back to you (“Outputs”).
+
+You can also install Skills and various model context protocol (“MCP”) connectors (e.g. GitHub) available through WorkBuddy or from other resources you select to integrate or connect external apps and tools of your choice with the Service.
+
+Important: We are not responsible for the processing of your personal information by third parties. Please review their data processing policies and other related documentation for more information. Any link to a third-party site or service does not mean our endorsement or approval of such site or service. For more information, please refer to Section 8 (Third-Party Websites and Links).
+Warning: When providing input to WorkBuddy, please do not disclose any of your personal information or those belonging to others. Any personal information you include in your prompts may be processed by third party providers of LLMs, Skills, MCP Connectors and integrated apps/tools etc. and reproduced in Outputs.
+
+Please note that this Privacy Policy only applies to the Service. If you use any other products or services, please refer to the privacy policy for that particular product or service.
+
+If you do not agree to the processing of your personal information in the way this Privacy Policy describes, please do not provide your information when requested and stop using the Service. By using the Service, you are acknowledging how we process your personal information as described in this Privacy Policy and, to the extent performance of a contract or legitimate interest cannot be relied upon in your jurisdiction to process the personal information, you consent to the processing of your personal information as described in this Privacy Policy.
+
+If you have any questions about anything in this Privacy Policy, or want to exercise any rights you may have, our contact information can be found in Section 7 (Contact) below.
+
+1. Children
+
+Children must not use the Service for any purpose. By children, we mean users under the age of 18 years old or in the case of a region where the minimum age for processing personal information differs, such different age. We do not seek nor knowingly collect personal information from children under 18 for any purpose. If you believe that we have personal information of anyone under the legal minimum age, or if you are the parent or guardian of the user and wish to notify us that a user is under the legal minimum age, please contact us as set out in Section 7 (Contact) below.
+
+2. How We Process Your Personal Information
+
+This section provides more detail on the types of personal information we collect from you, and why.
+
+It also identifies the legal basis under which we process your data to the extent required by the data protection laws in your jurisdiction. To the extent the laws in your jurisdiction do not recognize the legal basis of performance of a contract or legitimate interest, you consent to the processing of your personal information for that purpose by consenting to the processing in this Privacy Policy.
+
+Personal Information
+
+	
+
+Use
+
+	
+
+Legal Basis (where applicable)
+
+
+
+
+Information you provide to us (either directly or through a third party)
+
+
+
+
+Login and account information, and security credential
+
+information such as your email address, login credentials, username and nickname, third-party login identifiers (if you choose to link a third-party login with the Service), avatar, IP address, user IDs, system device data and other similar information.
+
+	
+
+We use this information to create, authenticate, and manage your
+
+Account for the Service and operate and provide the Service to you.
+
+	
+
+Necessary to perform our contract with you to provide the Service.
+
+
+
+
+Inputs and Outputs: User prompts, input content in any manner and form (such as text, voice, or any uploaded files and shared content) and instructions provided in your chat, coding and agentic sessions (i.e. Inputs), the conversation and dialogue records with the Service, responses and actions generated based on your Inputs (i.e. Outputs), etc.
+
+If you choose to integrate third-party applications via a MCP Connector, or upload any files and information, including personal information, as part of your Inputs, we will collect this information, and this information may be reproduced in Outputs.
+
+	
+
+We use this information to process your Inputs and provide you with Outputs in accordance with your instructions.
+
+We use this information to provide you with a history of your conversations and dialogue with the Service.
+
+	
+
+Necessary to perform our contract with you to provide the Service.
+
+
+
+
+We use your information for troubleshooting and to detect and resolve any bugs.
+
+We use your Inputs and Outputs to conduct R&D and improve the Service (including training our underlying AI model). Where possible, we will anonymise your personal information before using such information for AI model training. Please note that we do not use your Inputs and Outputs for AI model training if you choose to use your own AI model via API keys integration with the Service.
+
+Please note that by default, we do not use your Inputs or Outputs for model training purposes. If you previously chose to turn it on, you may also turn it off at any time by following the steps below:
+
+How to Turn Off AI Model Training
+
+Click your account name near the WorkBuddy icon on the lower-left corner of the screen.
+Go to “System Settings”.
+Scroll down to the “Help improve the model” tab.
+Turn the toggle off.
+
+After you turn off this setting, we will not use your subsequent Inputs or Outputs to train our AI models.
+
+	
+
+It is in our legitimate interests to troubleshoot errors and to improve our Service (including to train our underlying AI model).
+
+
+
+
+Payment information: If you choose to purchase access to the Service, we will process information in relation to your payment, such as payment information, transaction records, etc.
+
+The third-party payment providers (e.g. Midas) process all such related data on our behalf.
+
+	
+
+We use this information to manage billing and payments for the Service.
+
+	
+
+Necessary to perform our contract with you to provide the Service.
+
+
+
+
+Marketing Information: Any information provided by you for this purpose, such as your email address, contact preferences, and other details you provide during the opt-in process
+
+	
+
+If you have opted in, we use this information to send you marketing communications and personalized recommendations.
+
+	
+
+We use this information with your consent.
+
+
+
+
+Feedback information: If you choose to provide feedback and suggestions for improvement, or ratings on an Output, we will collect information that you provide as part of your feedback, including feedback content, screenshots and user environment information.
+
+	
+
+We use this information to resolve any issues you may face, debug and repair any problems, and to improve the Service.
+
+	
+
+It is in our legitimate interests to diagnose errors that you raised to us and to further improve and develop the Service.
+
+
+
+
+Information generated as part of the Service
+
+
+
+
+Diagnostic and usage data: Device information (such as device identifiers, types, models, operating system information, MAC address, device fingerprint, etc.), log information (such as crash, error logs, etc.), usage behavior data and other diagnostic information relating to your use of the Service.
+
+	
+
+We use this information:
+
+to monitor the performance and quality of the Service;
+to detect and identify errors and bugs;
+for troubleshooting;
+to improve and optimize the Service.
+	
+
+It is in our legitimate interests to maintain the functioning of our Service, diagnose errors and to improve the Service.
+
+
+
+
+Configuration information: We process information about your configurations for the Service, such as model selection preferences, authorization for third-party account bindings, device binding configurations, Skills, Messaging Platforms configurations and MCP Connector configurations, task automation settings and general settings and other similar data.
+
+This data is stored locally on your device and is not processed on our servers.
+
+	
+
+We use this information to maintain your configuration settings of the Service and to provide you with the Service.
+
+	
+
+N/A
+
+
+
+
+Billing and consumption information: We process information relating to billing, such as account identifiers, plan type, credits balance, usage consumption records, credit / token usage records, subscription status etc.
+
+	
+
+We use this information to manage billing and payments for the Service.
+
+	
+
+Necessary to perform our contract with you to provide the Service.
+
+
+
+
+Compliance Records: Consent and withdrawal records, data deletion and export request records, and any other personal information required to be retained or disclosed pursuant to applicable laws, regulations, court orders, or government requests.
+
+	
+
+We use this information to comply with applicable legal obligations, respond to regulatory requests, and fulfill data subject rights.
+
+	
+
+We process this information to fulfill our legal obligations.
+
+We may also aggregate and anonymise your personal information for the purpose of improving our Service, including to train our underlying AI model.
+
+Cookies
+
+We use cookies and other similar technologies (e.g. web beacons, Flash cookies, etc.) ("Cookies") to enhance your experience using the Service. Cookies are small files which, when placed on your device, enable us to provide certain features and functionality.
+
+You have the option to permit installation of such Cookies or subsequently disable them. You may accept all Cookies, or instruct the web browser to provide notice at the time of installation of Cookies, or refuse to accept all Cookies by adjusting the relevant function in the web browser of your computer. However, in the event of your refusal to install Cookies, we may be prevented from providing some of its services available to you.
+
+For more information about the Cookies we use, please see our Cookies Policy.
+
+3. How We Store and Share Your Personal Information
+
+We have a global platform and may transfer your personal information outside the location in which you are based for the purposes described in the Privacy Policy. Your personal information will be stored in servers in Singapore. We also have global support, engineering, and other teams who support the Service, including from the People’s Republic of China (“PRC”), who may access your personal information for the purposes specified in this Privacy Policy.
+
+To provide the Service, the personal information we collect from you will be transferred to, remotely accessed, locally stored, and/or otherwise processed outside of the jurisdiction in which you are based for the purposes described in this Privacy Policy, including in the aforementioned jurisdictions. When we do so, we will take steps to ensure that your personal information is protected and we implement safeguards where required. Safeguards include standard contractual clauses, adequacy decisions where available, data processing agreements with all third-party data processors, and other contractual safeguards.
+
+We will share your personal information with third parties in the following situations:
+
+Third parties that provide services in support of the Service, including providers of services that process personal information identified in this policy in our legitimate interests of efficiently providing the Service. For example, we will transfer your personal information to:
+third-party AI LLM providers that support the Service by processing your Inputs and providing you with Outputs;
+Messaging Platforms that relay messages between you and the Service, if you choose to interact with the Service through a Messaging Platform;
+third-party payment processors that process payment instruction data for payment of the Service; and
+third-party service providers for Skills and MCP Connectors that process personal information in order to provide Skills and MCP Connectors that you have installed or configured on the Service.
+Third party websites and services: You may choose to integrate the Service with various third-party websites, apps and services (e.g. through API keys, Messaging Platforms or MCP Connectors). If you choose to do so, we will share your personal information with these third-party websites, apps and services in accordance with your instruction. Processing once transferred to such third-party websites and services shall be subject to the third party’s privacy policy.
+Companies within our corporate group who process your personal information in our legitimate interests to efficiently provide the Service. All such group companies may only use your personal information in accordance with this Privacy Policy.
+Regulators, judicial authorities, and law enforcement agencies. There are circumstances in which we may be legally required to disclose personal information about you, such as to comply with legal obligations or processes.
+Third parties to ensure safety, security, or compliance with laws. We may disclose your personal information to: (a) enforce our terms and conditions; (b) detect, prevent, or otherwise address security, fraud, or technical issues; or (c) protect the rights, property, or safety of us, our users, a third party, or the public as required or permitted by law.
+Professional advisors. We may disclose your personal information to auditors, law firms, or accounting firms.
+A third party that acquires all or substantially all of us or our business. We may also disclose your personal information to third parties if we either sell, transfer, merge, consolidate, or reorganize any part(s) of our business.
+4. The Security of Your Personal Information
+
+We have information security and access policies regarding access to our systems and technology, and we protect personal information using appropriate technological protection measures such as encryption, hashing, role-based access controls, audit logs of data access.
+
+Unfortunately, the transmission of information via the internet is not completely secure. Although we will implement and maintain reasonable measures to protect your personal information, we cannot guarantee the security of the information transmitted via the internet; any transmission is at your own risk.
+
+5. Data Retention
+
+Please note that we do not keep your data for longer than is necessary to fulfill the relevant purpose described above unless we are required or permitted to do so under law.
+
+Personal Information
+
+	
+
+Retention Policy
+
+
+
+
+Login and account information, and security credential information
+
+Diagnostic and usage data
+
+Feedback information
+
+	
+
+For as long as you maintain an account with us and deleted within 1 month after termination of your account, or within 30 days upon receipt of your deletion request, whichever is earlier.
+
+
+
+
+Configuration information
+
+	
+
+We do not process this on our servers as this is stored locally on your device for up to as long as you maintain an account with us and deleted no longer than 30 days after termination of your account, or within 30 days of your deletion request, whichever is earlier.
+
+
+
+
+Inputs and Outputs
+
+	
+
+For up to 14 days.
+
+Please note this is also stored locally on your device until you choose to delete the data locally and we only remotely access and store a copy of your data for the purposes specified in the Privacy Policy.
+
+
+
+
+Payment information
+
+Billing and consumption information
+
+	
+
+For up to 24 months after the termination of your account.
+
+
+
+
+Compliance records
+
+	
+
+This data is held for so long as necessary to fulfil the applicable legal obligations.
+
+
+
+
+Marketing information
+
+	
+
+For as long as you consent to receiving marketing communications from us.
+
+6. Your Rights
+
+We offer our users the following rights in respect of your personal information (which you may have a legal right to exercise depending on where you are). Some of these only apply in certain circumstances. You can exercise some of these rights directly by accessing and updating the personal information in your account. Otherwise, you can exercise those rights (including data erasure and relevant opt-outs) by contacting us using the details in Section 7 (Contact) below.
+
+Access. You may have the right to access personal information we hold about you, how we use it, and who we share it with.
+Portability. You may have the right to receive a copy of certain personal information we process about you.
+Correction. You may have the right to correct personal information we hold that is inaccurate.
+Erasure. You may be able to delete your account, or remove certain personal information, by logging into your Service account or requesting erasure from us.
+Restriction of Processing to Storage Only. You may have a right to require that we stop processing the personal information we hold about you (other than for storage purposes in certain circumstances).
+Objection. You may have the right to object to our processing of your personal information in certain situations.
+Consent Withdrawal. To the extent provided by applicable laws and regulations, you may withdraw consent you previously provided to us for certain processing activities by contacting us. Where consent is required to process your personal information, if you do not consent to the processing or if you withdraw your consent we may not be able to deliver the expected service.
+
+You also have the right to lodge a complaint directly with us, as well as with the relevant data protection authority in the country you live or work.
+
+7. Contact
+
+Please get in touch with us if you have any questions. You can reach us in the first instance at:
+
+Email: workbuddy_ai@tencent.com
+
+We will endeavor to deal with your request as soon as possible. This is without prejudice to any right you may have to launch a claim with a data protection authority in the jurisdiction in which you live or work where you think we have infringed data protection laws.
+
+8. Third-Party Websites and Links
+
+We may provide links or access to third-party websites, services and features as part of the Service. If you follow links to sites or platforms or enable features (such as Skills or MCP Connectors) that we do not control and are not affiliated with us, you should review the applicable privacy notice, policies and other terms. We are not responsible for the privacy or security of, or information found on, these sites or platforms. Our inclusion of such links or access to such features does not, by itself, imply any endorsement of the content on such platforms, the operation of such features, or of their owners or operators.
+
+9. Changes
+
+If we make any changes to this Privacy Policy we will post the updated Privacy Policy here and notify you in accordance with relevant legal requirements.
+
+10. Language
+
+Except as otherwise prescribed by law, in the event of any discrepancy or inconsistency between the English version and local language version of this Privacy Policy, the English version shall prevail.
+
+11. Jurisdictional Addendum
+Australia
+
+We take reasonable steps to ensure that third party recipients of your personal information located outside Australia handle your personal information in a manner that is consistent with Australian privacy laws. However, you acknowledge that we do not control, or accept liability for, the acts and omissions of these third party recipients. You have the right to access personal information we hold about you, how we use it, and who we share it with. You have the right to correct any of your personal information we hold that is inaccurate.
+
+If you are under the age of 18, you must not use the Service.
+
+Where practicable, we will give you the option of not identifying yourself or using a pseudonym when registering an account on or using the Service. You acknowledge that if you do not provide us with your personal information, we may be unable to provide you with access to certain features or sections of the Service, including social media integration and in-Service purchases.
+
+If you are dissatisfied with our response to your request for access to, or correction of, your personal information or your privacy complaint in respect of your personal information, you may contact the Office of the Australian Information Commissioner (Telephone: +61 1300 363 992 or email: enquiries@oaic.gov.au).
+
+Brazil
+
+Whenever we use your personal information based on your consent, you may revoke the consent that you have previously given for the collection, use and disclosure of your personal information, subject to contractual or legal limitations. To revoke such consent, you may terminate your account or you can contact us as set out in Section 7 (Contact). This may affect our provision of the Service to you.
+
+BY ACCEPTING THIS PRIVACY POLICY, YOU EXPRESSLY STATE THAT YOU AUTHORISE US TO COLLECT, USE, STORE, AND PROCESS YOUR PERSONAL INFORMATION, INCLUDING, DISCLOSING TO THIRD PARTIES, TO THE EXTENT PROVIDED BY THIS PRIVACY POLICY.
+
+Canada
+
+If you are located in Canada and wish to obtain written information about our policies and practices with respect to our service providers located outside Canada, you may contact us as specified in Section 7 (Contact). Where we use service providers who might have access to your personal information, we require them to have privacy and security standards that are comparable to ours. We use contracts and other measures with our service providers to maintain the confidentiality and security of your personal information and to prevent it from being used for any purpose other than as provided in this Privacy Policy.
+
+Indonesia
+
+By accepting and consenting to this Privacy Policy, you agree that we may collect, use and share your personal information in accordance with this Privacy Policy, as revised from time to time. If you do not agree to this Privacy Policy, you must not access or use our services and we have the right to not provide you with access to our services.
+
+If you are under the age of 18, you must not use the Service.
+
+In the event we fail to maintain the confidentiality of your personal information in the Service, we will notify you through the contact information provided by you or via the Service, to the extent required by local laws and regulations.
+
+You are responsible for making sure that any personal details which you provide to us are accurate and current. In order to confirm the accuracy of the information, we may also verify the information provided to us, at any time. You hereby represent that you have secured all necessary consent(s) before providing us with any other person’s personal information (for example, for referral promotions), in which case we will always assume that you have already obtained prior consent, and as such, you will be responsible for any claims whatsoever from any party arising as a result of the absence of such consent(s).
+
+Japan
+
+If you are under the age of 18, you must not use the Service.
+
+By clicking “accept”, you consent to the transfer of your personal information to third parties (if any), which may include the cross-border transfer of your information to any country where we have databases or affiliates and, in particular, to the jurisdictions specified in Section 3 (How We Store and Share Your Personal Information).
+
+The categories of personal information specified in to the jurisdictions specified in Section 3 (How We Store and Share Your Personal Information) may include "special care-required personal information" (i.e., sensitive information as detailed under applicable law), and you consent to the collection of such information.
+
+You may request us to notify you about the purposes of use of, to disclose, to make any correction to, to discontinue the use or provision of, and/or to delete any and all of your personal information which is stored by us, to the extent provided by the Act on the Protection of Personal Information of Japan. When you wish to make such requests, please contact us as set out in Section 7 (Contact).
+
+Malaysia
+
+To protect your personal information and handle complaints relating to your personal information, we have appointed the following department responsible for managing and protecting your personal information.
+
+Our data protection officer, responsible for the management and safety of your personal information:
+
+Telephone: +603-22872388
+
+Other Contact: see Section 7 (Contact).
+
+Mexico
+
+Some of the purposes of processing specified in Section 3 (How We Store and Share Your Personal Information) are voluntary, which may include to show you personalised recommendations or advertising.
+
+In general, we do not require your consent to carry out the transfers detailed in Section 3 (How We Store and Share Your Personal Information). In any case, by using the Service and providing us with your personal data, you agree to the data transfers detailed therein that require your consent.
+
+To understand more about and exercise your rights to “Access”, “Correction”, “Erasure”, “Objection”, “Restriction of Processing to Storage Only “, which includes the limitation to the use and disclosure of your personal data, as well as the applicable means, procedures and requirements to exercise any of your rights, please contact us as specified in Section 7 (Contact).
+
+New Zealand
+
+We take reasonable steps to ensure that third party recipients of your personal information located outside New Zealand handle your personal information in a manner that is consistent with New Zealand privacy laws. However, you acknowledge that we do not control, or accept liability for, the acts and omissions of these third party recipients.
+
+You have the right to access personal information we hold about you, how we use it, and who we share it with. You have the right to request the correction of any of your personal information we hold that is inaccurate.
+
+If you are under the age of 16, you must not use the Service.
+
+If you are dissatisfied with our response to your request for access to, or correction of, your personal information or your privacy complaint in respect of your personal information, you may contact the Office of the New Zealand Privacy Commissioner (www.privacy.org.nz).
+
+While we take reasonable steps to ensure that third party recipients of your personal information comply with privacy laws that are similar to those of your jurisdiction, you acknowledge and agree that we cannot control the actions of third party recipients and so cannot guarantee that they will comply with those privacy laws.
+
+Qatar
+
+If you are using the Service in Qatar, you consent (for the purposes of Law No. 13 of 2016 on the Protection of Personal Data, as may amended from time to time) to the processing of your information in accordance with this Privacy Policy.
+
+Thailand
+
+The contact details of our designated local representative in Thailand for the purposes of compliance with the PDPA is as follows and can be contacted via email. Please include the word “Thailand” in the subject line of your email.
+
+Name: Tencent (Thailand) Company Limited
+
+Address: 8 T-One Building, Floor 10th, 11th & 12th (Unit 3-5), Soi Sukhumvit 40, Sukhumvit Road, Khwaeng Phra Khanong, Khet Khlong Toei, Bangkok 10110, Thailand
+
+If you are under the age of 20, you must not use the Service.
+
+Philippines
+
+You are entitled to the following rights:
+
+Right to be informed. You may in certain circumstances have the right to be informed whether personal information pertaining to you is being, or has been processed, including the existence of automated decision-making and profiling.
+Right to object. You may in certain circumstances have the right to object to the processing of your personal information, including processing for direct marketing, automated processing or profiling.
+Right to access. You may in certain circumstances have the right to seek reasonable access to, upon request, your personal information.
+Right to rectification. You may in certain circumstances have the right to dispute an inaccuracy or error in your personal information and have us correct it, unless the request is vexatious or otherwise unreasonable.
+Right to erasure or blocking. You may in certain circumstances have the right to suspend, withdraw or seek the blocking, removal or destruction of your personal information.
+
+By consenting to this Privacy Policy, you consent to us:
+
+collecting and processing your personal information as described in Section 2 (How We Process Your Personal Information);
+sharing your personal information with third parties, companies within our corporate group, and a third party that acquires substantially all or substantially all of us or our business, as described in this Privacy Policy and for the purposes stated herein; and
+transferring or storing your personal information in destinations outside the Philippines when the processing shall need to occur outside the Philippines, as described in Section 3 (How We Store and Share Your Personal Information).
+United Arab Emirates
+
+You consent to the collection, use, disclosure, transfer, export (to the extent permitted by applicable laws), sharing and storage of your personal information, as described in the Privacy Policy.
+
+We may voluntarily report a cyber-security incident where it constitutes a crime under UAE law (e.g. under the UAE Cybercrime Law). The incident can be reported to the relevant authorities for the purpose of investigations. Please note that voluntary reporting of a cyber-security incident can also be made to the UAE Computer Emergency Response Team (“CERT”). CERT is a security awareness organisation that provides a process for logging incidents and advising on known cyber security threats in the UAE.
+
+United States
+
+Residents of certain US states, such as California, Colorado, Connecticut, Delaware, Iowa, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Tennessee, Texas, Utah, or Virginia, and other states to the extent they enact similar privacy laws, may have additional rights under their corresponding state laws.
+
+For purposes of this section, “personal information” and “sensitive personal information” have the meanings given in the California Consumer Privacy Act of 2018 (“CCPA”), and respectively include the terms “personal data” and “sensitive data” as defined in the Colorado Privacy Act (“CPA”), the Connecticut Act Concerning Personal Data Privacy and Online Monitoring (“CTDPA”), the Utah Consumer Privacy Act (“UCPA”) and the Virginia Consumer Data Protection Act (“VCDPA”) and other similar laws (collectively, “US State Laws”).
+
+Collection and Disclosure of Personal Information
+
+Over the past 12 months, we have collected and disclosed for a business purpose the following categories of personal information, including sensitive personal information (denoted by *), from or about you or your device:
+
+Identifiers, such as your username, third-party login identifiers, IP address, device ID, avatar, email address, and username/nickname. This information is collected directly from you and your device and from social media platforms if you choose to sign up using a social media account.
+Internet or other electronic network activity information, such as your information regarding your use of the Service, date and time stamps, log data, and application and performance metrics. This information is collected directly from you and your device.
+Commercial information about any transactions within the Service such as purchased token information and billing information. This information is collected directly from you and your device.
+Geolocation information such as approximate location derived from your IP address. This information is collected directly from your device.
+Audio and visual information such as photos shared in the Service, and voice or audio Input you provide to the Service. This information is collected directly from you and from social media platforms if you choose to sign up using a social media account.
+Account access credentials* such as account log-in information used to access your Service account, including credentials associated with third-party login providers you use to sign in.
+Contents of your Inputs sent on the Service* such as text prompts, voice/audio input, files and content you upload, instructions you submit during chat, coding, and agentic sessions, conversation records, generated responses and actions, information returned through MCP Connectors from third-party applications you authorize, and any personal information you choose to embed in those Inputs. If your Inputs include personal information categories listed in the California Customer Records statute (such as your address and phone number), characteristics of protected classifications under California or federal law (such as national origin, gender, or age), or professional or employment-related information such as your profession, we will also process this information, and this will be collected directly from you in the context of being our consumer.
+
+We collect and disclose your personal information, including sensitive personal information, for the following purposes:
+
+to provide you with the Service, maintain your account, provide customer service, and process payments;
+to improve our services, including the functionality of the Service;
+to provide you with marketing communications and personalized recommendations if you choose to receive marketing information;
+for security and verification purposes, including to prevent and detect fraudulent activity;
+to address and remediate technical issues and bugs; and
+to fulfill our legal obligations.
+
+For additional information about what each type of personal information is used for, see Section 2 (How We Process Your Personal Information).
+
+We disclose each of the categories of personal information that we collect as described in Section 3 (How We Store and Share Your Personal Information).
+
+In the past 12 months, we have not sold or shared personal information of California residents within the meaning of “sold” and “share” in the CCPA. And we have no knowledge of any sale or sharing of personal information of users under 16 years of age.
+
+In addition, we do not use or disclose sensitive personal information for purposes other than to perform the services reasonably expected by an average consumer who requests those services or as otherwise permitted by US State Laws.
+
+Retention of Your Personal Information
+
+The retention period varies among the different categories of data collected. For detailed information about the retention period for any specific category of data, see Section 5 (Data Retention).
+
+Rights under the U.S. State Laws
+
+Depending on where you live, you may have some or all of the rights listed below in relation to information that we have collected about you. However, these rights are not absolute, and in certain cases, we may decline your request as permitted by law.
+
+Right to Access/Know. Request we confirm whether we process information about you and give you access to that information. You may also request to receive that information in a portable and, to the extent technically feasible, readily usable format. If you are a California resident, you may request:
+the categories of personal information about you that we collected;
+the categories of sources from which the personal information was collected;
+the business or commercial purposes for collecting personal information about you;
+the categories of third parties to whom we disclosed your personal information and the categories of personal information that was disclosed (if applicable) and the purpose for disclosing; and
+the specific pieces of personal information we collected about you;
+Request to Delete. Request we delete personal information we collected about you;
+Request to Correct. Request we correct inaccurate personal information that we maintain about you; and
+Right to Non-Discrimination. Be free from unlawful discrimination for exercising your rights including providing a different level or quality of services or denying goods or services to you when you exercise your rights under the US State Laws.
+How to Exercise Your Rights
+
+First, you may wish to log into your account and manage your data from there. Depending on where you live, you may also exercise your rights by contacting us as specified in Section 7 (Contact). We may take steps to verify your identity before complying with your request to protect your privacy and security, and may decline your request if we are unable to verify your identity. To verify your identity, we may need the following information from you: your first name, last name, address, phone number, date of birth and email address.
+
+Depending on where you live, you may exercise these rights yourself or you may also designate an authorized agent to make these requests on your behalf. In order for us to process the request, you must provide the authorized agent with signed written permission. We reserve the request to require the agent to verify their own identity and to confirm directly with you that you have provided the authorized agent permission to submit the request.
+
+In addition, if we deny your rights request, you may have the right to appeal our decision by contacting us through the methods described above. We will not require you or your authorized agent to pay a fee for the verification of your request or appeal.
+
+Questions
+
+If you have questions or concerns regarding this Privacy Policy, please contact us as set out in Section 7 (Contact).

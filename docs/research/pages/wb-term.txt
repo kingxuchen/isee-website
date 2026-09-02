@@ -1,0 +1,574 @@
+Tencent WorkBuddy Service Agreement
+Last updated: June 2026
+CONTENTS
+INTRODUCTION
+YOUR ACCOUNT
+USE OF SERVICE
+CUSTOMER SUPPORT AND CONTACT US
+USER'S RIGHTS AND OBLIGATIONS
+LIMITED RIGHT TO USE THE SERVICE
+TENCENT'S RIGHTS
+YOUR PRIVACY
+INTELLECTUAL PROPERTY RIGHTS
+DISCLAIMERS, INDEMNITIES, LIMITATION OF LIABILITIES
+TERM, TERMINATION AND SUSPENSION
+REMEDIES
+EXPORT CONTROL AND SANCTIONS
+GOVERNING LAW AND DISPUTE RESOLUTION
+FORCE MAJEURE
+MISCELLANEOUS
+Jurisdiction-specific Addendum
+1. INTRODUCTION
+
+Welcome and thank you for your interest in the Tencent WorkBuddy service (the "Service").
+
+1.1 PLEASE READ THIS AGREEMENT CAREFULLY
+
+This Tencent WorkBuddy Service Agreement (the "Agreement") is a legally binding contract between you as an individual user (the "User", "you" or “your”), and the Tencent contracting entity as set out in the table below ("Tencent", "we", "us" or "our") regarding your use of the Service made available on the website at the following link: https://www.workbuddy.ai/, to be updated by Tencent from time to time.
+
+Your Location
+
+	
+
+Tencent Contracting Entity
+
+
+
+
+South Korea
+
+	
+
+Tencent Korea Yuhan Hoesa, a Korean registered company located at 152, Taeheran-ro, Gangnam-gu (Gangnam Finance Center, Yeoksam-dong), Seoul, Korea.
+
+
+
+
+Rest of the world
+
+	
+
+Tencent Cloud International Pte. Ltd., a Singapore registered company located at 10 Anson Road, #21-07, International Plaza, Singapore 079903.
+
+In this Agreement, "User" and "Tencent" are each a "party" to the Agreement and, together, the "parties".
+
+BY CLICKING “I ACCEPT” OR OTHERWISE ACCESSING OR USING THE SERVICE, YOU AGREE THAT YOU HAVE READ AND UNDERSTOOD, AND, AS A CONDITION TO YOUR USE OF THE SERVICE, YOU AGREE TO BE BOUND BY THIS AGREEMENT.
+
+If you are not eligible (see Section 1.2), or do not agree to the Agreement, then you do not have Tencent's permission to use the Service. YOUR USE OF THE SERVICE, AND TENCENT'S PROVISION OF THE SERVICE TO YOU, CONSTITUTES AN AGREEMENT BY TENCENT AND BY YOU TO BE BOUND BY THIS AGREEMENT.
+
+1.2 Eligibility
+
+You must be of a certain age to accept this Agreement and use the Service. By agreeing to this Agreement, you represent and warrant to us that:
+
+you are at least 18 years old or the legal minimum age in your jurisdiction (or if you are under such age, your parent or legal guardian has read and agreed to this Agreement on your behalf);
+you have not previously been suspended or removed from the Service; and
+your registration and your use of the Service is in compliance with any and all applicable laws and regulations.
+
+By using the Service, you represent and warrant that you are eligible and possess the requisite legal capacity, qualifications and preconditions (if any) to use the Service.
+
+1.3 Additional Applicable Terms
+
+Apart from the terms of this Agreement, the use of the Service shall be subject to the Acceptable Use Policy (the "AUP"), and the service rules of the Service (the “Service Rules”). The Service Rules refer to the service descriptions, terms, rules, instructions, standards, etc. that relate to the content of the Service, service levels, technical specifications, operational documentation, billing standards, etc. of the Service, including but not limited to the Privacy Policy, all of which are made available on the service website. Please read and understand the Service Rules in advance and fully comply with the same in order to enjoy the uninterrupted use of the Service.
+
+Where there is any conflict or inconsistency between these documents, the following order of precedence (in decreasing order) shall apply:
+
+this Agreement;
+the AUP;
+the Service Rules.
+
+The country speciﬁed in your registration information may cause additional or diﬀerent terms to apply, as follows. For example, if your use of the Services is subject to consumer protection regulations as determined under applicable laws, additional terms apply. In addition to the above, additional or diﬀerent terms may apply to your use based on applicable local laws. If you are accessing or using the Service from any jurisdiction covered in the Jurisdiction-specific Addendum at the end of this Agreement, the provisions set out for your jurisdiction in the Jurisdiction-specific Addendum will apply to your access or use of the Services, and prevail over the rest of this Agreement in case of any conflict or inconsistency.
+
+1.4 Fees
+
+Fees for the Service will be charged according to the price plans available here and subject to the Subscription Policy.
+
+1.5 Changes or Modifications to this Agreement
+
+We may need to change or update this Agreement from time to time to reflect changes in law or best practice or to deal with additional features which we introduce. We will use reasonable efforts to notify you in advance when material changes to this Agreement occur, such as by e-mail and/or by placing a prominent notice on our website. TO THE EXTENT THAT IT IS LEGALLY PERMITTED ACCORDING TO THE LAW IN YOUR APPLICABLE JURISDICTION, YOU WAIVE ANY RIGHT YOU MAY HAVE TO RECEIVE SPECIFIC NOTICE OF SUCH CHANGES OR MODIFICATIONS.
+
+IF YOU DO NOT OBJECT TO THE CHANGES OR TERMINATE THE USE OF THE SERVICE PRIOR TO THEIR TAKING EFFECT, YOU ARE DEEMED TO HAVE ACCEPTED THE CHANGES. IF YOU OBJECT TO THE CHANGES, WE MAY TERMINATE YOUR USE OF THE SERVICE BY THE EFFECTIVE DATE OF THE CHANGE. WE WILL POINT TO THIS CONSEQUENCE OF YOUR INACTIVITY AND OUR RIGHT TO TERMINATE IN CASE OF YOUR OBJECTION IN THE NOTIFICATION OF THE CHANGE.
+
+2. YOUR ACCOUNT
+2.1 Account Registration
+
+When you register for an account to access the Service ("Account"), you are responsible for safeguarding any and all Account details and access credentials, and you shall be responsible for any use of the Account or Service and all activities that occur under your Account, regardless of whether the activities are authorized or undertaken by you, your employees or a third party, and including in circumstances due to your failure to properly safeguard such Account details and access credentials. Except to the extent caused by our breach of this Agreement, Tencent and its Affiliates are not responsible for any unauthorized access to your Account. Any breach of this Agreement or any use of your Account by anyone will be treated as if the breach or use had been carried out by you, and will not relieve you of your obligations to us. We may deny you the right to create an Account.
+
+2.2 Provision of Information
+
+To the extent you provide any information to us when using the Service (e.g. account information), you agree that the information you provide to us is true, accurate and complete. If any change occurs to the information you provide to us, you shall promptly notify Tencent of such change.
+
+2.3 Retrieve your Account
+
+If you request to retrieve your Account when your access to the Service is denied due to the loss of account information or forgotten password, you are required to provide certain information and verification documentation according to the account retrieval process published by us officially, and to ensure that all such information and documentation is legitimate, truthful and valid. Your Account may not be retrieved if the information or documentation provided by you fails our security verification, and you are solely liable for any and all risks and losses arising therefrom.
+
+2.4 Accounts Created via Third Party Platforms
+
+We have no obligation to retrieve Accounts created via third party platform accounts or for such third party accounts. You acknowledge and agree that if your Account is not directly registered and created via the Service and instead you register for an Account through a third party platform account (e.g., through your Google or Github account), then the applicable third party who owns the platform for the account through which you register (e.g. the relevant entity providing the Google or Github account service) is responsible for that account and the information associated with that account, including the user ID or password used to create an Account. We have no obligation to retrieve such account or the information associated with that account, including the user ID or password used to create an Account or otherwise provide services in connection with such account or user ID. All the matters relating to such third party account and user ID shall be resolved by you and the applicable third party, provided that you shall inform us in the event that the account or the information, including the user ID or password used to create an Account, is stolen or otherwise compromised.
+
+3. USE OF SERVICE
+3.1. Nature of the Service
+
+You acknowledge that the Service enables artificial intelligence (“AI”) functionalities and features (“AI Functions”), powered by third party large language models (“LLM”). The Service also enables your access to “AI Agents”, which are systems, applications, workflows, or services that use AI Functions to perform autonomous or semi-autonomous actions, decisions, or operations, including but not limited to tool-calling, function execution, API orchestration, data retrieval/modification, transaction processing, or multi-step reasoning chains (whether single-agent or multi-agent systems).
+
+BY ENABLING, ACCESSING, OR USING THE AI AGENT AND/OR AI FUNCTIONS THROUGH THE SERVICE, YOU EXPRESSLY ACKNOWLEDGE, UNDERSTAND, AND ACCEPT THE FOLLOWING INHERENT AND UNAVOIDABLE RISKS OF AI TECHNOLOGY, AND AGREE THAT YOU BEAR FULL RESPONSIBILITY FOR ALL CONSEQUENCES OF YOUR USE:
+
+(1) OUTPUT RELIABILITY RISKS
+
+OUTPUT (AS DEFINED BELOW) FREQUENTLY CONTAINS FACTUAL INACCURACIES, FABRICATIONS (KNOWN AS ‘HALLUCINATIONS’), OMISSIONS, OR BIASED CONTENT THAT MAY APPEAR AUTHORITATIVE.
+OUTPUTS MAY MISINTERPRET CONTEXT, INSTRUCTIONS, OR NUANCED QUERIES, LEADING TO UNRELIABLE OR MISLEADING RESULTS.
+NO OUTPUT IS INHERENTLY "SAFE," "ACCURATE," OR "COMPLETE" REGARDLESS OF SAFETY FILTERS OR REVIEW PROCESSES.
+
+(2) AGENTIC EXECUTION RISKS
+
+AI AGENTS MAY INCORRECTLY EXECUTE TOOL CALLS, API REQUESTS, OR AUTONOMOUS ACTIONS (E.G., DELETING DATA, SENDING TRANSACTIONS, MODIFYING SYSTEMS).
+MULTI-STEP REASONING CHAINS AMPLIFY ERRORS THROUGH COMPOUNDING INACCURACIES ACROSS ITERATIONS.
+UNINTENDED ESCALATION MAY OCCUR WHEN AGENTS CHAIN ACTIONS WITHOUT ADEQUATE HUMAN CONTROLS.
+
+(3) THIRD-PARTY INTEGRATION RISKS
+
+THIRD-PARTY LLMS, PLUGINS, OR APIS OPERATE UNDER THEIR OWN TERMS, POTENTIALLY RETAINING/TRAINING ON YOUR DATA WITHOUT TENCENT'S CONTROL OR OPT-OUT RIGHTS.
+JURISDICTIONAL AND COMPLIANCE MISMATCHES WHEN DATA ROUTES TO THIRD-PARTY PROVIDERS IN DIFFERENT REGIONS.
+CASCADING FAILURES WHEN AGENT WORKFLOWS DEPEND ON UNRELIABLE THIRD-PARTY COMPONENTS.
+
+(4) SYSTEMIC LIMITATIONS
+
+AI LACKS HUMAN JUDGMENT, EMPATHY, COMMON SENSE, OR ETHICAL REASONING, EVEN FOR COMPLEX PROFESSIONAL SCENARIOS.
+PERFORMANCE DEGRADES ON EDGE CASES, NOVEL SITUATIONS, OR SPECIALIZED DOMAIN KNOWLEDGE.
+SAFETY SYSTEMS ARE NOT FOOLPROOF; CONTENT PASSING FILTERS MAY STILL VIOLATE APPLICABLE LAWS, POLICIES, OR YOUR RISK TOLERANCE.
+
+(collectively, “Inherent AI Risks”)
+
+You represent, warrant and undertake that:
+
+you have evaluated the Inherent AI Risks against your specific use case, industry regulations, and risk tolerance; and
+you have implemented appropriate technical and organizational safeguards against the Inherent AI Risks including but not limited to human oversight, validation workflows, testing protocols, etc.
+
+In addition, you expressly acknowledge, understand and accept the following nature and limitations of the Service:
+
+No Professional Advice – The Output is provided for informational purposes only, and does not constitute legal, financial, medical, or other professional advice;.
+No Fully Automated Decision-Making – The Service is not intended to help you make decisions that have legal or similarly significant effects on individuals without appropriate human oversight. This includes, without limitation, decisions relating to healthcare, employment, credit, finance, insurance, housing, or legal matters.
+No High-Risk Applications – The Service is not designed for use in any critical infrastructure systems, life-support or medical diagnostic applications or law enforcement decision-making. You agree not to use the Service in any way, including to develop, deploy, provide, integrate or operate, with the aforementioned systems or with any systems or services that would be regarded a high-impact or high-risk AI (systems) under Applicable Laws.
+
+TENCENT BEARS NO RESPONSIBILITY FOR ANY LOSSES, LIABILITIES, OR DAMAGES ARISING FROM THE INHERENT AI RISKS AND THE NATURE AND LIMITATIONS OF THE SERVICE AS SET OUT IN THIS SECTION 3.1, REGARDLESS OF FORESEEABILITY. IF YOU DO NOT AGREE WITH THESE RISKS AND LIMITATIONS, YOU MUST NOT USE THE SERVICE.
+
+3.2 Service Modification
+
+Tencent may discontinue or make any changes to the Service (or any portion thereof) at any time without incurring liability to you. Tencent may choose to, without limitation, discontinue, limit, restrict, change or remove the Service, any Service component, or availability of the Service (or any portion or component thereof). If Tencent discontinues or makes any changes to the Service that would materially decrease the functionality of those Service, Tencent will use commercially reasonable eﬀorts to inform you of the change with reasonable advance notice before it goes into eﬀect (e.g. via in-app pop up). Tencent may make the change, and will not be obligated to provide notice, if the discontinuation or change is necessary to address an emergency or threat to the security or integrity of the Service or Tencent, comply with or respond to litigation, address Intellectual Property Rights (defined below) concerns, or comply with the law or government requests. Tencent may provide periodic updates to the Service from time to time. Tencent may also make new features or functionality available from time to time through the Service and add new features to the Service from time to time, the use of which may be contingent upon your agreement to additional requirements.
+
+3.3 Service Interruption
+
+We reserve the right to interrupt the availability of the Service or any part thereof from time to time on a regularly scheduled basis or otherwise with or without prior notice, including without limitation under the following circumstances:
+
+a) maintenance, updates and fixation of server, network, software and/or hardware which are necessary to provide the access of the Service to you; b) Force Majeure (defined below); c) in accordance with the order of governmental authorities or other in-charge authorities; and d) in order to comply with applicable laws.
+
+You agree that we will not be liable for any interruption of the Service or any part thereof, delay or failure to perform resulting from the circumstances referred to in the preceding paragraph. We have the right at any time with or without reason to change and/or eliminate any aspect(s) of the Service (or any part thereof) as we see fit in our sole discretion.
+
+3.4 Suspension or Termination of Service
+
+The Service may be updated and your Account may be suspended or terminated in any of the following events:
+
+a) Please note that regardless of any notice, we reserve the right to suspend your Account or to modify, adapt or update the Service, subject to this Agreement, at any time in our sole discretion for any reason (to the fullest extent possible under law). When making such changes we will duly consider your reasonable interests.
+
+b) If your Account is suspected to be involved in illegal or improper activities (such as hacking, being hacked, etc.), you shall cooperate with (e.g., answer the questions truthfully) the relevant personnel designated by us to solve the issue. You further acknowledge and agree that, if we determine that your Account is involved in any improper or illegal acts, we have the right to suspend or terminate your access to the Account, take remedial measures and to inform the relevant authorities and act in conformity with any authority's directions or guidance. You also acknowledge and agree that we are not obligated to provide you with evidence relating to the suspected improper or illegal acts of your Account.
+
+c) In the event that Tencent determines at its sole discretion that your use of the Service (including any of your Content (defined in Section 9.2)) could: (i) disrupt the Service; (ii) disrupt use of the Service by a third party; (iii) disrupt the Tencent network or servers used to provide the Service; (iv) allow unauthorized third party access to the Service; or (v) otherwise pose a security risk or threat or result in any legal or regulatory liability to Tencent, then Tencent or its aﬃliates may immediately and without prior notice to you, restrict or suspend your use of the Service, to the extent required to address such concern.
+
+3.5 Monitoring and Circumvention
+
+The Service includes functions to detect circumvention measures or unauthorized and malicious programs. Tencent may access, collect, monitor and/or remotely store information relating to hardware capacity, modifications related to Service, software, signatures, profiles or names of known unauthorized or malicious third party programs, files or processes that enable or facilitate circumvention of controls, unfair advantage or hacking of Service. If unauthorized or malicious programs are detected, the Service may also communicate to us the user's Account and user ID and information about the unauthorized or malicious program or its use. Details of the aforementioned measures, if any, are set out in the Privacy Policy.
+
+3.6 Third Party Services, Output and Links
+
+Our Service may incorporate third-party software, products, or services, ("Third Party Services"), and certain components of our Services, may generate output from those Third Party Services ("Third Party Output"). We are not responsible for the actions or omissions of the third party providers that provide the Third Party Services. Additionally, the Service may provide links or references to other websites or other platforms operated by third parties. These third party links, Third Party Services and Third Party Output (collectively, "Third Party Materials") are subject to their own terms which may differ from this Agreement, and Tencent is not and shall not be held responsible for the Third Party Materials. In accessing or using Third Party Materials, you do so at your own risk and you assume all responsibility in that regard. We make no representations or warranties regarding, and do not endorse, any Third Party Materials.
+
+4. CUSTOMER SUPPORT AND CONTACT US
+4.1 Support for the Service
+
+Except to the extent required by applicable laws with respect to consumers or as otherwise provided in this Agreement, Tencent is under no obligation to provide technical support or other services.
+
+4.2 Customer support
+
+If you have any questions (including problem consultation, complaints, etc.) about this Agreement or the use of the Service, you can contact us at workbuddy_ai@tencent.com. We will reply to you as soon as possible after receiving your feedback, and respond to your request, and if applicable, within the time limit stipulated by laws and regulations.
+
+4.3 Feedback
+
+You acknowledge and agree that any feedback that you provide becomes the sole and exclusive property of Tencent and we may use your feedback without restriction or compensation to you.
+
+5. USER'S RIGHTS AND OBLIGATIONS
+5.1 Compliance
+
+You are solely responsible for ensuring your use of the Service (including any Input (defined in Section 9.2) that you provide or Output (defined in Section 9.2)) complies with this Agreement and applicable laws. You acknowledge and agree that you are responsible for your Content and use of the Service and for otherwise complying with this Agreement and applicable laws. Without limiting the foregoing, you agree to provide any notices to, and obtain any necessary consents or permissions from, any individuals in connection with any Input, as required under applicable law.
+
+5.2 Security of Service
+
+If you are aware of any illegal use of your Account or any Account security issues, please notify us immediately. You shall not circumvent our technical measures:
+
+a) We may take technical measures in the Service to prevent unauthorized use of the Service and to prevent any violation of this Agreement. You acknowledge and agree that you will not seek to circumvent such technical precautions in any manner.
+
+b) You must ensure that your device meets the requirements for the installation and use of the Service. The installation of the Service may disable other software or program running on your device. Your failure to install the Service or any updates in accordance with our installation instructions may result in dysfunction of the Service in whole or in part.
+
+c) You must avoid (i) transmitting Content containing viruses, harmful code or destructive data, or any malware characteristics (including as defined by applicable laws and regulations) to the Service; or (ii) sending or store computer code, files, scripts, and programs that contain viruses, worms, Trojan horses, or other harmful programs, through the Service or by any other means.
+
+5.3 Reasonable Use
+
+We expect that Users will use the Service reasonably. If any User's use of the Service exceeds reasonable and normal standards, we may monitor the Service usage of such user in a manner that is in line with our Privacy Policy. If we, using general industry standards, identify any violating, abnormal or unreasonable use (at our reasonable and unilateral discretion), we shall have the right to take measures reasonably necessary to protect the Service (including its availability and security), you and/or other users, including without limitation, restriction or suspension of the Service, in part or in whole, to such user. In such cases, our termination rights set out in Section 11.2 may also apply.
+
+6. LIMITED RIGHT TO USE THE SERVICE
+6.1 License
+
+You shall and shall ensure that your access and use of the Service is in accordance with this Agreement during the Term (defined below). Your use of any Service shall be subject to this Agreement. You acknowledge that Tencent or its licensors own all rights, titles and interest in and to the Service. Subject to your compliance with this Agreement, Tencent grants, or shall procure the grant, to you a limited, non-exclusive, non-transferable, non-sublicensable and revocable license to:
+
+a) download a copy of the Service onto your device(s), and use the Service for your personal purposes; and
+
+b) use the Service in a manner not exceeding any applicable usage limitation or term, and within the designated territory for use or receipt of Service (where applicable), and only in connection with the Service.
+
+Other than as specified in the foregoing, no other rights are granted to you under this Agreement to use the Service (including any software offered in connection with the Service).
+
+6.2 Revocable Rights
+
+Rights granted to you hereunder are revocable. Any use of the Service other than as specifically authorized herein, without prior written permission from us is strictly prohibited and will, at our election, terminate the rights granted to you by us herein. Such unauthorized use may also violate applicable laws including, without limitation, copyright and trademark laws and applicable communications regulations and statutes. Unless explicitly stated herein, nothing in this Agreement shall be construed as conferring any license to or rights in Intellectual Property Rights, whether by estoppel, implication or otherwise. This license granted under this Agreement is revocable at any time with or without cause.
+
+6.3 No Transfer
+
+You may not transfer the Service to someone else. We are giving you personally the right to use the Service as set out above. You may not otherwise transfer or make available the Service to someone else, whether for money, for any other forms of consideration or for free. If you sell or gift any device on which the Service is installed, you must first remove the Service from the device.
+
+6.4 Restricted Uses
+
+You shall use the Service in compliance with this Agreement, and applicable laws and regulations. You agree that you will not conduct or use the Service to engage in the following activities (nor will you facilitate or support your Affiliates, employees, contractors or any other person under your control, management, supervision or otherwise to do the following):
+
+a) reproduce, modify, adapt, alter, enhance, distribute, publicly display, retransmit, resell or sublicense, copy, create a derivative work of reverse engineer, decompile, translate, disassemble, or otherwise attempt to extract any or all of the source code of the Service;
+
+b) publish, transmit, disseminate, or store Content that infringes upon the legitimate rights of others, such as reputation rights, portrait rights, Intellectual Property Rights, and trade secrets;
+
+c) infringe our Intellectual Property Rights or those of any third party in relation to your use of the Service;
+
+d) use any data mining, robots or similar data gathering or extraction methods;
+
+e) use the Service in a way that could damage, disable, overburden, impair or compromise our systems or security or interfere with other users of the Service;
+
+f) collect or harvest any information or data from the Service or our systems or attempt to decipher any transmissions to or from the servers;
+
+g) use the Service other than for their intended purpose, in any unlawful manner, for any unlawful purpose, or in any manner inconsistent with this Agreement, or act fraudulently or maliciously;
+
+h) direct the Service to generate Output that violates applicable laws, Intellectual Property Rights of third parties or this Agreement;
+
+i) misrepresent the source of the Output, such as where Output was created by a human when it was actually generated by artificial intelligence;
+
+j) disrupt or interfere with our Services, including by circumventing any restrictions or protective measures that we have implemented;
+
+k) utilize Output to develop any products or services that compete with Tencent;
+
+l) other acts not expressly authorized by Tencent; and
+
+m) other behaviors that violate this Agreement, the applicable laws and regulations or regulatory policies, or infringe upon the legitimate rights and interests of us, others and/or third parties.
+
+Any violation of this Agreement is the sole responsibility of the User.
+
+7. TENCENT'S RIGHTS
+7.1 Adjustments by Tencent
+
+Without affecting your use of the Service under this Agreement, Tencent has the right to adjust the name, domain name, function, product design, visual interface, etc. of the Service, related services and related functional modules at its own discretion. If the aforesaid work may affect your normal use of the Service, we will notify you within a reasonable time before making relevant adjustments and inform you of the possible impact.
+
+7.2 Legal Rights
+
+All legal rights and interests to the Service (including but not limited to models, result data, analysis reports and other data contents, as well as pictures, charts, documents, text and interface design, etc.), and other data, materials or information related to the Service belong to Tencent, its Affiliates and third party licensors, including various documents related to the interface of the Service.
+
+7.3 Enforcement Measures
+
+You understand and agree that when using the Service, Tencent has the right to use technical means, such as implementing automated content filters, to review information generated as part of your use of the Service, including Content, for the purposes of detecting and removing any illegal or restricted content to comply with our legal obligations, including legal obligations outside your home jurisdiction. In this context, we may access, collect, monitor and/or remotely store information relating to Content you write, send, share, stream or transmit through the Services and your User Data and communications may be screened to detect any illegal or restricted content. Any illegal or restricted content may be removed without notice or explanation.
+
+8. YOUR PRIVACY
+8.1 Privacy Policy
+
+Under data protection laws, we are required to provide you with certain information about who we are, how we process your personal data and for what purposes and your rights in relation to your personal data and how to exercise them. This information is provided in our Privacy Policy it is important that you read that information.
+
+8.2 Transmission Security
+
+Please be aware that Internet transmissions are never completely private or secure and that, despite our commercially reasonable efforts, any message or information you send using the Service may be read or intercepted by others, even if there is a special notice that a particular transmission is encrypted.
+
+9. INTELLECTUAL PROPERTY RIGHTS
+9.1 Intellectual Property Rights
+
+You agree that all Intellectual Property Rights in and to the Service, as between you and Tencent, are owned by Tencent, its Affiliates and/or Tencent's licensors, as the case may be. Except as expressly set forth in this Agreement and to the extent permissible under applicable law, Tencent does not grant to you any licenses or other rights, implied or otherwise, in or to Tencent's Intellectual Property Rights. The copyrights, patents and other intellectual property rights of the software on which Tencent relies in providing the Service are owned by Tencent and/or its Affiliates. Other legal rights related to or in the Service that are not mentioned in this Agreement are also reserved by Tencent. Tencent, its Affiliates and our licensors reserve all rights in connection with the Service and its content (other than your Content), including, without limitation, the exclusive right to create derivative works. In this Agreement, "Intellectual Property Rights" means all current and future worldwide rights under patent, copyright, trade secret, trademark, or moral rights laws, and other similar rights.
+
+9.2 Input and Output Content
+
+a) You may provide, transmit or upload content ("Input") and will receive output from the Service based on your Input ("Output" and together with Input, "Content"). Your use of the Service, including any Output, may also be subject to license and use restrictions set forth in terms and conditions of Third Party Materials, if applicable.
+
+b) You represent and warrant that:
+
+you have all the rights, licenses, consents, permissions, and/or authority necessary to submit and use (and allow us to use) such Input in connection with the Service;
+your Input will not contain material that is subject to copyright or other proprietary rights; and
+your Input and the generation of Output based on your Input will not breach any law or any third party's terms and conditions associated with such Input.
+
+c) By using the Service and transmitting or uploading Content, you grant Tencent a worldwide, non-exclusive, royalty-free, perpetual, irrevocable, fully sublicensable and transferable license to access, use, host, cache, store, reproduce, transfer, translate, localize, transmit, publicly display, publish, publicly perform, modify and adapt such Content as necessary for technical purposes to operate and provide the Service (including to distribute Output based on your Input). For clarity, Tencent's rights in such Content are solely as required to enable Tencent to operate and provide the Service (including to distribute Output based on your Input). We require this license to ensure that the actions we take in operating the Service are not considered legal violations (for example, copyright laws could prevent us from processing, storing, backing-up and distributing certain Content unless you give us these rights). You agree that these rights and licenses are royalty free, transferable, and sub-licensable, worldwide, irrevocable (for so long as Content is stored with us) and include a right for Tencent to make such Content available to, and pass these rights along to, service providers and others with whom we have contractual relationships as required for the operation and provision of the Service (e.g., cloud hosting providers), and to otherwise permit access to or disclose your Content to the extent specifically set forth in the Privacy Policy.
+
+d) As between you and Tencent and to the extent permitted by applicable law, you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output. You acknowledge and agree that Tencent is not the source of, does not verify or endorse, and is not responsible in any manner for Content, that you are solely responsible to retain adequate back-ups of Content, that you assume all risk associated with Content and the transmission or other use of the Content, and that you have sole responsibility for the accuracy, quality, integrity, legality, reliability, and appropriateness of Content.
+
+e) The Service includes functions that facilitate your writing and generation of software code, and may return codes and other Output to you based on your Input. You acknowledge that it is entirely within your discretion and responsibility to assess whether or not to use such Output, and how to use such Output. In the use of such Output, you should ensure that you have independent policies and mechanisms in place to review such Output, and to ensure that the Output is used in such a way that will not violate third party rights.
+
+f) You acknowledge and agree that Tencent may preserve Content, and may also disclose Content, in accordance with the Privacy Policy, if required to do so by law or in the good faith belief that that such preservation or disclosure is reasonably necessary to, among other things:
+
+comply with legal process, applicable laws or government requests,
+enforce this Agreement or our agreement(s),
+respond to claims that any content violates the rights of third parties, or
+protect the rights, property, or personal safety of Tencent, its users and/or the public.
+
+g) Tencent will not use your Content to train Tencent’s AI models and systems (“AI Training”), unless you grant your explicit opt-in consent (“AI Training Consent”). You acknowledge that that functionality of AI Functions may be limited without your AI Training Consent. In addition, while you may revoke your AI Training Consent, and once your revocation becomes effective Tencent will cease using your Content for AI Training, however this does not invalidate or prejudice any AI Training carried out in reliance on your AI Training Consent before the revocation.
+
+h) You acknowledge that Tencent reserves the right in its absolute discretion to delete, review, edit, filter or modify any Content for any reason and without notice to you, to the extent permitted by applicable law.
+
+9.3 Tencent Logo
+
+You shall not use Tencent's trademarks service marks, trade names, domain names, website names or other distinctive brand features of Tencent under any circumstances, including "Tencent" and "Tencent Cloud" etc. (hereinafter collectively referred to as "Tencent Logos"). Without the prior written consent of the Tencent, you shall not display, use, or otherwise dispose of the aforesaid Tencent Logos in any way, either alone or in combination, without Tencent's prior written consent. You shall bear all legal liabilities for any losses caused to Tencent or others by using the Tencent Logos in violation of this Agreement.
+
+9.4 Copyright Infringement
+
+If you believe that any Content uploaded or generated by the Service infringes on your Intellectual Property Rights, please report the alleged infringement by filling in the Tencent Cloud International Portal Copyright Complaint Form. This will enable us to investigate your infringement complaint quickly and efficiently. For more information, please read our Copyright Policy, which forms part of this Agreement.
+
+10. DISCLAIMERS, INDEMNITIES, LIMITATION OF LIABILITIES
+10.1 Disclaimer of Warranties
+
+TO THE MAXIMUM EXTENT PERMISSIBLE UNDER APPLICABLE LAWS, THE SERVICE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, AND NEITHER TENCENT NOR ANY OF ITS LICENSORS OR AFFILIATES, PROVIDERS OR DISTRIBUTORS, MAKE, AND TENCENT HEREBY DISCLAIMS ON BEHALF OF ITSELF AND SUCH PERSONS, ANY REPRESENTATIONS OR WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY, REGARDING TENCENT, THIRD PARTY SERVICE, ANY OTHER SERVICE OR SOFTWARE, OR ANY CONTENT SUBMITTED, UPLOADED, STORED, TRANSMITTED OR DISPLAYED BY OR THROUGH THE SERVICE, INCLUDING ANY REPRESENTATION, WARRANTY OR UNDERTAKING:
+
+a) THAT THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE OR FREE FROM VIRUSES OR OTHER HARMFUL COMPONENTS;
+
+b) THAT YOUR USE OF THE SERVICE WILL MEET YOUR REQUIREMENTS;
+
+c) THAT ANY OUTPUT OR OTHER INFORMATION OBTAINED BY YOU AS A RESULT OF YOUR USE OF THE SERVICE WILL BE ACCURATE, UP TO DATE, RELIABLE, NON-INFRINGING OR SECURE;
+
+d) THAT DEFECTS IN THE OPERATION OR FUNCTIONALITY OF THE SERVICES WILL BE CORRECTED;
+
+e) ARISING OUT OF ANY COURSE OF DEALING OR USAGE OF TRADE;
+
+f) THAT CONTENT WILL NOT BE SUBJECT TO LOSS OR DAMAGE;
+
+g) THAT THE SERVICE WILL BE SECURE OR COMPATIBLE WITH YOUR OR YOUR NETWORKS, SYSTEMS, APPLICATIONS, HARDWARE, OR DEVICES;
+
+h) THAT THE SERVICE WILL BE OF MERCHANTABLE OR SATISFACTORY QUALITY OR FIT FOR ANY PARTICULAR PURPOSE. FOR THE AVOIDANCE OF DOUBT, THE SERVICE IS NOT DESIGNED OR INTENDED FOR HIGH RISK ACTIVITIES; OR
+
+i) WITH RESPECT TO INHERENT AI RISKS OR THIRD PARTY MATERIALS.
+
+10.2 Disclaimer of Responsibility over Output
+
+The Service is not error-free and the Service may generate Output that contains errors, is incorrect, inaccurate and/or offensive, and Tencent shall not be responsible for such Output, nor does such Output represents Tencent's views. The Service does not offer advice on which you should rely. You must obtain professional or specialist advice before taking, or refraining from, any action on the basis of information obtained from the Service. Although we make reasonable efforts to update the information provided by the Service, we make no representations, warranties or guarantees, whether express or implied, that such information is accurate, complete or up to date. By using the Service and accepting this Agreement, you acknowledge and agree that we shall not be responsible or liable for any Output generated by the Service. You also acknowledge that due to the nature of our Service and generative artificial intelligence tools, the Service may generate Output for other users that is similar or the same as your Output, because the same or similar Input was provided, and you agree that such Output may be used by other users for their own individual purposes.
+
+10.3 Limitation of Liability
+
+a) Cap on Liability. SUBJECT TO SECTION 10.3c) BELOW, TO THE MAXIMUM EXTENT PERMISSIBLE UNDER APPLICABLE LAWS, THE TOTAL AGGREGATE LIABILITY OF TENCENT AND ITS AFFILIATES, ON THE ONE HAND, AND YOU ON THE OTHER, FOR ALL CLAIMS ARISING IN CONNECTION WITH THIS AGREEMENT, THE SERVICE, AND THE SOFTWARE, UNDER ANY CAUSE OF ACTION OR THEORY OF LIABILITY, AND EVEN IF A PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE, WILL BE LIMITED TO USD 100. HOWEVER, NOTHING LIMITS OR EXCLUDES EITHER PARTY'S LIABILITY FOR ANY MATTERS FOR WHICH LIABILITY CANNOT BE LIMITED OR EXCLUDED UNDER APPLICABLE LAWS.
+
+b) Disclaimer of Damages. TO THE MAXIMUM EXTENT PERMISSIBLE UNDER APPLICABLE LAWS, NEITHER TENCENT, NOR ITS AFFILIATES OR THEIR LICENSORS WILL BE LIABLE TO YOU UNDER ANY CAUSE OF ACTION OR THEORY OF LIABILITY, EVEN IF ADVISED OF THE POSSIBILITY OF THOSE DAMAGES, FOR: (i) ANY THIRD PARTY MATERIALS; (II) INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES; (iii) UNAVAILABILITY OF THE SERVICE (EXCEPT AS PROVIDED UNDER THIS AGREEMENT); (iv) YOUR APPLICATIONS OR INTELLECTUAL PROPERTY RIGHTS; OR (v) LOSS OF DATA, LOSS OF PROFIT, LOSS OF DATA, GOODWILL, REVENUE OR OPPORTUNITIES; IN EACH CASE, RELATING TO THE SERVICE AND THIS AGREEMENT.
+
+c) Unlimited Liabilities. NOTHING IN THIS AGREEMENT EXCLUDES OR LIMITS YOUR LIABILITY FOR:
+
+i) YOUR INDEMNIFICATION OBLIGATIONS UNDER SECTION 10.4;
+ii) YOUR INFRINGEMENT OF OUR, OUR AFFILIATE'S OR LICENSOR'S INTELLECTUAL PROPERTY RIGHTS; OR
+iii) ANY FRAUDULENT ACTIVITIES OR FRAUDULENT MISREPRESENTATION.
+
+d) Disclaimer of Certain Liabilities. Without limiting Section 10.3a) or 10.3b), if the Service is interrupted for any of the reasons set forth below, Tencent disclaims liability for any loss or damage to the extent caused by the following:
+
+i) causes attributable to in connection with the provision of any Third Party Materials;
+ii) causes attributable to infrastructure operators, including but not limited to technical adjustments made by telecommunications operators, damage to telecommunications/power lines, installation, modiﬁcation or maintenance of telecommunications networks/power resources by telecommunications/power operators;
+iii) your use of the Service in a manner not authorized by Tencent;
+iv) improper operation by you or failures in your computer software, systems or hardware; or
+v) any other circumstances not attributable to the fault of, outside the control of, or not reasonably foreseeable by, Tencent.
+10.4 Your Indemnification
+
+a) You will defend, indemnify and hold harmless Tencent, its Aﬃliates, and each of their respective agents, licensors, employees, oﬃcers and directors from and against any Claims to the extent they arise out of or in relation to:
+
+i) your Content, including without limitation, their alleged violation, infringement or misappropriation of the Intellectual Property Rights or other rights of any third party;
+ii) you use (or misuse) of the Service, including without limitation any (A) alleged violation of applicable data protection laws by you, Tencent, or its Affiliate(s) in connection with such use; (B) alleged violation of any other applicable laws (including laws related to recording others) and regulations by you, Tencent, or its Affiliates in connection with such use; (C) alleged violation of third party rights by you, Tencent, or its Affiliates; and/or (D) such use that would constitute a violation of this Agreement; and/or
+iii) the use of any products, services, data, software, hardware or business processes not provided by or on behalf of Tencent, its Affiliates or.
+
+b) Tencent will provide you with: (1) prompt written notice of any Claims; and (2) reasonable assistance, at your expense, to defend or settle the Claim. Tencent and its Affiliates retain the right to appoint additional counsel of their choice to participate in defending or settling the Claims, in which case the counsel retained by you will consult with the counsel appointed by Tencent or its Affiliates and will give them the opportunity to provide comments on defense and settlement strategies.
+
+c) At your option, you may settle any such Claims, provided that any settlement requiring Tencent or its Affiliates or their agents, licensors, employees, oﬃcers or directors to admit liability, pay money, or take or refrain from taking any action will require Tencent's or the Affiliate's prior written consent (not to be unreasonably withheld, conditioned, or delayed).
+
+d) Without limiting the foregoing, you agree to pay any final judgment entered against Tencent or its Affiliates or their licensors, employees, oﬃcers and directors including without limitation any damages, costs, penalties, fees, disgorgement, restitution, and interest, or in the event of settlement, any settlement amounts agreed to by you, as a result of those Claims. You also agree to reimburse us for any costs and reasonable attorney's fees spent responding to any third-party subpoena, legal order or other processes associated with such Claims.
+
+10.5 Independent Allocations of Risk
+
+EACH PROVISION OF THIS AGREEMENT THAT PROVIDES FOR A LIMITATION OF LIABILITY, DISCLAIMER OF WARRANTIES, OR EXCLUSION OF DAMAGES IS INTENDED TO ALLOCATE THE RISKS OF THIS AGREEMENT BETWEEN YOU AND TENCENT. THIS ALLOCATION IS REFLECTED IN THE FEES CHARGED BY TENCENT (IF ANY) TO YOU AND IS AN ESSENTIAL ELEMENT OF THE BASIS OF THE BARGAIN BETWEEN YOU AND TENCENT. EACH OF THESE PROVISIONS IS SEVERABLE AND INDEPENDENT OF ALL OTHER PROVISIONS OF THIS AGREEMENT, AND EACH OF THESE PROVISIONS WILL APPLY EVEN IF THE LIMITED REMEDIES IN THIS AGREEMENT HAVE FAILED OF THEIR ESSENTIAL PURPOSE.
+
+11. TERM, TERMINATION AND SUSPENSION
+11.1 Term
+
+The term for this Agreement will commence when you accept this Agreement and download the Service and shall continue until terminated as set forth below (the "Term").
+
+11.2 Termination, suspension and/or modification by Tencent
+
+a) Termination for cause. To the extent permitted under applicable laws, Tencent may, at its sole discretion and without assuming any liability, terminate this Agreement, or suspend, modify, restrict or terminate your access to or use of the Service or any aspect of the Service, in whole or in part, immediately upon written notice to you if:
+
+i) you violate any provisions of this Agreement and failed to rectify the breach after being notified by Tencent;
+ii) Tencent reasonably believes that you have violated any applicable laws, or engaged in any illegal, fraudulent or deceptive activity, in connection with the use of the Service; or
+iii) other circumstances stipulated in this Agreement.
+
+b) Termination for convenience. Tencent has the right to terminate this Agreement for convenience and without liability by providing written notice to you 30 days in advance of the termination. You understand and agree that Tencent will not assume any obligations to you with respect to the Service for such termination.
+
+11.3 Effects of Termination
+
+If we end your rights to use the Service:
+
+a) you must stop all activities authorized by this Agreement, including your use of the Service;
+
+b) you must delete or remove the Service from your device; and
+
+c) you will no longer have further access to your Account.
+
+Any rights, obligations, causes of action or liabilities incurred or accrued prior to the termination of this Agreement will not be affected.
+
+11.4 Termination by you
+
+You may terminate your use of the Service by uninstalling the Service and deleting your Account.
+
+12. REMEDIES
+12.1 Remedies for Breach
+
+You acknowledge and agree that if Tencent discovers, on its own or based on information provided by competent authorities or complaints filed by rights holders, that you have violated applicable laws, regulations or rules, or breached the Agreement, Tencent will be entitled to take any one or more of the following actions at its own discretion:
+
+a) issue warnings;
+
+b) restrict your use of some or all of the functions of the Service;
+
+c) suspend or terminate your use of the corresponding Account (hereinafter referred to as "blocking the account") or prohibit you from re-registering an Account without prior notice to you;
+
+d) in case of serious violations or breaches, Tencent will have the right to terminate the provision of Service to you and terminate the Agreement without prior notice to you; and
+
+e) pursuing other liabilities against you in accordance with any applicable laws and regulations.
+
+12.2 Discretion for Penalties
+
+We will retain the sole discretion as to when and how to impose warnings, penalties and/or disciplinary actions. We consider the severity of the violation and the number of infractions in making our determination; however any determination shall be at our reasonable discretion.
+
+12.3 Limitation of Tencent's Liability
+
+Tencent shall not be responsible or held liable for any damages or losses, including but without limitation to the suspension of your business operations, deletion of data, etc., arising from the actions taken by Tencent hereunder due to your breach of this Agreement.
+
+13. EXPORT CONTROL AND SANCTIONS
+13.1 Compliance
+
+You agree not to engage in any activities in connection with this Agreement that would breach sanctions or export control laws or risk placing Tencent or its Affiliates in breach of any sanctions or export control laws, or becoming a target of sanctions.
+
+13.2 Definitions
+
+In this Section 13, capitalized terms have the following definitions:
+
+a) "OFAC" means the U.S. Department of Treasury's Office of Foreign Assets Control.
+
+b) "Sanctions" means the economic sanctions laws and regulations of the People's Republic of China ( "PRC"), the United States ("U.S."), the European Union ("EU"), EU member states, the United Kingdom, the United Nations ("UN"), and all applicable government authorities including, without limitation, the economic sanctions rules and regulations implemented under statutory authority and/or the U.S. President's Executive Orders and administered by the OFAC, and the Anti-Foreign Sanctions Law of the People's Republic of China and relevant rules and regulations.
+
+c) "Sanctioned Jurisdiction" means the jurisdictions that are subject to comprehensive U.S. sanctions administered by OFAC (currently, Cuba, Iran, North Korea, Syria, the Crimea region, and the so-called Donetsk People's Republic and Luhansk People's Republic).
+
+d) "Sanctioned Person" means any individual, entity, or government that is the target of sanctions administered by: PRC, the U.S. (including, without limitation, those persons on OFAC's Specially Designated Nationals and Blocked Persons List as well as any individual or entity that is located or resident in or organized under the laws of a Sanctioned Jurisdiction), the EU, EU member states, the United Kingdom, the UN and/or any other relevant authority.
+
+13.3 Further Covenants
+
+You hereby agree to the following representations and covenants, in each case below with respect to your use of the Service under this Agreement:
+
+a) You hereby represent and warrant to Tencent that you are not, as of the date of this Agreement, any of the following (i)-(iii) and that if, after the date of this Agreement, you become any of the following (i)-(iii), you shall immediately notify Tencent in writing: (i) are or acting on behalf of a Sanctioned Person, (ii) controlled or owned 50% or more (directly or indirectly) in the aggregate by one or more Sanctioned Persons, or (iii) located or resident in or organized under the laws of a Sanctioned Jurisdiction.
+
+b) In your use of the Service, you shall not: (i) violate Sanctions, (ii) use the Service in any way that involve, relate to, or are conducted on behalf of or for the benefit of a Sanctioned Person, and (iii) without limiting any of the foregoing (i)-(ii), with respect to your use of the Service provided under this Agreement, transact with or otherwise do business with or involving any (a) Sanctioned Jurisdiction or (b) Sanctioned Person.
+
+c) You covenant and agree that you shall immediately notify Tencent in writing if you, with respect to your use of Service under the Agreement, become aware of any (i) actual or potential violation of Sanctions by you or (ii) the involvement of any (a) Sanctioned Jurisdiction or (b) Sanctioned Person, in each case relating to your use of the Service.
+
+d) To the extent that Tencent, in its sole discretion, determines that a breach of Section 13 of this Agreement by you has occurred or will occur, Tencent shall be entitled, in its sole discretion, to terminate this Agreement with you and cease its provision of Service to you, in each case with immediate effect, or take any other remedial actions at the discretion of Tencent. If Tencent terminates this Agreement or take any other remedial actions pursuant to this provision, it shall not be obliged to make any payments, indemnify, or otherwise provide compensation to you for the termination or the remedial actions.
+
+e) Tencent has the right to perform its reporting obligations to any relevant authority pursuant to applicable laws.
+
+14. GOVERNING LAW AND DISPUTE RESOLUTION
+
+Except where any applicable provisions in the Jurisdiction-specific Addendum provide otherwise:
+
+a) this Agreement, the rights and obligations of the parties under this Agreement, any matters arising out of or in connection with this Agreement or their subject matter or formation, will be governed by and construed in accordance with the laws of Singapore (excluding any conflict of law rules); and
+
+b) except for the right of either Tencent or the User to apply to any court of competent jurisdiction for a temporary restraining order, a preliminary injunction, or other equitable relief to preserve the status quo or prevent irreparable harm, both Tencent and the User agree that any dispute, controversy, difference or claim arising out of or relating to this Agreement, including the existence, validity, interpretation, performance, breach or termination thereof or any dispute regarding non-contractual obligations arising out of or relating to it shall be referred to and finally resolved by arbitration by the Singapore International Arbitration Centre (“SIAC”) under the SIAC Arbitration Rules in force when the Notice of Arbitration is submitted. The law of this arbitration clause shall be Singapore law. The seat of arbitration shall be Singapore. The number of arbitrators shall be one. The arbitration proceedings shall be conducted in English.
+
+15. FORCE MAJEURE
+15.1 Definition
+
+In this Agreement, "Force Majeure" refers to uncontrollable, unforeseeable and insurmountable events of one party, including but not limited to: natural disasters (earthquakes, floods, fires, etc.), acts of government, promulgation or change of laws, regulations or policies (including trade laws, sanctions, restrictive measures or regulations), strikes or unrest, military conflicts or paramilitary conflicts, terrorist activities, martial law, riots, large-scale outbreaks of epidemic infectious diseases, or any significant change of circumstances (including changes in applicable laws which would render provision of Service potentially illegal or different from that contemplated by the parties at time of the acceptance of this Agreement or ﬁrst download, install, access, or use the Service), foreseeable or otherwise.
+
+15.2 Consequences
+
+If the performance of this Agreement is prevented, delayed, hindered or restricted, or Tencent breaches this Agreement due to an event of Force Majeure, in no case shall Tencent be liable for the breach of this Agreement, or be otherwise liable for any such failure or delay in the performance of such obligations. If the Force Majeure persist for more than 15 consecutive days, Tencent may terminate this Agreement, without assuming any liability, by immediate written notice to you.
+
+16. MISCELLANEOUS
+16.1 Notice
+
+Any notice required or permitted to be given under this Agreement will be effective if it is in writing and sent by certified or registered mail, or insured courier, return receipt requested, to the appropriate party at the address set forth above (in the case of Tencent) and any address registered with us (in your case) and with the appropriate postage affixed. Either party may change its address for receipt of notice by notice to the other party in accordance with this Section. Notwithstanding the foregoing, any notices, communications, or disclosures sent electronically by Tencent through email, web announcements, site messages, mobile phone text messages or regular mail transmission or otherwise, shall be deemed a valid and binding notice required or permitted to be given under this Agreement and shall be deemed to have been delivered to you on the date of sending.
+
+16.2 Assignment
+
+Neither party may assign or otherwise transfer, by operation of law or otherwise, its rights or obligations under this Agreement without the prior written consent of the other party, except that Tencent may freely assign or otherwise transfer this Agreement without your consent: (i) in connection with a merger, acquisition or sale of all or substantially all of Tencent's assets; or (ii) to any aﬃliate or as part of a corporate reorganization. Upon such assignment or transfer taking effect, the successor or permitted assigns (as the case may be) shall assume assignor/transferor's liability and assignor/transferor is released from the same. Any attempted assignment or transfer in violation of the foregoing restriction will be void. Subject to the foregoing, this Agreement will be binding upon and inure to the beneﬁt of the parties and their successors and permitted assigns.
+
+16.3 Waiver and Severability
+
+The waiver by either party of any breach of this Agreement does not waive any other breach. Neither party will be treated as having waived any rights by not exercising (or delaying the exercise of) any rights under this Agreement. If any part of this Agreement is unenforceable, the remaining portions of this Agreement will remain in full force and eﬀect.
+
+16.4 No Third-Party Beneficiaries
+
+This Agreement is not intended to confer any beneﬁts on any third party except to the extent that it expressly states that it does.
+
+16.5 Entire Agreement
+
+This Agreement (together with the MSA, the AI Service Terms and Service Rules) constitutes the whole legal agreement between you and us and govern your use of the Service and supersede and extinguish any prior drafts, agreements, undertakings, representations, warranties, promises, assurances and arrangements of any nature whatsoever, whether or not in writing.
+
+16.6 Language
+
+We may translate this Agreement into other languages. In the event of any inconsistency between this English language version and any other language version, this English language version shall prevail.
+
+16.7 Open source Attributions
+
+This Service incorporates open source components that are subject to the terms of the respective open source licenses. Details of such open source licenses and attributions are available here.
+
+Jurisdiction-specific Addendum
+United States
+
+The following provisions will apply and govern if you access or use the Service from the U.S.:
+
+1. Arbitration Agreement Disclaimer. THIS AGREEMENT CONTAINS AN ARBITRATION AGREEMENT THAT REQUIRES THE USE OF ARBITRATION ON AN INDIVIDUAL BASIS TO RESOLVE DISPUTES RATHER THAN A JURY OR ANY OTHER COURT PROCEEDINGS, OR CLASS ACTIONS OF ANY KIND. THE ARBITRATION AGREEMENT IS SET FORTH IN THE “DISPUTE RESOLUTION” SECTION OF THESE U.S.-SPECIFIC TERMS.
+
+2. Acceptance. BY CLICKING “I ACCEPT,” YOU AGREE THAT YOU HAVE READ AND UNDERSTOOD, AND, AS A CONDITION TO YOUR USE OF THE SERVICE, YOU AGREE TO BE BOUND BY THIS AGREEMENT. 
+
+3. Governing Law. The governing law that applies to the Agreement and your use of the Service is the substantive laws of the state of California, excluding its conflicts of law principles.
+
+4. Dispute Resolution.
+
+(a) Except for the right of either party to apply to any court of competent jurisdiction for a temporary restraining order, a preliminary injunction, or other equitable relief to preserve the status quo or prevent irreparable harm, any dispute, controversy or claim arising in any way out of or in connection with this Agreement, including the existence, validity, interpretation, performance, breach or termination of this Agreement, or any dispute regarding pre-contractual or non-contractual rights or obligations arising out of or relating to it (“Dispute”) will be referred to and finally resolved by binding arbitration. Arbitration is less formal than a lawsuit in court. Arbitration uses a neutral arbitrator instead of a judge or jury, may allow for more limited discovery than in court, and can be subject to very limited review by courts. Arbitrators can award the same damages and relief that a court can award. This agreement to arbitrate disputes includes all claims arising out of or relating to any aspect of this Agreement, whether based in contract, tort, statute, fraud, misrepresentation, or any other legal theory, and regardless of whether a claim arises during or after the termination of this Agreement. YOU UNDERSTAND AND AGREE THAT, BY ENTERING INTO THIS AGREEMENT, YOU AND TENCENT ARE EACH WAIVING THE RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE IN A CLASS ACTION.
+
+(b) Any arbitration between you and Tencent will be administered by the American Arbitration Association (“AAA”) under its rules in force when the Notice of Arbitration is submitted in accordance with those Rules (“Rules”), which Rules are deemed to be incorporated by reference into this clause and as may be amended by the rest of this clause. The Rules and filing forms are available online at www.adr.org or by calling the AAA at 1-800-778-7879. The Federal Arbitration Act and federal arbitration law apply to this Agreement. All arbitration proceedings between the parties will be confidential unless otherwise agreed by the parties in writing.
+
+(c) Tencent will reimburse you for your payment of the filing fee, unless your claim is for more than $10,000, in which case the payment of any fees will be decided by the Rules. Any arbitration hearing will take place at a location to be agreed upon in Santa Clara County, California, but if the claim is for $10,000 or less, you may choose whether the arbitration will be conducted: (a) solely on the basis of documents submitted to the arbitrator; (b) through a non-appearance based telephone hearing; or (c) by an in-person hearing as established by the Rules in the county (or parish) of the address of your registration information. The arbitration tribunal will consist of three arbitrators to be appointed in accordance with the Rules. Arbitration will be conducted in English. Judgment upon the award rendered by the arbitrators may be entered in any court of competent jurisdiction.
+
+(d) YOU AND TENCENT AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING. Further, unless both you and Tencent agree otherwise, the arbitrator may not consolidate more than one person’s claims, and may not otherwise preside over any form of a representative or class proceeding.
+
+You can decline this agreement to arbitrate by providing written notice to us no more than 60 days following your initial acceptance of this Agreement. Your written notice must be sent to workbuddy_ai@tencent.com and must include: (1) your name, (2) your address, (3) the email address associated with your online account with us, if you have one, and (4) a clear statement that you do not wish to resolve disputes with us through individual arbitration.
+
+5. DMCA. The Digital Millennium Copyright Act of 1998 (the "DMCA") provides recourse for copyright owners who believe that material appearing on the Internet infringes their rights under U.S. copyright law. If you believe in good faith that materials available via the Service infringe your copyright, you (or your agent) may send us a "Notification of Claimed Infringement" requesting that the material be removed, or access to it blocked. The notice must include the following information:
+
+A physical or electronic signature of a person authorized to act on behalf of the owner of the works that have been allegedly infringed;
+Identification of the copyrighted work alleged to have been infringed (or if multiple copyrighted works located on the Service are covered by a single notification, a representative list of such works);
+Identification of the specific material alleged to be infringing or the subject of infringing activity, and information reasonably sufficient to allow us to locate the material on the Service;
+Your name, address, telephone number, and email address (if available);
+A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and
+A statement that the information in the notice is accurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
+
+If you believe in good faith that a notice of copyright infringement has been wrongly filed against you, the DMCA permits you to send us a counter-notice.
+
+Notices and counter-notices must meet the then-current statutory requirements imposed by the DMCA; see http://www.loc.gov/copyright/ for details. Notices and counter-notices with respect to the Service should be sent to cloud_complaint@tencent.com, with a copy to copyrightnotice@tencent.com, or:
+
+Tencent Cloud
+
+Attention: Legal Department (Copyright Notification)
+
+2747 Park Blvd.
+
+Palo Alto, CA 94306
+
+Consult your legal advisor and see 17 U.S.C. § 512 before filing a notice or counter-notice as there are penalties for false claims under the DMCA.
+
+6. California Users. If you are a California resident, the following state-specific terms apply to you:
+
+You shall and hereby do waive California Civil Code Section 1542, which says, "A general release does not extend to claims which the creditor does not know or suspect to exist in his or her favor at the time of executing the release, which, if known by him or her must have materially affected his or her settlement with the debtor."
+
+Under California Civil Code Section 1789.3, California users are entitled to the following consumer rights notice: If you have a question or complaint regarding the Service, please send an email to workbuddy_ai@tencent.com. California residents may reach the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs by mail at 1625 North Market Blvd., Sacramento, CA 95834, or by telephone at (916) 445-1254 or (800) 952-5210.
