@@ -56,7 +56,7 @@ export default function AppLandingPage() {
             <span className="flex items-center gap-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/brand/logo.svg"
+                src="/brand/logo.png"
                 alt=""
                 width={40}
                 height={40}

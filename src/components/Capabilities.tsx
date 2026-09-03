@@ -156,6 +156,9 @@ export function Capabilities() {
             {/* Laptop + video */}
             <div className="relative">
               <img src="/cap/mac.png" alt="MacBook" className="w-full" />
+              {/* Screen rect measured from mac.png (3072×2346): opaque black
+                  area x 436→3072, y 76→2067. Video (3:2) covers it with a ~40px
+                  inset gap on all sides so it doesn't touch the bezel edges. */}
               <video
                 key={tab.id}
                 ref={videoRef}
@@ -165,7 +168,7 @@ export function Capabilities() {
                 muted
                 loop
                 playsInline
-                className="absolute left-[13%] top-[7%] w-[74%] object-cover"
+                className="absolute left-[15.5%] top-[4.94%] h-[81.5%] w-[83.2%] object-cover"
               />
             </div>
           </div>
