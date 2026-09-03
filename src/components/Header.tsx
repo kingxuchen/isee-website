@@ -20,8 +20,8 @@ import { cn } from "@/lib/utils";
  * Raw:  docs/research/raw/header.json
  * ------------------------------------------------------------------ */
 
-const LOGO_SRC = "/brand/logo.svg";
-/** Source is 40×40; the text wordmark is rendered alongside it. */
+const LOGO_SRC = "/brand/logo.png";
+/** Source is 512×512; the text wordmark is rendered alongside it. */
 const LOGO_SIZE = { width: 40, height: 40 };
 
 const NAV_ITEMS = [

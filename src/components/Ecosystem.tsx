@@ -73,7 +73,8 @@ export function Ecosystem() {
             iSee 连接打通办公生态
           </h2>
           <p className="mx-auto max-w-[720px] font-round text-[14px] leading-[22px] font-medium text-[#5A5A5A] md:text-[16px] md:leading-[25.6px]">
-            iSee 可以无缝连接办公 IM、文档、邮箱、会议、知识库等常用办公工具，打通办公生态
+            iSee 可以无缝连接办公
+            IM、文档、邮箱、会议、知识库等常用办公工具，打通办公生态
           </p>
         </div>
 
@@ -122,7 +123,7 @@ export function Ecosystem() {
           {/* Centre iSee icon — 130 */}
           <div className="absolute top-1/2 left-1/2 z-[3] flex h-[calc(130px*var(--orbit-scale))] w-[calc(130px*var(--orbit-scale))] -translate-x-1/2 -translate-y-1/2 items-center justify-center">
             <Image
-              src="/brand/logo.svg"
+              src="/brand/logo.png"
               alt="iSee"
               width={130}
               height={130}

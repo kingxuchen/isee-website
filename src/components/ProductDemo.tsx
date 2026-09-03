@@ -54,11 +54,7 @@ export function ProductDemo() {
           {/* Sidebar */}
           <aside className="hidden flex-col gap-1 bg-[#F3F3F3] p-4 md:flex">
             <div className="mb-3 flex items-center gap-2 self-start">
-              <img
-                src="/brand/logo.svg"
-                alt=""
-                className="h-6 w-6 shrink-0"
-              />
+              <img src="/brand/logo.png" alt="" className="h-6 w-6 shrink-0" />
               <span className="font-heading text-sm font-bold text-[#191A23]">
                 iSee
               </span>
@@ -127,11 +123,7 @@ export function ProductDemo() {
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <img
-                  src="/demo/work-face.svg"
-                  alt="iSee"
-                  className="h-6 w-6"
-                />
+                <img src="/demo/work-face.svg" alt="iSee" className="h-6 w-6" />
                 <span className="text-[13px] font-semibold text-[#191A23]">
                   iSee
                 </span>
