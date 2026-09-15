@@ -1,7 +1,8 @@
 .git
-.next
-out
-node_modules
+**/.next
+**/out
+**/node_modules
+.scratch
 .pi
 .tmp*
 .env
@@ -9,11 +10,10 @@ node_modules
 *.tsbuildinfo
 .DS_Store
 Thumbs.db
-deploy
-docs
-scripts
-Dockerfile
-.dockerignore
+apps/isee-china/deploy
+apps/isee-china/docs
+apps/isee-china/scripts
 README.md
 AGENTS.md
 CLAUDE.md
+CONTEXT.md

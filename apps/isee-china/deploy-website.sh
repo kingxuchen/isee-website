@@ -19,7 +19,7 @@ SERVER_USER="${SERVER_USER:-root}"
 SERVER_HOST="${SERVER_HOST:-192.168.229.50}"
 REMOTE_DIR="${REMOTE_DIR:-/data/isee-website}"
 CONTAINER="${CONTAINER:-isee-website}"
-IMAGE="${IMAGE:-isee-website:latest}"
+IMAGE="${IMAGE:-isee-china:latest}"
 # 宿主机端口：仅绑回环，给下面的健康检查用。对外访问统一走 isee-nginx
 # （仓库副本 deploy/prod/nginx.conf，线上在 /opt/isee/nginx/nginx.conf）。
 # nginx 在同网络内用容器名 isee-website:3000 反代，不依赖这个宿主机端口。
@@ -42,13 +42,15 @@ log()  { echo -e "${GREEN}[✓]${NC} $1"; }
 warn() { echo -e "${YELLOW}[!]${NC} $1"; }
 err()  { echo -e "${RED}[✗]${NC} $1"; exit 1; }
 
-LOCAL_DIR="$(cd "$(dirname "$0")" && pwd)"
+# Script lives at apps/isee-china/; Workspace root is two levels up.
+WORKSPACE_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 SSH_DEST="$SERVER_USER@$SERVER_HOST"
 
 echo "=========================================="
-echo "  isee-website 部署"
+echo "  isee-website 部署（App: isee-china）"
 echo "  服务器: $SSH_DEST"
 echo "  目录:   $REMOTE_DIR"
+echo "  镜像:   $IMAGE"
 echo "  端口:   127.0.0.1:$HOST_PORT -> 3000（仅健康检查，对外走 nginx）"
 echo "=========================================="
 
@@ -88,22 +90,23 @@ expect eof
 
 # ---------- 2. 同步源码 ----------
 sync_source() {
-    log "同步源码到 $SSH_DEST:$REMOTE_DIR/app ..."
+    log "同步 Workspace root 到 $SSH_DEST:$REMOTE_DIR/app ..."
     ssh "$SSH_DEST" "mkdir -p $REMOTE_DIR/app"
     rsync -az --delete \
         --exclude '.git' \
-        --exclude '.next' \
-        --exclude 'out' \
-        --exclude 'node_modules' \
+        --exclude '.scratch' \
+        --exclude '**/.next' \
+        --exclude '**/out' \
+        --exclude '**/node_modules' \
         --exclude '.pi' \
         --exclude '.tmp*' \
         --exclude '.env' \
         --exclude '.env.*' \
         --exclude '*.tsbuildinfo' \
         --exclude '.DS_Store' \
-        --exclude 'deploy' \
-        --exclude 'docs' \
-        "$LOCAL_DIR/" "$SSH_DEST:$REMOTE_DIR/app/"
+        --exclude 'apps/isee-china/deploy' \
+        --exclude 'apps/isee-china/docs' \
+        "$WORKSPACE_ROOT/" "$SSH_DEST:$REMOTE_DIR/app/"
     log "源码同步完成"
 }
 
@@ -111,7 +114,7 @@ sync_source() {
 build_image() {
     log "服务器端构建镜像（首次需下载依赖，可能几分钟）..."
     # pipefail 保证 tail 不吞掉 docker build 的失败退出码
-    ssh "$SSH_DEST" "set -o pipefail; cd $REMOTE_DIR/app && docker build -t $IMAGE . 2>&1 | tail -20" \
+    ssh "$SSH_DEST" "set -o pipefail; cd $REMOTE_DIR/app && docker build -f apps/isee-china/Dockerfile -t $IMAGE . 2>&1 | tail -20" \
         || err "镜像构建失败，见上方日志"
     # 清理历史悬空镜像，避免磁盘膨胀
     ssh "$SSH_DEST" "docker image prune -f >/dev/null 2>&1 || true"

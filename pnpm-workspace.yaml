@@ -1,5 +1,5 @@
 packages:
-  - "."
+  - "apps/*"
 
 # Disable pnpm 11.20's default 24h minimum-release-age supply-chain policy
 # (blocks installing freshly published packages like lucide-react@1.37.0)
