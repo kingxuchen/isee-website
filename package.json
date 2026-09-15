@@ -7,10 +7,15 @@
   },
   "scripts": {
     "dev:isee-china": "pnpm --filter isee-china dev",
+    "dev:isee-international": "pnpm --filter isee-international dev",
     "build:isee-china": "pnpm --filter isee-china build",
+    "build:isee-international": "pnpm --filter isee-international build",
     "start:isee-china": "pnpm --filter isee-china start",
+    "preview:isee-international": "pnpm --filter isee-international preview",
+    "test:isee-international": "pnpm --filter isee-international test",
     "start:vps:isee-china": "pnpm --filter isee-china start:vps",
     "lint:isee-china": "pnpm --filter isee-china lint",
+    "typecheck:isee-international": "pnpm --filter isee-international typecheck",
     "deploy:isee-china": "apps/isee-china/deploy-website.sh"
   }
 }

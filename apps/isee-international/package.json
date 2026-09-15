@@ -1,0 +1,48 @@
+{
+  "name": "isee-international",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "deploy": "pnpm build && wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/vite-plugin": "1.36.3",
+    "@cloudflare/workers-types": "4.20260627.1",
+    "@tanstack/react-router": "1.170.16",
+    "@tanstack/react-start": "1.168.26",
+    "framer-motion": "12.35.2",
+    "github-slugger": "^2.0.0",
+    "lucide-react": "1.7.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "react-markdown": "^10.1.0",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-pretty-code": "0.14.3",
+    "rehype-slug": "^6.0.0",
+    "remark-directive": "^4.0.0",
+    "remark-gfm": "^4.0.1",
+    "shiki": "4.0.2",
+    "unified": "^11.0.5",
+    "wrangler": "4.90.0",
+    "yaml": "2.8.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.2.1",
+    "@types/mdast": "4.0.4",
+    "@types/node": "22.19.6",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "^4.5.1",
+    "tailwindcss": "4.2.1",
+    "typescript": "^5.9.3",
+    "vite": "7.3.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "4.1.10"
+  }
+}

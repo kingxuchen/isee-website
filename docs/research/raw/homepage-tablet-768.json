@@ -1,0 +1,1273 @@
+{
+  "viewport": {
+    "width": 768,
+    "height": 1024,
+    "dpr": 1
+  },
+  "pageHeight": 6227,
+  "bodyClasses": "antialiased bg-background text-foreground",
+  "fontFamilies": [
+    "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+  ],
+  "sections": {
+    "page": {
+      "selector": "body",
+      "tag": "body",
+      "classes": "antialiased bg-background text-foreground",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 6227.609375
+      },
+      "text": "Paseo\nBlog\nDocs\nChangelog\nDownload\nSponsor\n17.3k\nThe control plane\nfor coding agents\n\nRun any coding agent from anywhere.\nSelf-hosted, multi-provider, open source\n\nDownload for Mac\nSupports\n+34 more\nBuild\nReview\nShip\nExtend\nNew workspace\nHistory\nSchedules\nRelease Radar\nPinned\nS\nskills / dotfiles\n1h\nWorkspaces\nReady to review\nPaseo homepage\nnow\n3981\n·\npassed\nAdd automatic page titles\n12m\n761\n·\npassed\nWorking\nFix commit safe area in emulators\n4m\nImprove editor typing latency\n18m\nDone\nRelease v0.7.0-beta.2\n2h\nPreserve focus between pages\n3h\n750\n·\npassed\nDesign semantic permission sy…\n7h\nmy-server\n·\n3981\n·\npassed\nPlan modules and abstractions\n1d\n3884\n·\npassed\nResume in-progress work\n3d\nUndefined task\n3d\nDiagnose cloud/Codex issue re…\n4d\nDiagnose create_workspace 37…\n4d\nDiagnose tap interactions\n4d\nClarify task requirements\n5d\nTask for abcdefghi\n5d\nAdd project\nPaseo homepage\npaseo\nCommit\nCodex\nClaude Code\nnpm run dev\nhttps://localhost:3000\n\nThe homepage is built. It leads with Paseo’s actual value, then uses the product itself to prove the story instead of falling back to generic dashboard art.\n\n·\nReworked the hero around “The control plane for coding agents.”\n·\nBuilt desktop and mobile scenes from real Paseo workflows and assets.\n·\nAdded believable agent, review, plugin, shipping, and host states.\n·\nMatched the app’s tabs, explorer, diff tree, controls, and layout rails.\nWorked for 31m 46s\nCreate a PR\n\nPR opened: Rebuild the homepage around live Paseo workflows.\n\nhttps://github.com/getpaseo/paseo/pull/3981\n·\nShips the new product-led hero and interactive desktop mockup.\n·\nIncludes responsive mobile proof and the supporting homepage story.\n·\nFormatting, typecheck, and lint are clean.\n\nReady for review.\n\nWorked for 1m 18s\n6/6 tasks\n3 subagents\n+1.9k\n-684\nMessage the agent, tag @files, or use /commands and /skills\nGPT-5.6-Sol\nMedium\nFull access\nFiles\nChanges\n3981\nmain\nUncommitted\n+1.9k\n-684\npackages/website/src\n+1.9k\n-684\ncomponents\n+1.5k\n-512\nmockup\n+1.3k\n-389\nmobile\n+480\n-231\natoms.tsx\n+56\n-18\nchat.tsx\n+155\n-74\nframe.tsx\n+91\n-0\nlegacy-tabs.tsx\n+0\n-139\ndesktop\n+612\n-143\nwindow.tsx\n+167\n-42\ntitlebar.tsx\n+117\n-61\ntoolbar.tsx\n+204\n-0\nold-tabs.tsx\n+0\n-40\nshared\n+194\n-15\nicons.tsx\n+62\n-15\nTS\ngeometry.ts\n+17\n-0\nTS\nstates.ts\n+115\n-0\nhero-mockup.tsx\n+89\n-52\nroutes\n+211\n-96\nindex.tsx\n+44\n-70\ndownload.tsx\n+167\n-0\nstyles\n+68\n-76\nCSS\nmockup.css\n+68\n-47\nCSS\nlegacy.css\n+0\n-29\nCommits\n\nWhen you want to step away from your desk, you can.\n\nThe native mobile app has full feature parity with desktop.\n\n18:54\nNew workspace\nHistory\nSchedules\nPinned\nS\nskills / dotfiles\n1h\nWorkspaces\nReady to review\nPaseo homepage\n3981\n·\npassed\nnow\nAdd automatic page titles\n761\n·\npassed\n12m\nWorking\nFix commit safe area in emulators\n4m\nImprove editor typing latency\n18m\nDone\nRelease v0.7.0-beta.2\n2h\nPreserve focus between pages\n750\n·\npassed\n3h\nDesign semantic permission sy…\nmy-server\n·\n3981\n·\npassed\n7h\nPlan modules and abstractions\n3884\n·\npassed\n1d\nResume in-progress work\n3d\nUndefined task\n3d\nDiagnose cloud/Codex issue re…\n4d\nDiagnose create_workspace 37…\n4d\nDiagnose tap interactions\n4d\nClarify task requirements\n5d\nTask for abcdefghi\n5d\nAdd project\n18:53\nPaseo\npaseo ·\nMohameds-MacBook-Pro.l…\n/release-beta\nShell\nsed -n '321,680p' docs/release.md\nShell\n\"for p in highlight relay protocol client plu…\nShell\nnpx eas workflow:view 01a0493d-01cd-77…\nShell\ngh release view v0.7.0-beta.2 --json name…\nShell\ngh run list --commit 4e60c2880b4c9ebd…\nShell\ndocker buildx imagetools inspect ghcr.io/g…\n\nStill in progress:\n\n•\nnpm tags and release notes are correct\n•\nDocker beta image is published; latest remains unchanged\n•\niOS build succeeded; TestFlight distribution/Beta App Review is running\n•\nDesktop and Android assets are still building\n\nThe heartbeat remains active.\n\n+2,173\n-54\nMessage, @files, /commands\nGPT-5.6-Sol\nMedium\n18:55\nFiles\nChanges\n3981\nmain\nUncommitted\n+2,173\n-54\natoms.tsx\npackages/website/src/componen…\n+56\n-18\n@@ -7,20 +7,28 @@\n7\ntype DotTone = \"success\" | \"danger\" | \"idle\";\n7\nexport type DotTone =\n8\n  | \"success\"\n9\n  | \"danger\"\n10\n  | \"warning\"\n11\n  | \"running\"\n12\n  | \"idle\";\n13\n14\ninterface DiffStatProps {\n15\n  add: string;\n16\n  remove: string;\n17\n}\n18\n19\n/** Compact diff summary. */\n20\nexport function DiffStat({\n21\n  add,\n22\n  remove,\n23\n}: DiffStatProps) {\n24\n  return (\n25\n    <span className=\"flex gap-1\">\n25\n    <span className=\"flex gap-[4px]\">\n26\n      <span className=\"text-mock-success\">\n27\n        +{add}\n28\n      </span>\n29\n      <span className=\"text-mock-danger\">\n30\n        -{remove}\n31\n      </span>\n32\n    </span>\n33\n  )\n33\n  );\n34\n}\nCommits\nLoved by developers\n\nSee what developers are saying about Paseo\n\n@ceeebeeebeee\n\nwithout a doubt the most slept on orchestrator right now. Open source, every OS, and a mobile experience that truly blew me away.\n\n@erikksherman\n\ncontrol agents from anywhere - mac, phone, web. one simple change transformed my health while INCREASING productivity\n\n@amankumarjagdev\n\nI have tried 100s of agent orchestrator, cli and gui. the best one i have found. Please give it a try! it's really good\n\n@tietougongshiba\n\nBeing able to check and manage agent progress from my phone while I'm out is so convenient.\n\n@jasontorres\n\nCan interchange between Codex, Claude Code, Opencode, Pi. Stable mobile and desktop apps connected through a secure relay from your VMs.\n\n@ceeebeeebeee\n\nwithout a doubt the most slept on orchestrator right now. Open source, every OS, and a mobile experience that truly blew me away.\n\n@erikksherman\n\ncontrol agents from anywhere - mac, phone, web. one simple change transformed my health while INCREASING productivity\n\n@amankumarjagdev\n\nI have tried 100s of agent orchestrator, cli and gui. the best one i have found. Please give it a try! it's really good\n\n@tietougongshiba\n\nBeing able to check and manage agent progress from my phone while I'm out is so convenient.\n\n@jasontorres\n\nCan interchange between Codex, Claude Code, Opencode, Pi. Stable mobile and desktop apps connected through a secure relay from your VMs.\n\n@aadtyn\n\ncross platform agent orchestration with inbuilt relay and tailscale / self host daemon options + the best UI ive seen in this segment\n\n@bevstratov\n\nIt’s an incredible piece of software. The last building block I needed to fully work from my phone. everything super smooth.\n\n@arnoldgamboa\n\nPaseo is a really good interface for Pi. It’s not the only thing it does, but that’s my current use case for now.\n\n@dongnaebi\n\nPaseo is the best software I've used this year. Absolutely amazing!\n\n@aadtyn\n\ncross platform agent orchestration with inbuilt relay and tailscale / self host daemon options + the best UI ive seen in this segment\n\n@bevstratov\n\nIt’s an incredible piece of software. The last building block I needed to fully work from my phone. everything super smooth.\n\n@arnoldgamboa\n\nPaseo is a really good interface for Pi. It’s not the only thing it does, but that’s my current use case for now.\n\n@dongnaebi\n\nPaseo is the best software I've used this year. Absolutely amazing!\n\nWorks with your tools\n\nBring your subscriptions, skills and configuration\n\nClaude Code\nCodex\nOpenCode\nPi\nCursor\n+34 more\nRun it anywhere\n\nUse Paseo locally, from another machine, or with a team\n\nDesktop app\n\nThe one click experience, download the app and it just works\n\nMobile and web\n\nConnect to the same workspaces from any client\n\nDownload\nRemote machines\n\nRun Paseo on a home lab, or a cloud machine\n\nDocs\nTeams and triggers\n\nShare access or start work from GitHub, Slack, and Discord\n\nPaseo Hub\nBuilt for automation\n\nUse MCP, the CLI, or the TypeScript SDK to automate Paseo\n\nMCP docs\nCLI docs\nSDK docs\nMCP\n\nFrom another agent\n\nCLI\n\nFrom the terminal\n\nSDK\n\nFrom code\n\nTake the open GitHub issues labeled ready and fan them out to separate worktree agents.\n\nI found two ready issues. I will run each in its own worktree.\n\ncreate_agent\n#412\nclaude/opus-4.6\nworktree\ncreate_agent\n#417\ncodex/gpt-5.6-sol\nworktree\n\nDone, two agents are running. I will let you know when they finish.\n\nMake it yours\n\nExtend Paseo to work just the way you want\n\nPlugins\n\nPlugins can add server-side functionality and modify the client with custom components. They work across all clients, including mobile\n\nPlugin documentation\nCommunity plugins\nFork the repo\n\nPaseo is licensed under Apache 2.0. You can inspect the implementation, fork the project, and adapt it to your workflow or organization\n\nView the repository\nFAQ\n+\nIs this free?\n+\nDoes my code leave my machine?\n+\nWhat agents does it support?\n+\nHow does Paseo run providers?\n+\nDo I need the desktop app?\n+\nHow does voice work?\n+\nCan I connect from outside my network?\n+\nDo I need git or GitHub?\n+\nCan I get banned for using Paseo?\n+\nHow do worktrees work?\n\nPaseo is an independent open source project for running coding agents.\n\nIts guiding principle is optionality and freedom of choice.\n\nI wanted to use any provider without being locked into any ecosystem, run it on my own infrastructure, access it from anywhere, and have it be fully automatable.\n\nI am hoping that you will enjoy Paseo as much as I do.\n\nIf you like Paseo, sponsorship is the best way to support continued development.\n\n- Mo\n\nSponsor Paseo\n\nProduct\n\nBlog\nDocs\nChangelog\nHub\nCLI\nPrivacy\nTerms\nSponsor\n\nAgents\n\nClaude Code\nCodex\nOpenCode\nAll providers\n\nAlternatives\n\nConductor\nSuperset\nOpenChamber\nHappy Coder\nCodex App\nClaude Desktop\nOpenCode Desktop\n\nCommunity\n\nDiscord\nReddit\nGitHub\n\nDownload\n\nApp Store\nGoogle Play\nDesktop\nWeb App",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "768px",
+        "height": "6227.61px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgb(16, 22, 21)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "hero": {
+      "selector": "body > div:first-child",
+      "tag": "div",
+      "classes": "relative bg-cover bg-center bg-no-repeat",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 1110.3203125
+      },
+      "text": "Paseo\nBlog\nDocs\nChangelog\nDownload\nSponsor\n17.3k\nThe control plane\nfor coding agents\n\nRun any coding agent from anywhere.\nSelf-hosted, multi-provider, open source\n\nDownload for Mac\nSupports\n+34 more\nBuild\nReview\nShip\nExtend\nNew workspace\nHistory\nSchedules\nRelease Radar\nPinned\nS\nskills / dotfiles\n1h\nWorkspaces\nReady to review\nPaseo homepage\nnow\n3981\n·\npassed\nAdd automatic page titles\n12m\n761\n·\npassed\nWorking\nFix commit safe area in emulators\n4m\nImprove editor typing latency\n18m\nDone\nRelease v0.7.0-beta.2\n2h\nPreserve focus between pages\n3h\n750\n·\npassed\nDesign semantic permission sy…\n7h\nmy-server\n·\n3981\n·\npassed\nPlan modules and abstractions\n1d\n3884\n·\npassed\nResume in-progress work\n3d\nUndefined task\n3d\nDiagnose cloud/Codex issue re…\n4d\nDiagnose create_workspace 37…\n4d\nDiagnose tap interactions\n4d\nClarify task requirements\n5d\nTask for abcdefghi\n5d\nAdd project\nPaseo homepage\npaseo\nCommit\nCodex\nClaude Code\nnpm run dev\nhttps://localhost:3000\n\nThe homepage is built. It leads with Paseo’s actual value, then uses the product itself to prove the story instead of falling back to generic dashboard art.\n\n·\nReworked the hero around “The control plane for coding agents.”\n·\nBuilt desktop and mobile scenes from real Paseo workflows and assets.\n·\nAdded believable agent, review, plugin, shipping, and host states.\n·\nMatched the app’s tabs, explorer, diff tree, controls, and layout rails.\nWorked for 31m 46s\nCreate a PR\n\nPR opened: Rebuild the homepage around live Paseo workflows.\n\nhttps://github.com/getpaseo/paseo/pull/3981\n·\nShips the new product-led hero and interactive desktop mockup.\n·\nIncludes responsive mobile proof and the supporting homepage story.\n·\nFormatting, typecheck, and lint are clean.\n\nReady for review.\n\nWorked for 1m 18s\n6/6 tasks\n3 subagents\n+1.9k\n-684\nMessage the agent, tag @files, or use /commands and /skills\nGPT-5.6-Sol\nMedium\nFull access\nFiles\nChanges\n3981\nmain\nUncommitted\n+1.9k\n-684\npackages/website/src\n+1.9k\n-684\ncomponents\n+1.5k\n-512\nmockup\n+1.3k\n-389\nmobile\n+480\n-231\natoms.tsx\n+56\n-18\nchat.tsx\n+155\n-74\nframe.tsx\n+91\n-0\nlegacy-tabs.tsx\n+0\n-139\ndesktop\n+612\n-143\nwindow.tsx\n+167\n-42\ntitlebar.tsx\n+117\n-61\ntoolbar.tsx\n+204\n-0\nold-tabs.tsx\n+0\n-40\nshared\n+194\n-15\nicons.tsx\n+62\n-15\nTS\ngeometry.ts\n+17\n-0\nTS\nstates.ts\n+115\n-0\nhero-mockup.tsx\n+89\n-52\nroutes\n+211\n-96\nindex.tsx\n+44\n-70\ndownload.tsx\n+167\n-0\nstyles\n+68\n-76\nCSS\nmockup.css\n+68\n-47\nCSS\nlegacy.css\n+0\n-29\nCommits",
+      "styles": {
+        "display": "block",
+        "position": "relative",
+        "width": "768px",
+        "height": "1110.32px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "header": {
+      "selector": "header",
+      "tag": "header",
+      "classes": "flex flex-col items-center gap-4 md:flex-row md:justify-between",
+      "rect": {
+        "x": 128,
+        "y": 24,
+        "width": 512,
+        "height": 56
+      },
+      "text": "Paseo\nBlog\nDocs\nChangelog\nDownload\nSponsor\n17.3k",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "512px",
+        "height": "56px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px",
+        "gap": "16px",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "title": {
+      "selector": "h1",
+      "tag": "h1",
+      "classes": "text-4xl md:text-6xl font-medium tracking-tight leading-[0.95]",
+      "rect": {
+        "x": 128,
+        "y": 176,
+        "width": 512,
+        "height": 114
+      },
+      "text": "The control plane\nfor coding agents",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "512px",
+        "height": "114px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px 0px 24px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "24px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "60px",
+        "fontWeight": "500",
+        "lineHeight": "57px",
+        "letterSpacing": "-1.5px",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "subtitle": {
+      "selector": "h1 + p",
+      "tag": "p",
+      "classes": "text-base leading-relaxed text-white/70 md:text-lg max-w-lg mx-auto",
+      "rect": {
+        "x": 128,
+        "y": 314,
+        "width": 512,
+        "height": 58.5
+      },
+      "text": "Run any coding agent from anywhere.\nSelf-hosted, multi-provider, open source",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "512px",
+        "height": "58.5px",
+        "maxWidth": "512px",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "29.25px",
+        "letterSpacing": "normal",
+        "color": "oklab(0.999994 0.0000455677 0.0000200868 / 0.7)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid oklab(0.999994 0.0000455677 0.0000200868 / 0.7)",
+        "borderTop": "0px solid oklab(0.999994 0.0000455677 0.0000200868 / 0.7)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "primaryCta": {
+      "selector": "a[href*=\"releases/download\"]",
+      "tag": "a",
+      "classes": "inline-flex items-center justify-center gap-2 rounded-lg bg-foreground px-4 py-2.5 text-sm font-medium text-background hover:bg-foreground/90 transition-colors",
+      "rect": {
+        "x": 209.3671875,
+        "y": 413.5,
+        "width": 175.265625,
+        "height": 40
+      },
+      "text": "Download for Mac",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "175.266px",
+        "height": "40px",
+        "maxWidth": "none",
+        "minHeight": "auto",
+        "padding": "10px 16px",
+        "paddingTop": "10px",
+        "paddingRight": "16px",
+        "paddingBottom": "10px",
+        "paddingLeft": "16px",
+        "margin": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px",
+        "gap": "8px",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(16, 22, 21)",
+        "backgroundColor": "rgb(250, 250, 250)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(16, 22, 21)",
+        "borderTop": "0px solid rgb(16, 22, 21)",
+        "borderRadius": "8px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "heroMockup": {
+      "selector": "[role=\"img\"][aria-label*=\"desktop app\"]",
+      "tag": "div",
+      "classes": "relative w-full overflow-hidden rounded-xl sm:rounded-2xl",
+      "rect": {
+        "x": 32,
+        "y": 652.89208984375,
+        "width": 704,
+        "height": 403.8203125
+      },
+      "text": "New workspace\nHistory\nSchedules\nRelease Radar\nPinned\nS\nskills / dotfiles\n1h\nWorkspaces\nReady to review\nPaseo homepage\nnow\n3981\n·\npassed\nAdd automatic page titles\n12m\n761\n·\npassed\nWorking\nFix commit safe area in emulators\n4m\nImprove editor typing latency\n18m\nDone\nRelease v0.7.0-beta.2\n2h\nPreserve focus between pages\n3h\n750\n·\npassed\nDesign semantic permission sy…\n7h\nmy-server\n·\n3981\n·\npassed\nPlan modules and abstractions\n1d\n3884\n·\npassed\nResume in-progress work\n3d\nUndefined task\n3d\nDiagnose cloud/Codex issue re…\n4d\nDiagnose create_workspace 37…\n4d\nDiagnose tap interactions\n4d\nClarify task requirements\n5d\nTask for abcdefghi\n5d\nAdd project\nPaseo homepage\npaseo\nCommit\nCodex\nClaude Code\nnpm run dev\nhttps://localhost:3000\n\nThe homepage is built. It leads with Paseo’s actual value, then uses the product itself to prove the story instead of falling back to generic dashboard art.\n\n·\nReworked the hero around “The control plane for coding agents.”\n·\nBuilt desktop and mobile scenes from real Paseo workflows and assets.\n·\nAdded believable agent, review, plugin, shipping, and host states.\n·\nMatched the app’s tabs, explorer, diff tree, controls, and layout rails.\nWorked for 31m 46s\nCreate a PR\n\nPR opened: Rebuild the homepage around live Paseo workflows.\n\nhttps://github.com/getpaseo/paseo/pull/3981\n·\nShips the new product-led hero and interactive desktop mockup.\n·\nIncludes responsive mobile proof and the supporting homepage story.\n·\nFormatting, typecheck, and lint are clean.\n\nReady for review.\n\nWorked for 1m 18s\n6/6 tasks\n3 subagents\n+1.9k\n-684\nMessage the agent, tag @files, or use /commands and /skills\nGPT-5.6-Sol\nMedium\nFull access\nFiles\nChanges\n3981\nmain\nUncommitted\n+1.9k\n-684\npackages/website/src\n+1.9k\n-684\ncomponents\n+1.5k\n-512\nmockup\n+1.3k\n-389\nmobile\n+480\n-231\natoms.tsx\n+56\n-18\nchat.tsx\n+155\n-74\nframe.tsx\n+91\n-0\nlegacy-tabs.tsx\n+0\n-139\ndesktop\n+612\n-143\nwindow.tsx\n+167\n-42\ntitlebar.tsx\n+117\n-61\ntoolbar.tsx\n+204\n-0\nold-tabs.tsx\n+0\n-40\nshared\n+194\n-15\nicons.tsx\n+62\n-15\nTS\ngeometry.ts\n+17\n-0\nTS\nstates.ts\n+115\n-0\nhero-mockup.tsx\n+89\n-52\nroutes\n+211\n-96\nindex.tsx\n+44\n-70\ndownload.tsx\n+167\n-0\nstyles\n+68\n-76\nCSS\nmockup.css\n+68\n-47\nCSS\nlegacy.css\n+0\n-29\nCommits",
+      "styles": {
+        "display": "block",
+        "position": "relative",
+        "width": "704px",
+        "height": "403.82px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "16px",
+        "boxShadow": "none",
+        "overflow": "hidden",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "phoneShowcase": {
+      "selector": "body > div:nth-child(2)",
+      "tag": "div",
+      "classes": "flex flex-col items-center pt-4 pb-16 gap-20",
+      "rect": {
+        "x": 0,
+        "y": 1110.3203125,
+        "width": 768,
+        "height": 765.7890625
+      },
+      "text": "When you want to step away from your desk, you can.\n\nThe native mobile app has full feature parity with desktop.\n\n18:54\nNew workspace\nHistory\nSchedules\nPinned\nS\nskills / dotfiles\n1h\nWorkspaces\nReady to review\nPaseo homepage\n3981\n·\npassed\nnow\nAdd automatic page titles\n761\n·\npassed\n12m\nWorking\nFix commit safe area in emulators\n4m\nImprove editor typing latency\n18m\nDone\nRelease v0.7.0-beta.2\n2h\nPreserve focus between pages\n750\n·\npassed\n3h\nDesign semantic permission sy…\nmy-server\n·\n3981\n·\npassed\n7h\nPlan modules and abstractions\n3884\n·\npassed\n1d\nResume in-progress work\n3d\nUndefined task\n3d\nDiagnose cloud/Codex issue re…\n4d\nDiagnose create_workspace 37…\n4d\nDiagnose tap interactions\n4d\nClarify task requirements\n5d\nTask for abcdefghi\n5d\nAdd project\n18:53\nPaseo\npaseo ·\nMohameds-MacBook-Pro.l…\n/release-beta\nShell\nsed -n '321,680p' docs/release.md\nShell\n\"for p in highlight relay protocol client plu…\nShell\nnpx eas workflow:view 01a0493d-01cd-77…\nShell\ngh release view v0.7.0-beta.2 --json name…\nShell\ngh run list --commit 4e60c2880b4c9ebd…\nShell\ndocker buildx imagetools inspect ghcr.io/g…\n\nStill in progress:\n\n•\nnpm tags and release notes are correct\n•\nDocker beta image is published; latest remains unchanged\n•\niOS build succeeded; TestFlight distribution/Beta App Review is running\n•\nDesktop and Android assets are still building\n\nThe heartbeat remains active.\n\n+2,173\n-54\nMessage, @files, /commands\nGPT-5.6-Sol\nMedium\n18:55\nFiles\nChanges\n3981\nmain\nUncommitted\n+2,173\n-54\natoms.tsx\npackages/website/src/componen…\n+56\n-18\n@@ -7,20 +7,28 @@\n7\ntype DotTone = \"success\" | \"danger\" | \"idle\";\n7\nexport type DotTone =\n8\n  | \"success\"\n9\n  | \"danger\"\n10\n  | \"warning\"\n11\n  | \"running\"\n12\n  | \"idle\";\n13\n14\ninterface DiffStatProps {\n15\n  add: string;\n16\n  remove: string;\n17\n}\n18\n19\n/** Compact diff summary. */\n20\nexport function DiffStat({\n21\n  add,\n22\n  remove,\n23\n}: DiffStatProps) {\n24\n  return (\n25\n    <span className=\"flex gap-1\">\n25\n    <span className=\"flex gap-[4px]\">\n26\n      <span className=\"text-mock-success\">\n27\n        +{add}\n28\n      </span>\n29\n      <span className=\"text-mock-danger\">\n30\n        -{remove}\n31\n      </span>\n32\n    </span>\n33\n  )\n33\n  );\n34\n}\nCommits",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "768px",
+        "height": "765.789px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "16px 0px 64px",
+        "paddingTop": "16px",
+        "paddingRight": "0px",
+        "paddingBottom": "64px",
+        "paddingLeft": "0px",
+        "margin": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px",
+        "gap": "80px",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "flexDirection": "column",
+        "zIndex": "auto"
+      }
+    },
+    "socialProof": {
+      "selector": "main section:nth-child(1)",
+      "tag": "section",
+      "classes": "",
+      "rect": {
+        "x": 80,
+        "y": 2056.109375,
+        "width": 608,
+        "height": 440
+      },
+      "text": "Loved by developers\n\nSee what developers are saying about Paseo\n\n@ceeebeeebeee\n\nwithout a doubt the most slept on orchestrator right now. Open source, every OS, and a mobile experience that truly blew me away.\n\n@erikksherman\n\ncontrol agents from anywhere - mac, phone, web. one simple change transformed my health while INCREASING productivity\n\n@amankumarjagdev\n\nI have tried 100s of agent orchestrator, cli and gui. the best one i have found. Please give it a try! it's really good\n\n@tietougongshiba\n\nBeing able to check and manage agent progress from my phone while I'm out is so convenient.\n\n@jasontorres\n\nCan interchange between Codex, Claude Code, Opencode, Pi. Stable mobile and desktop apps connected through a secure relay from your VMs.\n\n@ceeebeeebeee\n\nwithout a doubt the most slept on orchestrator right now. Open source, every OS, and a mobile experience that truly blew me away.\n\n@erikksherman\n\ncontrol agents from anywhere - mac, phone, web. one simple change transformed my health while INCREASING productivity\n\n@amankumarjagdev\n\nI have tried 100s of agent orchestrator, cli and gui. the best one i have found. Please give it a try! it's really good\n\n@tietougongshiba\n\nBeing able to check and manage agent progress from my phone while I'm out is so convenient.\n\n@jasontorres\n\nCan interchange between Codex, Claude Code, Opencode, Pi. Stable mobile and desktop apps connected through a secure relay from your VMs.\n\n@aadtyn\n\ncross platform agent orchestration with inbuilt relay and tailscale / self host daemon options + the best UI ive seen in this segment\n\n@bevstratov\n\nIt’s an incredible piece of software. The last building block I needed to fully work from my phone. everything super smooth.\n\n@arnoldgamboa\n\nPaseo is a really good interface for Pi. It’s not the only thing it does, but that’s my current use case for now.\n\n@dongnaebi\n\nPaseo is the best software I've used this year. Absolutely amazing!\n\n@aadtyn\n\ncross platform agent orchestration with inbuilt relay and tailscale / self host daemon options + the best UI ive seen in this segment\n\n@bevstratov\n\nIt’s an incredible piece of software. The last building block I needed to fully work from my phone. everything super smooth.\n\n@arnoldgamboa\n\nPaseo is a really good interface for Pi. It’s not the only thing it does, but that’s my current use case for now.\n\n@dongnaebi\n\nPaseo is the best software I've used this year. Absolutely amazing!",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "608px",
+        "height": "440px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px 0px 96px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "96px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "providers": {
+      "selector": "main section:nth-child(2)",
+      "tag": "section",
+      "classes": "",
+      "rect": {
+        "x": 80,
+        "y": 2592.109375,
+        "width": 608,
+        "height": 256
+      },
+      "text": "Works with your tools\n\nBring your subscriptions, skills and configuration\n\nClaude Code\nCodex\nOpenCode\nPi\nCursor\n+34 more",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "608px",
+        "height": "256px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px 0px 96px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "96px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "turnkey": {
+      "selector": "main section:nth-child(3)",
+      "tag": "section",
+      "classes": "",
+      "rect": {
+        "x": 80,
+        "y": 2944.109375,
+        "width": 608,
+        "height": 576.75
+      },
+      "text": "Run it anywhere\n\nUse Paseo locally, from another machine, or with a team\n\nDesktop app\n\nThe one click experience, download the app and it just works\n\nMobile and web\n\nConnect to the same workspaces from any client\n\nDownload\nRemote machines\n\nRun Paseo on a home lab, or a cloud machine\n\nDocs\nTeams and triggers\n\nShare access or start work from GitHub, Slack, and Discord\n\nPaseo Hub",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "608px",
+        "height": "576.75px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px 0px 96px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "96px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "automation": {
+      "selector": "main section:nth-child(4)",
+      "tag": "section",
+      "classes": "",
+      "rect": {
+        "x": 80,
+        "y": 3616.859375,
+        "width": 608,
+        "height": 560
+      },
+      "text": "Built for automation\n\nUse MCP, the CLI, or the TypeScript SDK to automate Paseo\n\nMCP docs\nCLI docs\nSDK docs\nMCP\n\nFrom another agent\n\nCLI\n\nFrom the terminal\n\nSDK\n\nFrom code\n\nTake the open GitHub issues labeled ready and fan them out to separate worktree agents.\n\nI found two ready issues. I will run each in its own worktree.\n\ncreate_agent\n#412\nclaude/opus-4.6\nworktree\ncreate_agent\n#417\ncodex/gpt-5.6-sol\nworktree\n\nDone, two agents are running. I will let you know when they finish.",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "608px",
+        "height": "560px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px 0px 96px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "96px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "extensible": {
+      "selector": "main section:nth-child(5)",
+      "tag": "section",
+      "classes": "",
+      "rect": {
+        "x": 80,
+        "y": 4272.859375,
+        "width": 608,
+        "height": 425
+      },
+      "text": "Make it yours\n\nExtend Paseo to work just the way you want\n\nPlugins\n\nPlugins can add server-side functionality and modify the client with custom components. They work across all clients, including mobile\n\nPlugin documentation\nCommunity plugins\nFork the repo\n\nPaseo is licensed under Apache 2.0. You can inspect the implementation, fork the project, and adapt it to your workflow or organization\n\nView the repository",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "608px",
+        "height": "425px",
+        "maxWidth": "none",
+        "minHeight": "0px",
+        "padding": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "margin": "0px 0px 96px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "96px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    },
+    "faq": null,
+    "sponsor": null,
+    "footer": {
+      "selector": "footer",
+      "tag": "footer",
+      "classes": "max-w-5xl p-6 md:p-20 md:pt-0 mx-auto",
+      "rect": {
+        "x": 0,
+        "y": 5838.609375,
+        "width": 768,
+        "height": 389
+      },
+      "text": "Product\n\nBlog\nDocs\nChangelog\nHub\nCLI\nPrivacy\nTerms\nSponsor\n\nAgents\n\nClaude Code\nCodex\nOpenCode\nAll providers\n\nAlternatives\n\nConductor\nSuperset\nOpenChamber\nHappy Coder\nCodex App\nClaude Desktop\nOpenCode Desktop\n\nCommunity\n\nDiscord\nReddit\nGitHub\n\nDownload\n\nApp Store\nGoogle Play\nDesktop\nWeb App",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "768px",
+        "height": "389px",
+        "maxWidth": "1024px",
+        "minHeight": "0px",
+        "padding": "0px 80px 80px",
+        "paddingTop": "0px",
+        "paddingRight": "80px",
+        "paddingBottom": "80px",
+        "paddingLeft": "80px",
+        "margin": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(250, 250, 250)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderTop": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "overflow": "visible",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "animationDuration": "0s",
+        "animationTimingFunction": "ease",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "flexDirection": "row",
+        "zIndex": "auto"
+      }
+    }
+  },
+  "images": [
+    {
+      "src": "https://paseo.sh/logo.svg",
+      "alt": "Paseo",
+      "naturalWidth": 32,
+      "naturalHeight": 32
+    },
+    {
+      "src": "https://paseo.sh/blank-page.svg",
+      "alt": "",
+      "naturalWidth": 16,
+      "naturalHeight": 16
+    },
+    {
+      "src": "https://paseo.sh/blank-page.svg",
+      "alt": "",
+      "naturalWidth": 16,
+      "naturalHeight": 16
+    },
+    {
+      "src": "https://paseo.sh/blank-page.svg",
+      "alt": "",
+      "naturalWidth": 16,
+      "naturalHeight": 16
+    },
+    {
+      "src": "data:image/png;base64,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",
+      "alt": "",
+      "naturalWidth": 64,
+      "naturalHeight": 64
+    },
+    {
+      "src": "https://paseo.sh/blank-page.svg",
+      "alt": "",
+      "naturalWidth": 16,
+      "naturalHeight": 16
+    },
+    {
+      "src": "https://paseo.sh/blank-page.svg",
+      "alt": "",
+      "naturalWidth": 16,
+      "naturalHeight": 16
+    },
+    {
+      "src": "https://paseo.sh/blank-page.svg",
+      "alt": "",
+      "naturalWidth": 16,
+      "naturalHeight": 16
+    },
+    {
+      "src": "https://paseo.sh/social-proof/ceeebeeebeee.jpg",
+      "alt": "",
+      "naturalWidth": 73,
+      "naturalHeight": 73
+    },
+    {
+      "src": "https://paseo.sh/social-proof/erikksherman.jpg",
+      "alt": "",
+      "naturalWidth": 73,
+      "naturalHeight": 73
+    },
+    {
+      "src": "https://paseo.sh/social-proof/amankumarjagdev.jpg",
+      "alt": "",
+      "naturalWidth": 73,
+      "naturalHeight": 73
+    },
+    {
+      "src": "https://paseo.sh/social-proof/tietougongshiba.jpg",
+      "alt": "",
+      "naturalWidth": 73,
+      "naturalHeight": 73
+    },
+    {
+      "src": "https://paseo.sh/social-proof/jasontorres.jpg",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    },
+    {
+      "src": "https://paseo.sh/social-proof/ceeebeeebeee.jpg",
+      "alt": "",
+      "naturalWidth": 73,
+      "naturalHeight": 73
+    },
+    {
+      "src": "https://paseo.sh/social-proof/erikksherman.jpg",
+      "alt": "",
+      "naturalWidth": 73,
+      "naturalHeight": 73
+    },
+    {
+      "src": "https://paseo.sh/social-proof/amankumarjagdev.jpg",
+      "alt": "",
+      "naturalWidth": 73,
+      "naturalHeight": 73
+    },
+    {
+      "src": "https://paseo.sh/social-proof/tietougongshiba.jpg",
+      "alt": "",
+      "naturalWidth": 73,
+      "naturalHeight": 73
+    },
+    {
+      "src": "https://paseo.sh/social-proof/jasontorres.jpg",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    },
+    {
+      "src": "https://paseo.sh/social-proof/aadtyn.jpg",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    },
+    {
+      "src": "https://paseo.sh/social-proof/bevstratov.jpg",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    },
+    {
+      "src": "https://paseo.sh/social-proof/arnoldgamboa.jpg",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    },
+    {
+      "src": "https://paseo.sh/social-proof/dongnaebi.jpg",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    },
+    {
+      "src": "https://paseo.sh/social-proof/aadtyn.jpg",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    },
+    {
+      "src": "https://paseo.sh/social-proof/bevstratov.jpg",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    },
+    {
+      "src": "https://paseo.sh/social-proof/arnoldgamboa.jpg",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    },
+    {
+      "src": "https://paseo.sh/social-proof/dongnaebi.jpg",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    }
+  ],
+  "videos": [],
+  "backgroundImages": [
+    {
+      "className": "pointer-events-none absolute inset-0 rounded-[13.5%/6.2%] border border-white/7 bg-[linear-gradient(180deg,#303432_0%,#1b1e1d_42%,#0b0d0c_100%)] shadow-[0_8px_22px_rgba(0,0,0,0.2)]",
+      "backgroundImage": "linear-gradient(rgb(48, 52, 50), rgb(27, 30, 29) 42%, rgb(11, 13, 12))"
+    },
+    {
+      "className": "pointer-events-none absolute inset-0 z-20",
+      "backgroundImage": "linear-gradient(122deg, rgba(255, 255, 255, 0.047) 0%, rgba(255, 255, 255, 0.016) 25%, rgba(0, 0, 0, 0) 43%), radial-gradient(circle at 78% 10%, rgba(255, 255, 255, 0.027), rgba(0, 0, 0, 0) 31%)"
+    },
+    {
+      "className": "pointer-events-none absolute inset-0 z-20",
+      "backgroundImage": "linear-gradient(122deg, rgba(255, 255, 255, 0.047) 0%, rgba(255, 255, 255, 0.016) 25%, rgba(0, 0, 0, 0) 43%), radial-gradient(circle at 78% 10%, rgba(255, 255, 255, 0.027), rgba(0, 0, 0, 0) 31%)"
+    },
+    {
+      "className": "pointer-events-none absolute inset-0 rounded-[13.5%/6.2%] border border-white/7 bg-[linear-gradient(180deg,#303432_0%,#1b1e1d_42%,#0b0d0c_100%)] shadow-[0_8px_22px_rgba(0,0,0,0.2)]",
+      "backgroundImage": "linear-gradient(rgb(48, 52, 50), rgb(27, 30, 29) 42%, rgb(11, 13, 12))"
+    },
+    {
+      "className": "pointer-events-none absolute inset-0 z-20",
+      "backgroundImage": "linear-gradient(122deg, rgba(255, 255, 255, 0.047) 0%, rgba(255, 255, 255, 0.016) 25%, rgba(0, 0, 0, 0) 43%), radial-gradient(circle at 78% 10%, rgba(255, 255, 255, 0.027), rgba(0, 0, 0, 0) 31%)"
+    }
+  ],
+  "colors": [
+    [
+      "rgb(250, 250, 250)",
+      1813
+    ],
+    [
+      "rgb(161, 165, 164)",
+      986
+    ],
+    [
+      "rgb(168, 173, 172)",
+      289
+    ],
+    [
+      "rgb(108, 177, 123)",
+      205
+    ],
+    [
+      "rgb(255, 255, 255)",
+      172
+    ],
+    [
+      "rgb(113, 117, 116)",
+      154
+    ],
+    [
+      "rgb(201, 209, 217)",
+      122
+    ],
+    [
+      "rgb(0, 0, 0)",
+      89
+    ],
+    [
+      "oklab(0.999994 0.0000455677 0.0000200868 / 0.6)",
+      80
+    ],
+    [
+      "rgb(216, 132, 123)",
+      69
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+      56
+    ],
+    [
+      "rgb(192, 150, 100)",
+      42
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.4)",
+      40
+    ],
+    [
+      "oklab(0.999994 0.0000455677 0.0000200868 / 0.8)",
+      36
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.72)",
+      36
+    ],
+    [
+      "rgb(16, 22, 21)",
+      32
+    ],
+    [
+      "rgb(108, 172, 171)",
+      24
+    ],
+    [
+      "rgb(165, 214, 255)",
+      24
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.03)",
+      23
+    ],
+    [
+      "rgb(92, 170, 246)",
+      22
+    ],
+    [
+      "rgb(255, 123, 114)",
+      20
+    ],
+    [
+      "oklab(0.845 -0.138113 0.0370641 / 0.85)",
+      20
+    ],
+    [
+      "rgb(37, 43, 42)",
+      18
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+      16
+    ],
+    [
+      "rgb(24, 27, 26)",
+      15
+    ],
+    [
+      "rgb(126, 231, 135)",
+      14
+    ],
+    [
+      "rgba(108, 177, 123, 0.08)",
+      13
+    ],
+    [
+      "rgb(121, 192, 255)",
+      12
+    ],
+    [
+      "rgb(47, 53, 52)",
+      11
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.45)",
+      10
+    ],
+    [
+      "rgb(30, 33, 32)",
+      9
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.025)",
+      9
+    ],
+    [
+      "oklab(0.701065 0.0276729 0.078693 / 0.5)",
+      8
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.25)",
+      8
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.5)",
+      7
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+      6
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.07)",
+      6
+    ],
+    [
+      "rgb(255, 166, 87)",
+      6
+    ],
+    [
+      "rgb(39, 42, 41)",
+      5
+    ],
+    [
+      "oklab(0.700008 -0.0914347 0.0529815 / 0.6)",
+      5
+    ],
+    [
+      "oklab(0.999994 0.0000455677 0.0000200868 / 0.7)",
+      4
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.55)",
+      4
+    ],
+    [
+      "oklab(0.828 -0.0708764 -0.0854256 / 0.8)",
+      4
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.35)",
+      4
+    ],
+    [
+      "oklch(0.718 0.202 349.761)",
+      4
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.12)",
+      3
+    ],
+    [
+      "rgb(20, 23, 22)",
+      3
+    ],
+    [
+      "oklab(0.69966 0.0940529 0.0471951 / 0.5)",
+      3
+    ],
+    [
+      "oklab(0 0 0 / 0.25)",
+      3
+    ],
+    [
+      "oklab(0.985098 0.0000447631 0.0000197291 / 0.3)",
+      3
+    ],
+    [
+      "rgba(216, 132, 123, 0.07)",
+      3
+    ],
+    [
+      "rgb(176, 98, 96)",
+      2
+    ],
+    [
+      "rgb(124, 203, 160)",
+      2
+    ],
+    [
+      "rgb(89, 91, 91)",
+      2
+    ],
+    [
+      "oklab(0.746 -0.0970448 -0.12721 / 0.7)",
+      2
+    ],
+    [
+      "oklab(0.714 0.117894 -0.165257 / 0.7)",
+      2
+    ],
+    [
+      "rgb(27, 30, 29)",
+      2
+    ],
+    [
+      "rgb(210, 168, 255)",
+      2
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      2
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.75)",
+      2
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.08)",
+      1
+    ],
+    [
+      "rgb(255, 95, 87)",
+      1
+    ],
+    [
+      "rgb(254, 188, 46)",
+      1
+    ],
+    [
+      "rgb(40, 200, 64)",
+      1
+    ],
+    [
+      "rgb(21, 23, 22)",
+      1
+    ],
+    [
+      "rgb(37, 40, 39)",
+      1
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.00999999)",
+      1
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.02)",
+      1
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.06)",
+      1
+    ],
+    [
+      "oklab(0 0 0 / 0.2)",
+      1
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.05)",
+      1
+    ]
+  ],
+  "counts": {
+    "images": 26,
+    "videos": 0,
+    "svgs": 225,
+    "sections": 5
+  }
+}
