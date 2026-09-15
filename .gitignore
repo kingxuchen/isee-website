@@ -1,6 +1,9 @@
 node_modules/
 .next/
 out/
+apps/*/dist/
+apps/*/.wrangler/
+apps/*/.tanstack/
 .env*
 .pi/
 
@@ -13,3 +16,6 @@ Thumbs.db
 
 # Temporary scratch
 .tmp*
+
+# Verification runs (see .agents/skills/verify-isee-international)
+.verify-isee-international/

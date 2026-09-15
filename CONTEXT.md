@@ -9,7 +9,7 @@ The monorepo shell package named `isee-website`. It owns the single lockfile and
 _Avoid_: monorepo app, root app, isee-china (when referring to the shell)
 
 **App**:
-An independently buildable site package under `apps/`, with its own `package.json`, source, assets, and deploy files. The first App is `isee-china`.
+An independently buildable site package under `apps/`, with its own `package.json`, source, assets, and deploy files. The Apps are `isee-china` and `isee-international`.
 _Avoid_: package (alone), project, site (as the unit name)
 
 **Independence**:
