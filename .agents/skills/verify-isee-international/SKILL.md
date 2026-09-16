@@ -5,7 +5,7 @@ description: Drive the real isee-international web app (TanStack Start + Cloudfl
 
 # Verify isee-international
 
-`apps/isee-international` is an SSR marketing site (TanStack Start, Cloudflare Workers build, Vite 7). The user-facing surface is a **web UI**: server-rendered HTML hydrated by React, with a handful of click- and scroll-driven interactive regions.
+`apps/isee-international` is an SSR marketing site (TanStack Start, Cloudflare Workers and Pages builds, Vite 7). The user-facing surface is a **web UI**: server-rendered HTML hydrated by React, with a handful of click- and scroll-driven interactive regions.
 
 Two things make verification here different from a normal SPA check:
 

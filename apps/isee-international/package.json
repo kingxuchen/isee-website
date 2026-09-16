@@ -6,10 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:pages": "vite build && node scripts/build-pages.mjs",
     "preview": "vite preview",
+    "preview:pages": "pnpm build:pages && wrangler pages dev dist/pages",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "deploy": "pnpm build && wrangler deploy"
+    "deploy": "pnpm build && wrangler deploy",
+    "deploy:pages": "pnpm build:pages && wrangler pages deploy dist/pages"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "1.36.3",
