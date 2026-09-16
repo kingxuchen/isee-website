@@ -32,7 +32,12 @@ pnpm deploy:pages
 
 ## Deploy
 
-Two Cloudflare targets build from this one source. `wrangler.toml` holds the settings both read: `main`, the Worker entry the Cloudflare Vite plugin builds, and `pages_build_output_dir`, where Pages reads its assets.
+Two Cloudflare targets build from this one source, each with its own Wrangler configuration file.
+
+- `wrangler.toml` configures the Pages project: `pages_build_output_dir` and the compatibility settings.
+- `wrangler.workers.toml` configures the Worker: `main`, the entry the Cloudflare Vite plugin builds (`configPath` in `vite.config.ts`), and the same compatibility settings.
+
+Splitting them keeps `wrangler deploy` from classifying the project as a Pages one, which it does as soon as it sees `pages_build_output_dir`. The two files repeat `compatibility_date` and `compatibility_flags`, and `src/wrangler-config.test.ts` fails when they drift apart.
 
 ### Cloudflare Pages
 
@@ -51,7 +56,7 @@ To deploy from Git instead, create a Pages project with build command `pnpm buil
 
 The Worker reads an optional `WEBSITE_CACHE` KV namespace to cache GitHub release data. Bind it to the Pages project with a `[[kv_namespaces]]` block in `wrangler.toml` once the namespace exists. Without it each render fetches release data from GitHub, edge-cached for 60 seconds.
 
-`scripts/build-pages.mjs` also deletes `.wrangler/deploy/config.json`, the redirect the Vite plugin writes for the Workers target. Wrangler honours that redirect for `pages dev` and `pages deploy` too, where it shadows `wrangler.toml` and the runtime fails to start. Any later `pnpm build` writes it back, so run `pnpm build` before `pnpm preview`.
+`scripts/build-pages.mjs` also deletes `.wrangler/deploy/config.json`, the redirect the Vite plugin writes for the Workers target. Wrangler honours that redirect for `pages dev` and `pages deploy` too, where it shadows the Pages configuration and the runtime fails to start. Any later `pnpm build` writes it back, so run `pnpm build` before `pnpm preview`.
 
 ### Cloudflare Workers
 
@@ -59,6 +64,8 @@ The Worker reads an optional `WEBSITE_CACHE` KV namespace to cache GitHub releas
 pnpm preview   # `vite preview` of the built Worker
 pnpm deploy    # build and `wrangler deploy`
 ```
+
+`pnpm deploy` builds first, and that build is what writes the `.wrangler/deploy/config.json` redirect resolving the Worker entry. `pnpm preview` reads the same redirect without building, so it needs a `pnpm build` after a Pages build.
 
 ### What differs between the two targets
 

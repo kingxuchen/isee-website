@@ -1,8 +1,4 @@
 name = "isee-international"
 compatibility_date = "2024-12-01"
 compatibility_flags = ["nodejs_compat"]
-main = "./src/server-entry.ts"
 pages_build_output_dir = "./dist/pages"
-
-[observability]
-enabled = true

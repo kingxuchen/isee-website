@@ -111,7 +111,10 @@ export default defineConfig((): UserConfig => {
       },
     },
     plugins: [
-      cloudflare({ viteEnvironment: { name: "ssr" } }),
+      cloudflare({
+        viteEnvironment: { name: "ssr" },
+        configPath: "wrangler.workers.toml",
+      }),
       tsConfigPaths(),
       tanstackStart({
         router: {
