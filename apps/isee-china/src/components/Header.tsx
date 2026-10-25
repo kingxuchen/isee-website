@@ -26,6 +26,7 @@ const LOGO_SIZE = { width: 40, height: 40 };
 
 const NAV_ITEMS = [
   { label: "首页", href: "/" },
+  { label: "桌面端", href: "/features" },
   { label: "定价", href: "/pricing" },
 ];
 
@@ -174,8 +175,12 @@ function LanguageSwitcher({ block = false }: { block?: boolean }) {
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
-  // Exact /pricing matches the pricing page; everything else is 首页.
-  const activeHref = pathname.startsWith("/pricing") ? "/pricing" : "/";
+  // Exact /pricing matches the pricing page; /features the desktop tour; else 首页.
+  const activeHref = pathname.startsWith("/pricing")
+    ? "/pricing"
+    : pathname.startsWith("/features")
+      ? "/features"
+      : "/";
   const openMenu = useCallback(() => setMenuOpen(true), []);
   const closeMenu = useCallback(() => setMenuOpen(false), []);
 
