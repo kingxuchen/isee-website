@@ -4,7 +4,6 @@ import { Hero } from "@/components/Hero";
 import { ProductDemo } from "@/components/ProductDemo";
 import { Capabilities } from "@/components/Capabilities";
 import { Ecosystem } from "@/components/Ecosystem";
-import { Pricing } from "@/components/Pricing";
 import { CtaSection } from "@/components/CtaSection";
 import { Footer } from "@/components/Footer";
 
@@ -17,7 +16,6 @@ export default function Home() {
       <ProductDemo />
       <Capabilities />
       <Ecosystem />
-      <Pricing />
       <CtaSection />
       <Footer />
     </div>

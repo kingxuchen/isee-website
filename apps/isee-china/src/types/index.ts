@@ -13,21 +13,6 @@ export interface CapabilityTab {
   poster: string;
 }
 
-export interface PricingPlan {
-  id: "free" | "pro" | "team";
-  name: string;
-  monthlyPrice: string;
-  yearlyPrice: string;
-  /** Strikethrough original price (monthly mode), e.g. "20" */
-  monthlyOriginal?: string;
-  yearlyOriginal?: string;
-  unit: string;
-  cta: string;
-  highlighted?: boolean;
-  enterpriseNote?: string;
-  features: string[];
-}
-
 export interface FooterColumn {
   title: string;
   links: { label: string; href: string }[];

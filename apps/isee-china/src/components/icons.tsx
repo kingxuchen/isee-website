@@ -107,12 +107,13 @@ export function CreateFileToolIcon(
   );
 }
 
-export function DownloadDogIcon(
+/** 品牌猫头鹰（public/brand/logo.png，即 App 图标同款 3D 绿鹰）。 */
+export function DownloadOwlIcon(
   props: Omit<ImgHTMLAttributes<HTMLImageElement>, "src">,
 ) {
   return (
     <img
-      src="/icons-inline/DownloadDogIcon.svg"
+      src="/brand/logo.png"
       alt=""
       aria-hidden
       {...props}
@@ -344,19 +345,6 @@ export function PlusSquareIcon(
 ) {
   return (
     <img src="/icons-inline/PlusSquareIcon.svg" alt="" aria-hidden {...props} />
-  );
-}
-
-export function PricingCheckIcon(
-  props: Omit<ImgHTMLAttributes<HTMLImageElement>, "src">,
-) {
-  return (
-    <img
-      src="/icons-inline/PricingCheckIcon.svg"
-      alt=""
-      aria-hidden
-      {...props}
-    />
   );
 }
 

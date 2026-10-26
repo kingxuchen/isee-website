@@ -1,163 +1,76 @@
-import Image from "next/image";
-import type { CSSProperties } from "react";
+/* eslint-disable @next/next/no-img-element */
 
 /* ------------------------------------------------------------------ *
- * Ecosystem — white section, heading + subtitle + 720×720 orbit stage.
- * Two ring SVGs, one gradient-bordered inner ring, centered iSee
- * icon on a soft green radial glow, and 7 app pills orbiting on a
- * 60s CSS spin (each pill counter-spins so it stays upright).
- * Spec: docs/research/components/ecosystem.spec.md
- * Raw:  docs/research/raw/ecosystem.json
- * Pure CSS animation → server component.
+ * Ecosystem — 声明 + 右推的表格（原轨道旋转球版式替换）。
+ *
+ * 标题两行、首行缩进 3vw；右列（cols 8–12）一张「连接清单」表：
+ * 办公类别用柔墨、服务名全墨，行与行之间只用空白分组。
+ * 左下角是 iSee 自己的吉祥物形象（项目自有资产）。
  * ------------------------------------------------------------------ */
 
-/** Pill centre radius: pills sit between the middle and outer rings. */
-const ORBIT_RADIUS = 310;
-
-const RING_KEYFRAMES = `
-@keyframes wb-orbit-spin { to { transform: rotate(360deg); } }
-@keyframes wb-orbit-counter-spin { to { transform: rotate(-360deg); } }
-@media (prefers-reduced-motion: reduce) {
-  .wb-orbit-layer,
-  .wb-orbit-pill { animation: none !important; }
-}
-`;
-
-/** Ring SVGs must stretch to their (square) box instead of letterboxing. */
-const RING_STYLE = { objectFit: "fill" } as const satisfies CSSProperties;
-
-const ECOSYSTEM_APPS = [
-  { name: "Jira", icon: "/eco/jira.svg" },
-  { name: "Google Drive", icon: "/eco/google-drive.svg" },
-  { name: "Github", icon: "/eco/github.svg" },
-  { name: "Linear", icon: "/eco/linear.svg" },
-  { name: "Office", icon: "/eco/office.svg" },
-  { name: "Notion", icon: "/eco/notion.svg" },
-  { name: "Slack", icon: "/eco/slack.svg" },
+const LINKS: { kind: string; service: string }[] = [
+  { kind: "Office suite", service: "Office" },
+  { kind: "Docs", service: "Notion" },
+  { kind: "Cloud drive", service: "Google Drive" },
+  { kind: "Messaging", service: "Slack" },
+  { kind: "Code", service: "GitHub" },
+  { kind: "Tracking", service: "Jira" },
 ];
-
-const PIPE_PILL =
-  // Rotation only — the anchor centres the pill, so the counter-spin can own
-  // `transform` without fighting a static translate.
-  "wb-orbit-pill flex h-[calc(80px*var(--orbit-scale))] shrink-0 items-center " +
-  "gap-[calc(14px*var(--orbit-scale))] " +
-  "rounded-full bg-white pl-[calc(14px*var(--orbit-scale))] pr-[calc(32px*var(--orbit-scale))] " +
-  "whitespace-nowrap shadow-[0_8px_24px_0_rgb(20_30_40/8%),0_2px_6px_0_rgb(20_30_40/4%)] " +
-  "animate-[wb-orbit-counter-spin_var(--orbit-duration)_linear_infinite]";
-
-const PIPE_ICON =
-  "block w-[calc(52px*var(--orbit-scale))] h-[calc(52px*var(--orbit-scale))] shrink-0 " +
-  "object-contain";
-
-const PIPE_NAME =
-  // Whole stage scales at --orbit-scale; text keeps a 14px floor (spec mobile).
-  "font-round text-[max(14px,calc(18px*var(--orbit-scale)))] leading-[max(20px,calc(25.6px*var(--orbit-scale)))] " +
-  "font-medium text-[#191A23]";
 
 export function Ecosystem() {
   return (
     <section
       id="ecosystem"
       aria-labelledby="ecosystem-title"
-      className="relative overflow-hidden bg-white pt-[115px] pb-[80px] [--orbit-duration:60s] [--orbit-scale:0.5] md:[--orbit-scale:1]"
+      className="bg-white py-[100px] lg:py-[160px]"
     >
-      {/* Keyframes + reduced-motion guard for the orbit (no JS needed). */}
-      <style>{RING_KEYFRAMES}</style>
-
-      <div className="mx-auto max-w-[1920px] px-4 md:px-[60px]">
-        <div className="text-center">
-          <h2
-            id="ecosystem-title"
-            className="mb-3 font-round text-[30px] leading-[36px] font-bold text-black md:mb-4 md:text-[50px] md:leading-[60px]"
-          >
-            iSee 连接打通办公生态
-          </h2>
-          <p className="mx-auto max-w-[720px] font-round text-[14px] leading-[22px] font-medium text-[#5A5A5A] md:text-[16px] md:leading-[25.6px]">
-            iSee 可以无缝连接办公
-            IM、文档、邮箱、会议、知识库等常用办公工具，打通办公生态
-          </p>
-        </div>
-
-        {/* Orbit stage — 720×720, scaled down as one unit on small screens. */}
-        <div
-          className="wb-orbit-stage relative mx-auto mt-[calc(360px*(var(--orbit-scale)-1))] h-[calc(720px*var(--orbit-scale))] w-[calc(720px*var(--orbit-scale))]"
-          aria-hidden="true"
+      <div className="mx-auto max-w-[1920px] px-5 lg:px-[60px]">
+        <h2
+          id="ecosystem-title"
+          className="m-0 font-heading text-[clamp(32px,4.5vw,64px)] leading-[1.08] font-bold tracking-[-0.02em] text-wb-ink"
         >
-          {/* Outer ring — 720 (diameter) */}
-          <Image
-            src="/icons-inline/OrbitRingOuter.svg"
-            alt=""
-            fill
-            className="z-0"
-            style={RING_STYLE}
-          />
-          {/* Middle ring — 561.6, dashed, faint fill */}
-          <Image
-            src="/icons-inline/OrbitRingMiddle.svg"
-            alt=""
-            width={562}
-            height={562}
-            className="absolute top-1/2 left-1/2 z-0 h-[calc(561.6px*var(--orbit-scale))] w-[calc(561.6px*var(--orbit-scale))] -translate-x-1/2 -translate-y-1/2"
-            style={RING_STYLE}
-          />
-          {/* Inner ring — 374.4 disc with a vertical green gradient border */}
-          <div
-            className="absolute top-1/2 left-1/2 z-[1] -translate-x-1/2 -translate-y-1/2 rounded-full border-4 border-solid border-transparent"
-            style={{
-              width: "calc(374.4px * var(--orbit-scale))",
-              height: "calc(374.4px * var(--orbit-scale))",
-              background:
-                "linear-gradient(#EEF9F7, #EEF9F7) padding-box, linear-gradient(rgba(40,184,148,0), rgba(40,184,148,0.08) 8%, rgba(40,184,148,0.12) 12%, rgba(40,184,148,0)) border-box",
-            }}
-          />
-          {/* Soft green radial glow behind the centre icon */}
-          <div
-            className="absolute top-1/2 left-1/2 z-[2] -translate-x-1/2 -translate-y-1/2 rounded-full"
-            style={{
-              width: "calc(300px * var(--orbit-scale))",
-              height: "calc(300px * var(--orbit-scale))",
-              background:
-                "radial-gradient(circle, rgba(40,184,148,0.15) 0%, rgba(40,184,148,0.08) 45%, rgba(40,184,148,0) 70%)",
-            }}
-          />
-          {/* Centre iSee icon — 130 */}
-          <div className="absolute top-1/2 left-1/2 z-[3] flex h-[calc(130px*var(--orbit-scale))] w-[calc(130px*var(--orbit-scale))] -translate-x-1/2 -translate-y-1/2 items-center justify-center">
-            <Image
-              src="/brand/logo.png"
-              alt="iSee"
-              width={130}
-              height={130}
-              className="h-full w-full object-contain"
+          <span className="block lg:pl-[3vw]">iSee connects</span>
+          <span className="block">your office stack</span>
+        </h2>
+        <p className="mt-6 max-w-[46ch] text-[17px] leading-[28px] text-wb-muted">
+          Seamlessly connects the office tools you already use — IM, docs, email, meetings and knowledge bases.
+        </p>
+
+        <div className="mt-16 lg:mt-20 lg:grid lg:grid-cols-12 lg:gap-8">
+          {/* 左侧吉祥物形象（cols 1–4，底对齐） */}
+          <div className="hidden lg:col-span-4 lg:flex lg:items-end">
+            <img
+              src="/demo/demo-ava.png"
+              alt="iSee mascot"
+              width={596}
+              height={484}
+              loading="lazy"
+              className="aspect-[4/5] w-[22vw] max-w-[360px] object-cover object-top"
             />
           </div>
-          {/* Orbiting pills — the whole layer spins, each pill counter-spins. */}
-          <div className="wb-orbit-layer absolute inset-0 z-[2] animate-[wb-orbit-spin_var(--orbit-duration)_linear_infinite]">
-            {ECOSYSTEM_APPS.map((app, i) => {
-              const angle = (i * 360) / ECOSYSTEM_APPS.length;
-              return (
-                <div
-                  key={app.name}
-                  className="absolute top-1/2 left-1/2 flex h-0 w-0 items-center justify-center"
-                  style={
-                    {
-                      transform: `rotate(${angle}deg) translateX(calc(${ORBIT_RADIUS}px * var(--orbit-scale))) rotate(${-angle}deg)`,
-                    } as CSSProperties
-                  }
-                >
-                  <div className={PIPE_PILL}>
-                    <Image
-                      src={app.icon}
-                      alt=""
-                      width={52}
-                      height={52}
-                      className={PIPE_ICON}
-                    />
-                    <span className={PIPE_NAME}>{app.name}</span>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+
+          {/* 命名小字（col 7）+ 连接清单（cols 8–12） */}
+          <p
+            aria-hidden="true"
+            className="hidden lg:col-span-1 lg:col-start-7 lg:block lg:pt-1 lg:text-[14px] lg:text-wb-muted"
+          >
+            Connects
+          </p>
+          <ul className="m-0 list-none p-0 lg:col-span-5 lg:col-start-8">
+            {LINKS.map((link) => (
+              <li
+                key={link.service}
+                className="flex items-baseline gap-6 py-[13px]"
+              >
+                <span className="w-[5.5em] shrink-0 text-[15px] leading-[24px] text-wb-muted">
+                  {link.kind}
+                </span>
+                <span className="text-[17px] leading-[26px] font-medium text-wb-ink">
+                  {link.service}
+                </span>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>

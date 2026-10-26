@@ -73,7 +73,7 @@ export default async function LegalDocumentPage({
 
         {/* CONTENTS outline */}
         {doc.toc.length ? (
-          <nav aria-label="目录" className="mb-12">
+          <nav aria-label="Contents" className="mb-12">
             <h2
               className="mb-3 text-[13px] leading-[22px] font-semibold text-[#6B7280]"
               style={{ fontFamily: SYSTEM_FONT }}

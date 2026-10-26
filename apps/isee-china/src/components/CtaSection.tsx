@@ -1,60 +1,52 @@
-import { DownloadDogIcon } from "@/components/icons";
-
 /* ------------------------------------------------------------------ *
- * CTA — #F4F4F4 band, 360px tall on desktop.
- * Left: 50px/58 headline + 20px/32 description + green 立即下载 button.
- * Right: half-width autoplay/muted/loop video (robot desert scene),
- *        flush to the right edge, object-fit cover.
- * Mobile: stacks — centred text block (30px headline) with a full-bleed
- *         240px video underneath.
- * Spec: docs/research/components/cta.spec.md · raw: docs/research/raw/cta.json
+ * CTA — 两端问句：100svh 最深色场，两行大字分贴上下边缘，
+ * 正中一行两个实心按钮，中间一个「or」字。
+ * 两行文案取自原 CTA 描述（把重复交给 iSee，把判断和创造力留给自己）。
  * ------------------------------------------------------------------ */
-
-const VIDEO_SRC = "/cta/join.mp4";
 
 export function CtaSection() {
   return (
-    <section className="w-full overflow-hidden bg-[#f4f4f4] lg:h-[360px]">
-      <div className="mx-auto flex h-full max-w-[1920px] flex-col lg:flex-row lg:items-center lg:justify-between lg:gap-[57.6px] lg:pl-[57.6px]">
-        {/* Left — copy + download */}
-        <div className="min-w-0 px-6 pt-10 pb-8 text-center lg:w-auto lg:flex-1 lg:px-0 lg:pt-0 lg:pb-0 lg:text-left">
-          <div className="mb-4 flex items-center justify-center gap-3 lg:justify-start">
-            <h2 className="font-round text-[30px] leading-[38px] font-bold text-black lg:text-[50px] lg:leading-[58px] lg:whitespace-nowrap">
-              开启 AI 办公新范式
-            </h2>
-          </div>
+    <section
+      aria-labelledby="cta-title"
+      className="flex min-h-[100svh] w-full flex-col justify-between overflow-hidden bg-wb-ink px-5 pt-8 pb-6 text-white lg:px-[60px]"
+    >
+      <h2
+        id="cta-title"
+        className="m-0 text-center font-heading text-[clamp(52px,11vw,160px)] leading-[1.0] font-bold tracking-[-0.03em] whitespace-nowrap"
+      >
+        <span className="block">Hand the repeats</span>
+      </h2>
 
-          <p className="mx-auto mb-10 max-w-[658px] font-round text-[20px] leading-[32px] font-medium text-wb-ink-2 lg:mx-0">
-            免费开始，无限可能。把重复、繁琐、跨工具的任务交给
-            iSee，把判断和创造力留给自己。
-          </p>
-
-          <div className="flex justify-center lg:block">
-            <button
-              type="button"
-              className="flex h-12 items-center justify-center gap-2 rounded-[4px] bg-wb-green px-6 font-heading text-[18px] font-bold text-white transition-colors duration-300 hover:bg-wb-deepgreen"
-            >
-              <DownloadDogIcon className="h-6 w-6 shrink-0" />
-              <span>立即下载</span>
-            </button>
-          </div>
+      {/* 光心处的一行：两个答案 + 「or」 */}
+      <div className="flex flex-col items-center">
+        <div className="flex w-full max-w-[560px] flex-col items-center gap-3 sm:w-auto sm:flex-row sm:gap-0">
+          <a
+            href="#download-section"
+            className="flex h-14 w-full items-center justify-center rounded-[4px] bg-wb-action px-12 text-[18px] font-medium whitespace-nowrap text-white transition-colors duration-300 hover:bg-wb-action-deep sm:w-[220px]"
+          >
+            Download
+          </a>
+          <span
+            aria-hidden="true"
+            className="px-0 py-1 text-[18px] text-white/60 sm:px-[60px]"
+          >
+            or
+          </span>
+          <a
+            href="#"
+            className="flex h-14 w-full items-center justify-center rounded-[4px] bg-white px-12 text-[18px] font-medium whitespace-nowrap text-wb-ink transition-colors duration-300 hover:bg-wb-panel sm:w-[220px]"
+          >
+            Use online
+          </a>
         </div>
-
-        {/* Right — looping video */}
-        {/* 658.4 / 1432 = (100% - pl 57.6 - gap 57.6) / 2, matching the original split */}
-        <div className="relative h-60 w-full overflow-hidden lg:h-full lg:w-[calc((100%-115.2px)/2)] lg:shrink-0">
-          <video
-            className="block h-full w-full object-cover"
-            src={VIDEO_SRC}
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="auto"
-            aria-label="iSee 宣传视频"
-          />
-        </div>
+        <p className="m-0 mt-5 text-center text-[16px] leading-[26px] text-white/60">
+          Free to start, limitless to go
+        </p>
       </div>
+
+      <p className="m-0 text-center font-heading text-[clamp(52px,11vw,160px)] leading-[1.0] font-bold tracking-[-0.03em] whitespace-nowrap">
+        keep the creating
+      </p>
     </section>
   );
 }

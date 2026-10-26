@@ -1,0 +1,2660 @@
+{
+ "url": "http://localhost:3000",
+ "at": "2026-10-26T05:16:31.773Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 27,
+    "css": 26,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8764,
+     "screens": 9.7,
+     "words": 267,
+     "img": 32,
+     "video": 1,
+     "canvas": 0,
+     "svg": 31,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fdemo%2Fdemo-ava.png&w=640&q=75",
+      "demo-ava.png",
+      "02-agent-chat.webp",
+      "02-agent-chat.webp",
+      "05-session-search.webp",
+      "04-chat-context.webp",
+      "03-group-chat.webp",
+      "11-group-private-dm.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 1
+    },
+    "hero": {
+     "text": "iSee 我帮你 iSee 我帮你 写文档 写 文 档",
+     "words": 8,
+     "chars": 27,
+     "lines": 2,
+     "size": 68,
+     "vw": 4.7,
+     "font": "Alimama ShuHeiTi",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.35,
+     "top": 137,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "iSee 我帮你 iSee 我帮你 写文档 写 文 档",
+     "words": 8,
+     "lines": 2,
+     "size": 60,
+     "font": "Alimama ShuHeiTi"
+    },
+    "headings": [
+     {
+      "text": "iSee 我帮你 iSee 我帮你 写文档 写 文 档",
+      "words": 8,
+      "chars": 27,
+      "lines": 2,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.35,
+      "top": 137,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee 桌面端功能一览",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.64,
+      "top": 1351,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee 连接打通办公生态",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5088,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "选择适合的方案",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 6070,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "$0",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.03,
+      "top": 6492,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "$10",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.05,
+      "top": 6492,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "$40",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.05,
+      "top": 7081,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "开启 AI 办公新范式",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 7856,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 150,
+      "vw": 10.4,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.06,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8524,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 4,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.75,
+       "mono": false
+      },
+      {
+       "family": "Alimama FangYuanTi",
+       "share": 0.17,
+       "mono": false
+      },
+      {
+       "family": "Alimama ShuHeiTi",
+       "share": 0.06,
+       "mono": false
+      },
+      {
+       "family": "-apple-system",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      22,
+      24,
+      40,
+      48,
+      50,
+      56,
+      60,
+      68,
+      150
+     ],
+     "sizeCount": 17,
+     "notLoaded": [
+      "PingFang SC"
+     ],
+     "body": {
+      "font": "Alimama FangYuanTi",
+      "size": 20,
+      "leading": 2,
+      "weight": 500,
+      "tracking": 0,
+      "contrast": 17.3
+     },
+     "measureChars": 72,
+     "max": {
+      "size": 150,
+      "vw": 10.4,
+      "font": "Alimama ShuHeiTi",
+      "text": "iSee"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.17,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Free",
+      "above": "$0",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 6444
+     },
+     {
+      "text": "Pro",
+      "above": "$10",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 6444
+     },
+     {
+      "text": "Team",
+      "above": "$40",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 7033
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#1b1d22",
+       "top": 550,
+       "hsl": {
+        "h": 223,
+        "s": 0.11,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#f4f5f5",
+       "top": 1251,
+       "hsl": {
+        "h": 180,
+        "s": 0.05,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#f4f4f4",
+       "top": 7789,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#f8f9fa",
+       "top": 8149,
+       "hsl": {
+        "h": 210,
+        "s": 0.17,
+        "l": 0.98
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#333333",
+       "share": 0.49
+      },
+      {
+       "color": "#666666",
+       "share": 0.2
+      },
+      {
+       "color": "#191a23",
+       "share": 0.14
+      },
+      {
+       "color": "#0d0d0d",
+       "share": 0.05
+      },
+      {
+       "color": "#5a5a5a",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#28b894",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.1
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "立即下载",
+       "ratio": 2.5,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffffff",
+       "bg": "#28b894"
+      },
+      {
+       "text": "当前设备",
+       "ratio": 2.5,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#28b894",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "在线使用",
+       "ratio": 2.5,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#28b894",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 4,
+     "radius": 4,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "下载",
+      "下载 iSee",
+      "立即下载",
+      "在线使用"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 25,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "ul.absolute.top-[54px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "section.overflow-hidden.rounded-xl → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "li.flex.h-full → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "li.flex.h-full → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 2,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.top-1/2 → linear-gradient(rgb(238, 249, 247), rgb(238, 249, 247)), linear-gradient(rgba(40, 184, 148, 0), rgba(40, 184, ",
+      "div.absolute.top-1/2 → radial-gradient(circle, rgba(40, 184, 148, 0.15) 0%, rgba(40, 184, 148, 0.08) 45%, rgba(40, 184, 148, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 10,
+     "hairlineSamples": [
+      "div.flex.h-[73px] 320px",
+      "a.flex.items-center 320px",
+      "a.flex.items-center 320px",
+      "h3.flex.w-full 250px",
+      "h3.flex.w-full 250px"
+     ],
+     "outlinedBoxes": 15,
+     "dashed": 0,
+     "blurred": 2,
+     "roundedBoxes": 30,
+     "boxRadius": 16,
+     "squareMedia": 5,
+     "roundedMedia": 13,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 12,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1702
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 6419
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 8237
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.28
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "alimama shuheiti",
+     "alimama fangyuanti"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 8764,
+    "margins": {
+     "left": 88,
+     "right": 121
+    },
+    "sections": [
+     {
+      "sel": "section.relative.w-full",
+      "tag": "section",
+      "top": 0,
+      "height": 490,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "iSee",
+       "size": 68,
+       "tag": "h1"
+      },
+      "left": 360,
+      "right": 360,
+      "textLeft": 360,
+      "textRight": 360,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "main.bg-white.px-5",
+      "tag": "main",
+      "top": 490,
+      "height": 761,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 209,
+      "right": 209,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.bg-white",
+      "tag": "div",
+      "top": 1251,
+      "height": 3722,
+      "words": 110,
+      "media": 12,
+      "middle": 0,
+      "heading": {
+       "text": "iSee",
+       "size": 56,
+       "tag": "span"
+      },
+      "left": 121,
+      "right": 121,
+      "textLeft": 145,
+      "textRight": 273,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#ecosystem.relative.overflow-hidden",
+      "tag": "section",
+      "top": 4973,
+      "height": 1017,
+      "words": 13,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "iSee 连接打通办公生态",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 348,
+      "right": 360,
+      "textLeft": 408,
+      "textRight": 369,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.w-full.bg-white",
+      "tag": "section",
+      "top": 5990,
+      "height": 1799,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "选择适合的方案",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 305,
+      "right": 305,
+      "textLeft": 305,
+      "textRight": 430,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.w-full.overflow-hidden",
+      "tag": "section",
+      "top": 7789,
+      "height": 360,
+      "words": 6,
+      "media": 1,
+      "middle": 100,
+      "heading": {
+       "text": "开启 AI 办公新范式",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 0,
+      "textLeft": 58,
+      "textRight": 734,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.relative.z-[999]",
+      "tag": "footer",
+      "top": 8149,
+      "height": 615,
+      "words": 20,
+      "media": 0,
+      "middle": 245,
+      "heading": {
+       "text": "iSee",
+       "size": 150,
+       "tag": "span"
+      },
+      "left": 60,
+      "right": 269,
+      "textLeft": 60,
+      "textRight": 269,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "iSee 我帮你 iSee 我帮你 写文档 写 文 档",
+      "size": 60,
+      "top": 137,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 58,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 1,
+    "bodySize": 20,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.12,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 360,
+     "h": 420
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 24,
+    "css": 23,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 8603,
+     "screens": 8.4,
+     "words": 258,
+     "img": 32,
+     "video": 1,
+     "canvas": 0,
+     "svg": 31,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 15,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "demo-ava.png",
+      "02-agent-chat.webp",
+      "02-agent-chat.webp",
+      "05-session-search.webp",
+      "04-chat-context.webp",
+      "03-group-chat.webp",
+      "11-group-private-dm.webp",
+      "08-agent-profile.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 1
+    },
+    "hero": {
+     "text": "iSee 我帮你 iSee 我帮你 做投资 做 投 资",
+     "words": 8,
+     "chars": 27,
+     "lines": 2,
+     "size": 68,
+     "vw": 8.9,
+     "font": "Alimama ShuHeiTi",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.66,
+     "top": 137,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "iSee 我帮你 iSee 我帮你 做投资 做 投 资",
+     "words": 8,
+     "lines": 2,
+     "size": 60,
+     "font": "Alimama ShuHeiTi"
+    },
+    "headings": [
+     {
+      "text": "iSee 我帮你 iSee 我帮你 做投资 做 投 资",
+      "words": 8,
+      "chars": 27,
+      "lines": 2,
+      "size": 68,
+      "vw": 8.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.66,
+      "top": 137,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 1126,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "桌面端功能一览",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Alimama ShuHeiTi",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.26,
+      "top": 1128,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee 连接打通办公生态",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 50,
+      "vw": 6.5,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 4626,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "选择适合的方案",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 50,
+      "vw": 6.5,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5607,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "$0",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 6030,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "$10",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.09,
+      "top": 6030,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "$40",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 6619,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "开启 AI 办公新范式",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.27,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.34,
+      "top": 7367,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 107.5,
+      "vw": 14,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.06,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 8409,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 6,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.76,
+       "mono": false
+      },
+      {
+       "family": "Alimama FangYuanTi",
+       "share": 0.17,
+       "mono": false
+      },
+      {
+       "family": "Alimama ShuHeiTi",
+       "share": 0.06,
+       "mono": false
+      },
+      {
+       "family": "-apple-system",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      24,
+      28,
+      30,
+      40,
+      50,
+      60,
+      68,
+      108
+     ],
+     "sizeCount": 16,
+     "notLoaded": [
+      "PingFang SC"
+     ],
+     "body": {
+      "font": "Alimama FangYuanTi",
+      "size": 20,
+      "leading": 2,
+      "weight": 500,
+      "tracking": 0,
+      "contrast": 17.3
+     },
+     "measureChars": 65,
+     "max": {
+      "size": 107.5,
+      "vw": 14,
+      "font": "Alimama ShuHeiTi",
+      "text": "iSee"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.19,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Free",
+      "above": "$0",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 5982
+     },
+     {
+      "text": "Pro",
+      "above": "$10",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 5982
+     },
+     {
+      "text": "Team",
+      "above": "$40",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 6571
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#1b1d22",
+       "top": 550,
+       "hsl": {
+        "h": 223,
+        "s": 0.11,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#f4f5f5",
+       "top": 1066,
+       "hsl": {
+        "h": 180,
+        "s": 0.05,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#f4f4f4",
+       "top": 7327,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#f8f9fa",
+       "top": 7845,
+       "hsl": {
+        "h": 210,
+        "s": 0.17,
+        "l": 0.98
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#333333",
+       "share": 0.5
+      },
+      {
+       "color": "#666666",
+       "share": 0.2
+      },
+      {
+       "color": "#191a23",
+       "share": 0.13
+      },
+      {
+       "color": "#0d0d0d",
+       "share": 0.05
+      },
+      {
+       "color": "#5a5a5a",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#28b894",
+      "hsl": {
+       "h": 165,
+       "s": 0.64,
+       "l": 0.44
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "限时 5 折",
+       "ratio": 2.1,
+       "need": 4.5,
+       "size": 12,
+       "fg": "#25ab52",
+       "bg": "#c6e0cd"
+      },
+      {
+       "text": "按年计费",
+       "ratio": 2.3,
+       "need": 4.5,
+       "size": 15,
+       "fg": "#999999",
+       "bg": "#e8e8e8"
+      },
+      {
+       "text": "立即下载",
+       "ratio": 2.5,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffffff",
+       "bg": "#28b894"
+      },
+      {
+       "text": "当前设备",
+       "ratio": 2.5,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#28b894",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "在线使用",
+       "ratio": 2.5,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#28b894",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "开始 7 天免费试用",
+       "ratio": 2.5,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#ffffff",
+       "bg": "#28b894"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 3,
+     "radius": 4,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "下载 iSee",
+      "立即下载",
+      "在线使用"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 25,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "ul.absolute.top-[54px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "section.overflow-hidden.rounded-xl → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "li.flex.h-full → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "li.flex.h-full → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 2,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.top-1/2 → linear-gradient(rgb(238, 249, 247), rgb(238, 249, 247)), linear-gradient(rgba(40, 184, 148, 0), rgba(40, 184, ",
+      "div.absolute.top-1/2 → radial-gradient(circle, rgba(40, 184, 148, 0.15) 0%, rgba(40, 184, 148, 0.08) 45%, rgba(40, 184, 148, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 10,
+     "hairlineSamples": [
+      "div.flex.h-[73px] 320px",
+      "a.flex.items-center 320px",
+      "a.flex.items-center 320px",
+      "h3.flex.w-full 292px",
+      "h3.flex.w-full 292px"
+     ],
+     "outlinedBoxes": 15,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 30,
+     "boxRadius": 16,
+     "squareMedia": 4,
+     "roundedMedia": 13,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 12,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1426
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 5957
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 7933
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.42
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "alimama shuheiti",
+     "alimama fangyuanti"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 8603,
+    "margins": {
+     "left": 45,
+     "right": 45
+    },
+    "sections": [
+     {
+      "sel": "section.relative.w-full",
+      "tag": "section",
+      "top": 0,
+      "height": 490,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "iSee",
+       "size": 68,
+       "tag": "h1"
+      },
+      "left": 64,
+      "right": 64,
+      "textLeft": 64,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "main.bg-white.px-5",
+      "tag": "main",
+      "top": 490,
+      "height": 576,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 21,
+      "right": 21,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.bg-white",
+      "tag": "div",
+      "top": 1066,
+      "height": 3445,
+      "words": 110,
+      "media": 12,
+      "middle": 0,
+      "heading": {
+       "text": "iSee",
+       "size": 40,
+       "tag": "span"
+      },
+      "left": 45,
+      "right": 45,
+      "textLeft": 65,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#ecosystem.relative.overflow-hidden",
+      "tag": "section",
+      "top": 4511,
+      "height": 1017,
+      "words": 13,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "iSee 连接打通办公生态",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 0,
+      "textLeft": 72,
+      "textRight": -8,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.w-full.bg-white",
+      "tag": "section",
+      "top": 5527,
+      "height": 1799,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "选择适合的方案",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 97,
+      "right": 97,
+      "textLeft": 97,
+      "textRight": 151,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.w-full.overflow-hidden",
+      "tag": "section",
+      "top": 7327,
+      "height": 518,
+      "words": 6,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "开启 AI 办公新范式",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 60,
+      "right": 60,
+      "textLeft": 60,
+      "textRight": 60,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.relative.z-[999]",
+      "tag": "footer",
+      "top": 7845,
+      "height": 758,
+      "words": 20,
+      "media": 0,
+      "middle": 90,
+      "heading": {
+       "text": "条款与政策",
+       "size": 14,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 271,
+      "textLeft": 20,
+      "textRight": 271,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "iSee 我帮你 iSee 我帮你 做投资 做 投 资",
+      "size": 60,
+      "top": 137,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 20,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    1,
+    0.99,
+    0.99,
+    0.99
+   ],
+   "motion": {
+    "elements": 27,
+    "css": 26,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 11814,
+     "screens": 14,
+     "words": 258,
+     "img": 32,
+     "video": 1,
+     "canvas": 0,
+     "svg": 31,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "02-agent-chat.webp",
+      "02-agent-chat.webp",
+      "05-session-search.webp",
+      "04-chat-context.webp",
+      "03-group-chat.webp",
+      "11-group-private-dm.webp",
+      "08-agent-profile.webp",
+      "09-agent-market.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 1
+    },
+    "hero": {
+     "text": "iSee",
+     "words": 1,
+     "chars": 4,
+     "lines": 1,
+     "size": 42,
+     "vw": 10.8,
+     "font": "Alimama ShuHeiTi",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "left",
+     "widthRatio": 0.22,
+     "top": 125,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "iSee 我帮你 iSee 我帮你 写文档 写 文 档",
+     "words": 8,
+     "lines": 2,
+     "size": 28,
+     "font": "Alimama ShuHeiTi"
+    },
+    "headings": [
+     {
+      "text": "×",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "-apple-system",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.08,
+      "top": 20,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 42,
+      "vw": 10.8,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 125,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "桌面端功能一览",
+      "words": 1,
+      "chars": 7,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 890,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 905,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee 连接打通办公生态",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7559,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "选择适合的方案",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7991,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "$0",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 8365,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "$10",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 8913,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "$40",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 9494,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "开启 AI 办公新范式",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Alimama FangYuanTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.27,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.66,
+      "top": 10202,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 88,
+      "vw": 22.6,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.06,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11620,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 7,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.76,
+       "mono": false
+      },
+      {
+       "family": "Alimama FangYuanTi",
+       "share": 0.17,
+       "mono": false
+      },
+      {
+       "family": "Alimama ShuHeiTi",
+       "share": 0.06,
+       "mono": false
+      },
+      {
+       "family": "-apple-system",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      24,
+      28,
+      30,
+      32,
+      34,
+      40,
+      42,
+      88
+     ],
+     "sizeCount": 16,
+     "notLoaded": [
+      "PingFang SC"
+     ],
+     "body": {
+      "font": "Alimama FangYuanTi",
+      "size": 16,
+      "leading": 1.8,
+      "weight": 500,
+      "tracking": 0,
+      "contrast": 17.3
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 88,
+      "vw": 22.6,
+      "font": "Alimama ShuHeiTi",
+      "text": "iSee"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.2,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Linear",
+      "above": "iSee 连接打通办公生态",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 7537
+     },
+     {
+      "text": "Free",
+      "above": "$0",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 8317
+     },
+     {
+      "text": "Pro",
+      "above": "$10",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 8865
+     },
+     {
+      "text": "Team",
+      "above": "$40",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 9446
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f4f5f5",
+       "top": 830,
+       "hsl": {
+        "h": 180,
+        "s": 0.05,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#f4f4f4",
+       "top": 10162,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#f8f9fa",
+       "top": 10712,
+       "hsl": {
+        "h": 210,
+        "s": 0.17,
+        "l": 0.98
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#333333",
+       "share": 0.5
+      },
+      {
+       "color": "#666666",
+       "share": 0.2
+      },
+      {
+       "color": "#191a23",
+       "share": 0.13
+      },
+      {
+       "color": "#0d0d0d",
+       "share": 0.05
+      },
+      {
+       "color": "#5a5a5a",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#28b894",
+      "hsl": {
+       "h": 165,
+       "s": 0.64,
+       "l": 0.44
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "立即下载",
+       "ratio": 2.5,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffffff",
+       "bg": "#28b894"
+      },
+      {
+       "text": "当前设备",
+       "ratio": 2.5,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#28b894",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "在线使用",
+       "ratio": 2.5,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#28b894",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 3,
+     "radius": 4,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "下载 iSee",
+      "立即下载",
+      "在线使用"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 25,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "ul.absolute.top-[54px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "section.overflow-hidden.rounded-xl → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "li.flex.h-full → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "li.flex.h-full → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 2,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.top-1/2 → linear-gradient(rgb(238, 249, 247), rgb(238, 249, 247)), linear-gradient(rgba(40, 184, 148, 0), rgba(40, 184, ",
+      "div.absolute.top-1/2 → radial-gradient(circle, rgba(40, 184, 148, 0.15) 0%, rgba(40, 184, 148, 0.08) 45%, rgba(40, 184, 148, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 10,
+     "hairlineSamples": [
+      "div.flex.h-[73px] 320px",
+      "a.flex.items-center 320px",
+      "a.flex.items-center 320px",
+      "h3.flex.w-full 294px",
+      "h3.flex.w-full 294px"
+     ],
+     "outlinedBoxes": 15,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 25,
+     "boxRadius": 16,
+     "squareMedia": 3,
+     "roundedMedia": 13,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 12,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1304
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 8292
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 10800
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.23
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "alimama shuheiti",
+     "alimama fangyuanti"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 11814,
+    "margins": {
+     "left": 25,
+     "right": 25
+    },
+    "sections": [
+     {
+      "sel": "section.relative.w-full",
+      "tag": "section",
+      "top": 0,
+      "height": 490,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "iSee",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 27,
+      "right": 27,
+      "textLeft": 27,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "main.bg-white.px-5",
+      "tag": "main",
+      "top": 490,
+      "height": 340,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 21,
+      "right": 21,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.bg-white",
+      "tag": "div",
+      "top": 830,
+      "height": 6614,
+      "words": 110,
+      "media": 12,
+      "middle": 0,
+      "heading": {
+       "text": "iSee",
+       "size": 40,
+       "tag": "span"
+      },
+      "left": 45,
+      "right": 45,
+      "textLeft": 50,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#ecosystem.relative.overflow-hidden",
+      "tag": "section",
+      "top": 7444,
+      "height": 467,
+      "words": 13,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "iSee 连接打通办公生态",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 14,
+      "textLeft": 20,
+      "textRight": 15,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.w-full.bg-white",
+      "tag": "section",
+      "top": 7911,
+      "height": 2251,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "选择适合的方案",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 25,
+      "right": 25,
+      "textLeft": 51,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.w-full.overflow-hidden",
+      "tag": "section",
+      "top": 10162,
+      "height": 550,
+      "words": 6,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "开启 AI 办公新范式",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 25,
+      "right": 25,
+      "textLeft": 25,
+      "textRight": 25,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.relative.z-[999]",
+      "tag": "footer",
+      "top": 10712,
+      "height": 1102,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "条款与政策",
+       "size": 14,
+       "tag": "h3"
+      },
+      "left": 48,
+      "right": 114,
+      "textLeft": 48,
+      "textRight": 114,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "iSee 我帮你 iSee 我帮你 写文档 写 文 档",
+      "size": 28,
+      "top": 122,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Slack",
+      "side": "right",
+      "px": 15
+     }
+    ],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "3 eyebrow/kicker label(s) above headings: \"Free\" above \"$0\"; \"Pro\" above \"$10\"; \"Team\" above \"$40\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "2 gradient fill(s): div.absolute.top-1/2 → linear-gradient(rgb(238, 249, 247), rgb(238, 249, 247)), linear-gradient(rgba(40, 184, 148, 0), rgba(40, 184,  | div.absolute.top-1/2 → radial-gradient(circle, rgba(40, 184, 148, 0.15) 0%, rgba(40, 184, 148, 0.08) 45%, rgba(40, 184, 148, 0) 70%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "25 box-shadow(s) on elements at rest: ul.absolute.top-[54px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | section.overflow-hidden.rounded-xl → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | li.flex.h-full → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "10 thin rule(s)/divider line(s): div.flex.h-[73px] 320px | a.flex.items-center 320px | a.flex.items-center 320px | h3.flex.w-full 250px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "15 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "2 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "1 row(s) of identical cards each topped with a small icon (3 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Unreadable text: \"立即下载\" 2.5:1 (#ffffff on #28b894); \"当前设备\" 2.5:1 (#28b894 on #ffffff); \"在线使用\" 2.5:1 (#28b894 on #ffffff)",
+   "fix": "Raise contrast to at least 4.5:1 for text, 3:1 for large display.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (PingFang SC, Alimama FangYuanTi, Alimama ShuHeiTi).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-fallback",
+   "width": 1440,
+   "message": "Typeface(s) declared but not loaded, so a fallback is rendering: PingFang SC",
+   "fix": "Fix the font URL / family name, or the screenshots you are judging are not the design.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "17 different font sizes (11, 12, 13, 14, 15, 16, 18, 20, 22, 24, 40, 48, 50, 56, 60, 68, 150).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-poster",
+   "width": 1440,
+   "message": "1 clip(s) without a poster.",
+   "fix": "Give every clip a poster frame: in the study of 100 Sites of the Day only 31% had one, and the blank or grey boxes before the clips played were recorded as faults (references/imagery.md §11).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 88px on the left, 121px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "edge-text",
+   "width": 390,
+   "message": "1 text block(s) sit 12–15px from the phone's edge: \"Slack\" (15px)",
+   "fix": "The page margin is 16–20px on a phone; the header and the corner labels sit on it too."
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 390,
+   "message": "Large text lies under another element at some scroll position: \"iSee 连接打通办公生态\" (screen 9, 25% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/apps/isee-china/.taste-skill/before/desktop-fold.jpg",
+   "pages": [
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/apps/isee-china/.taste-skill/before/desktop-page-01.jpg",
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/apps/isee-china/.taste-skill/before/desktop-page-02.jpg",
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/apps/isee-china/.taste-skill/before/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/apps/isee-china/.taste-skill/before/tablet-fold.jpg",
+   "pages": [
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/apps/isee-china/.taste-skill/before/tablet-page-01.jpg",
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/apps/isee-china/.taste-skill/before/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/apps/isee-china/.taste-skill/before/mobile-fold.jpg",
+   "pages": [
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/apps/isee-china/.taste-skill/before/mobile-page-01.jpg",
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/apps/isee-china/.taste-skill/before/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

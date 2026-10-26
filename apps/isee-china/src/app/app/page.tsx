@@ -16,31 +16,31 @@ const SYSTEM_FONT =
 const NAV_LINKS = [
   { label: "IDE", href: "#" },
   { label: "CLI", href: "#" },
-  { label: "定价", href: "/pricing" },
-  { label: "文档", href: "/document/term" },
-  { label: "博客", href: "#" },
+  { label: "Docs", href: "/document/term" },
+  { label: "Blog", href: "#" },
 ];
 
 const SCENARIOS = [
-  "日常办公",
-  "代码开发",
-  "幻灯片",
-  "视频生成",
-  "深度研究",
-  "文档处理",
-  "数据分析",
-  "可视化",
-  "金融服务",
-  "产品管理",
-  "设计",
-  "邮件编辑",
+  "Everyday work",
+  "Coding",
+  "Slides",
+  "Video generation",
+  "Deep research",
+  "Document processing",
+  "Data analysis",
+  "Visualization",
+  "Financial services",
+  "Product management",
+  "Design",
+  "Email drafting",
 ];
 
-const PANEL_TABS = ["默认权限", "概览", "产物"];
+const PANEL_TABS = ["Default permissions", "Overview", "Artifacts"];
 
 export const metadata: Metadata = {
   title: "iSee",
-  description: "iSee — 我帮你，你的 AI 办公工作台",
+  description:
+    "iSee — your AI office workspace. Say what you need and agents get it done.",
 };
 
 export default function AppLandingPage() {
@@ -79,12 +79,6 @@ export default function AppLandingPage() {
               ))}
             </ul>
           </div>
-          <button
-            type="button"
-            className="cursor-pointer rounded-[8px] px-3 py-1.5 text-[14px] leading-[22px] text-wb-ink-2 transition-colors duration-200 hover:bg-black/[0.04]"
-          >
-            登录
-          </button>
         </nav>
       </header>
 
@@ -93,8 +87,8 @@ export default function AppLandingPage() {
           {/* left — welcome + scenarios + composer */}
           <div className="flex flex-col">
             <h1 className="font-heading text-[40px] leading-[56px] font-bold text-wb-ink-2 md:text-[56px] md:leading-[76px]">
-              <span className="sr-only">iSee, 我帮你</span>
-              <span className="whitespace-pre">iSee, 我帮你</span>
+              <span className="sr-only">iSee, I&apos;ve got you</span>
+              <span className="whitespace-pre">iSee, I&apos;ve got you</span>
             </h1>
 
             <div className="mt-10 flex flex-wrap gap-3">
@@ -114,16 +108,16 @@ export default function AppLandingPage() {
               <div className="rounded-2xl border border-[#E5E5E5] bg-white p-4 shadow-[0_8px_32px_rgba(13,13,13,0.06)] transition-shadow duration-300 focus-within:border-wb-green/50 focus-within:shadow-[0_8px_32px_rgba(40,184,148,0.12)]">
                 <textarea
                   rows={3}
-                  placeholder="今天帮你做些什么？"
+                  placeholder="What should we get done today?"
                   className="w-full resize-none bg-transparent text-[16px] leading-[25.6px] text-wb-ink-2 outline-none placeholder:text-[#999]"
                 />
                 <div className="flex items-center justify-between pt-2">
                   <p className="text-[13px] leading-[20px] text-[#999]">
-                    @ 引用对话文件，/ 调用技能与指令
+                    @ to reference conversation files, / for skills and commands
                   </p>
                   <button
                     type="button"
-                    title="发送"
+                    title="Send"
                     className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-full bg-wb-green text-white transition-colors duration-200 hover:bg-wb-deepgreen"
                   >
                     <svg
@@ -149,7 +143,7 @@ export default function AppLandingPage() {
           <aside className="h-fit rounded-2xl border border-[#EFEFEF] bg-[#FAFAFA]">
             <div
               role="tablist"
-              aria-label="工作区"
+              aria-label="Workspace"
               className="flex gap-1 border-b border-[#EFEFEF] p-2"
             >
               {PANEL_TABS.map((tab) => (
@@ -157,9 +151,9 @@ export default function AppLandingPage() {
                   key={tab}
                   type="button"
                   role="tab"
-                  aria-selected={tab === "默认权限"}
+                  aria-selected={tab === "Default permissions"}
                   className={`flex-1 cursor-pointer rounded-lg px-2 py-2 text-[13px] leading-[20px] transition-colors duration-200 ${
-                    tab === "默认权限"
+                    tab === "Default permissions"
                       ? "bg-white text-wb-ink-2 shadow-[0_1px_4px_rgba(13,13,13,0.08)]"
                       : "text-wb-muted hover:text-wb-ink-2"
                   }`}
@@ -170,10 +164,10 @@ export default function AppLandingPage() {
             </div>
             <div className="flex flex-col items-center gap-2 px-6 py-16 text-center">
               <p className="m-0 text-[14px] leading-[22px] text-wb-muted">
-                暂无内容
+                Nothing here yet
               </p>
               <p className="m-0 text-[13px] leading-[20px] text-[#999]">
-                引用来源 (0)
+                Sources (0)
               </p>
             </div>
           </aside>

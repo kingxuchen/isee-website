@@ -1,8 +1,8 @@
 # iSee 桌面端功能巡览：截图 + 实现分析 + 官网复用评估
 
-调查时间：2026-10-25。对象：`/Applications/iSee.app` v0.1.0（本机已登录的一个测试账号，pid 32135）与源码 `/Users/fanbingbing/Documents/project/isee`。
+调查时间：2026-10-25；截图于 2026-10-26 重拍（浅色主题）。对象：本地 dev 栈（`pnpm dev:local`）中运行中的 iSee 桌面端（pid 43951，测试账号 verify-a），源码 `/Users/fanbingbing/Documents/project/isee`。
 
-截图由 cua-driver 对**正在运行的真实客户端**逐面截图得到，截图已随本文档一起放进 `public/features/`（webp，1400px 宽）。没有任何一张是设计稿或合成图。会话列表里的真人昵称、设备 ID 与账号字段已做遮挡。
+截图由 cua-driver 对**正在运行的真实客户端**逐面截图得到，已随本文档一起放进 `public/features/`（webp，1366×854 / 设置页 1280×1120）。没有任何一张是设计稿或合成图。会话列表里的真人昵称、设备 ID 与账号字段已做遮挡。
 
 ## 1. 先看架构，再看功能
 
@@ -183,7 +183,7 @@ flowchart TB
 
 ## 12. 右侧工作区面板（目录 / 终端 / Git / 浏览器）
 
-> 本节没有独立截图。右栏「目录」tab 的形状可以在第 6 节那张截图（`05-session-search.png`）的右侧看到：一个 `.isee` 根节点、刷新按钮、关闭标签；「终端 / Git」在这个会话里开不出来——`resolveAddMenuKinds` 要求 `hasGitWorkspace` 为真，而账号下这个 Agent 的目录不是 git 仓库。以下终端、Git 与离线行为来自源码与 IPC 通道清单，非截图证据。
+> 本节没有独立截图。右栏「目录」tab 的形状可以在第 6 节那张截图（`05-session-search.webp`）的右侧看到：一个 `.isee` 根节点、刷新按钮、关闭标签；「终端 / Git」在这个会话里开不出来——`resolveAddMenuKinds` 要求 `hasGitWorkspace` 为真，而账号下这个 Agent 的目录不是 git 仓库。以下终端、Git 与离线行为来自源码与 IPC 通道清单，非截图证据。
 
 **用户看到什么**：右栏 tab 组：目录树、文件预览、终端、Git、浏览器、差异对比；无 tab 时给空态引导 + 「+」菜单。
 
@@ -277,7 +277,7 @@ flowchart TB
 | 主题色 5 预置 | 可选 | 官网有自己的品牌绿，不要为了「像」引入第二套 token |
 | Agent 市场卡片网格 | 复用结构，换数据源 | 卡片/分组/详情覆盖层的结构可搬到官网的 Agent 展示页；官网用静态数据，不接 `/api/cloud/agents` |
 
-实现落地见 `apps/isee-china/src/app/features/page.tsx`（`/features` 路由）与 `src/components/DesktopFeatures.tsx`：这是国内站新增的「桌面端功能」页，Header 已加入口。
+实现落地见 `apps/isee-china/src/components/Capabilities.tsx` 与 `src/data/desktop-features.ts`：原 `/features` 路由的内容已全量并入首页（及 /agents 页）的「桌面端功能一览」区块，路由本身已移除并 301 到 `/#features`。
 
 页面共 12 张截图。主界面、通讯录、添加菜单这三处的画面已被「Agent 对话 / Agent 资料卡 / Agent 市场」覆盖，没有单独出图，避免同一批界面反复出现。
 
@@ -291,5 +291,5 @@ cua-driver get_window_state '{"pid":<pid>,"window_id":<id>,"screenshot_out_file"
 
 # 官网页面
 pnpm dev:isee-china          # 或 pnpm --filter isee-china dev -- -p 3100
-open http://localhost:3000/features
+open http://localhost:3000/#features
 ```

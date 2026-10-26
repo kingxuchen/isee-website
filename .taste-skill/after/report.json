@@ -1,0 +1,3110 @@
+{
+ "url": "http://localhost:3000",
+ "at": "2026-10-26T05:36:40.966Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.99,
+    1,
+    0.98,
+    0.95,
+    0.96,
+    0.96,
+    0.96,
+    0.99,
+    1,
+    1,
+    1,
+    0.99
+   ],
+   "motion": {
+    "elements": 27,
+    "css": 22,
+    "transitions": 4,
+    "scripted": 1,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 11053,
+     "screens": 12.3,
+     "words": 290,
+     "img": 22,
+     "video": 1,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 13,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "02-agent-chat.webp",
+      "05-session-search.webp",
+      "04-chat-context.webp",
+      "03-group-chat.webp",
+      "11-group-private-dm.webp",
+      "08-agent-profile.webp",
+      "09-agent-market.webp",
+      "12-settings-general.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "iSee 我帮你 写文档 写 文 档",
+     "words": 6,
+     "chars": 18,
+     "lines": 2,
+     "size": 120,
+     "vw": 8.3,
+     "font": "Alimama ShuHeiTi",
+     "weight": 700,
+     "tracking": -0.03,
+     "leading": 1.04,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.61,
+     "top": 234,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "iSee 我帮你 写文档 写 文 档",
+     "words": 6,
+     "lines": 2,
+     "size": 120,
+     "font": "Alimama ShuHeiTi"
+    },
+    "headings": [
+     {
+      "text": "iSee 我帮你 写文档 写 文 档",
+      "words": 6,
+      "chars": 18,
+      "lines": 2,
+      "size": 120,
+      "vw": 8.3,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 234,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "功能一览",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 2177,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "会话工作台与 Agent 对话",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 2177,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "会话搜索",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 2578,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "聊天信息",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 2979,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "群协作",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 3380,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "群内 Agent 私信",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 3781,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Agent 资料卡",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 4182,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Agent 市场",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 4583,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "通用设置",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 4984,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "设备管理",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 5385,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "快捷键",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 5786,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "语音输入",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 6187,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "账号与存储",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 6588,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee 连接打通 你的办公生态",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7189,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "选择适合的方案",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8203,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Team",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.26,
+      "top": 8535,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$40",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.07,
+      "top": 8583,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Pro",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.26,
+      "top": 8635,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$10",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 8683,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Free",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 8685,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$0",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.05,
+      "top": 8733,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "把重复交给 iSee",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 158.4,
+      "vw": 11,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9359,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "把创造力留给自己",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 158.4,
+      "vw": 11,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 10045,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "免费开始， 无限可能。",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 10367,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 403.2,
+      "vw": 28,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 10799,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 26,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 5,
+     "centered": 3,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Alimama ShuHeiTi",
+       "share": 0.09,
+       "mono": false
+      },
+      {
+       "family": "-apple-system",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      24,
+      28,
+      56,
+      64,
+      88,
+      120,
+      158,
+      403
+     ],
+     "sizeCount": 15,
+     "notLoaded": [
+      "PingFang SC"
+     ],
+     "body": {
+      "font": "PingFang SC",
+      "size": 18,
+      "leading": 1.8,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.6
+     },
+     "measureChars": 76,
+     "max": {
+      "size": 403.2,
+      "vw": 28,
+      "font": "Alimama ShuHeiTi",
+      "text": "iSee"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0d0d0d",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#1b1d22",
+       "top": 1190,
+       "hsl": {
+        "h": 223,
+        "s": 0.11,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#28b894",
+       "top": 2017,
+       "hsl": {
+        "h": 165,
+        "s": 0.64,
+        "l": 0.44
+       }
+      },
+      {
+       "color": "#111318",
+       "top": 10227,
+       "hsl": {
+        "h": 223,
+        "s": 0.17,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0d0d0d",
+       "share": 0.69
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.16
+      },
+      {
+       "color": "#666666",
+       "share": 0.08
+      },
+      {
+       "color": "#191a23",
+       "share": 0.03
+      },
+      {
+       "color": "#9aa3ad",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#0f7a5e",
+      "hsl": {
+       "h": 164,
+       "s": 0.78,
+       "l": 0.27
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 3,
+     "radius": 4,
+     "height": 64,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "下载",
+      "下载 iSee",
+      "立即下载"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "ul.absolute.top-[54px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 17,
+     "boxRadius": 6,
+     "squareMedia": 1,
+     "roundedMedia": 15,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 8657
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "alimama shuheiti"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 11053,
+    "margins": {
+     "left": 60,
+     "right": 60
+    },
+    "sections": [
+     {
+      "sel": "section.relative.w-full",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 12,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "iSee 我帮你",
+       "size": 120,
+       "tag": "h1"
+      },
+      "left": 280,
+      "right": 295,
+      "textLeft": 280,
+      "textRight": 388,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-5",
+      "tag": "section",
+      "top": 900,
+      "height": 1117,
+      "words": 12,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 616,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#features.bg-wb-green.text-wb-ink",
+      "tag": "section",
+      "top": 2017,
+      "height": 5012,
+      "words": 109,
+      "media": 12,
+      "middle": 275,
+      "heading": {
+       "text": "功能一览",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 60,
+      "right": 60,
+      "textLeft": 60,
+      "textRight": 63,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section#ecosystem.bg-white.py-[100px]",
+      "tag": "section",
+      "top": 7029,
+      "height": 1014,
+      "words": 19,
+      "media": 1,
+      "middle": 226,
+      "heading": {
+       "text": "iSee 连接打通",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 60,
+      "right": 381,
+      "textLeft": 60,
+      "textRight": 381,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.w-full.bg-white",
+      "tag": "section",
+      "top": 8043,
+      "height": 1284,
+      "words": 69,
+      "media": 0,
+      "middle": 8,
+      "heading": {
+       "text": "选择适合的方案",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 60,
+      "right": 60,
+      "textLeft": 60,
+      "textRight": 241,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.flex.min-h-[100svh]",
+      "tag": "section",
+      "top": 9327,
+      "height": 900,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "把重复交给 iSee",
+       "size": 158,
+       "tag": "h2"
+      },
+      "left": 105,
+      "right": 105,
+      "textLeft": 105,
+      "textRight": 105,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.relative.overflow-hidden",
+      "tag": "footer",
+      "top": 10227,
+      "height": 826,
+      "words": 24,
+      "media": 0,
+      "middle": 91,
+      "heading": {
+       "text": "iSee",
+       "size": 403,
+       "tag": "p"
+      },
+      "left": 0,
+      "right": 60,
+      "textLeft": 0,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 700,
+      "height": 360
+     },
+     {
+      "top": 1860,
+      "height": 312
+     },
+     {
+      "top": 6872,
+      "height": 308
+     },
+     {
+      "top": 7884,
+      "height": 312
+     }
+    ],
+    "h1s": [
+     {
+      "text": "iSee 我帮你 写文档 写 文 档",
+      "size": 120,
+      "top": 234,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 60,
+      "n": 3
+     },
+     {
+      "x": 88,
+      "n": 1
+     },
+     {
+      "x": 103,
+      "n": 1
+     },
+     {
+      "x": 531,
+      "n": 1
+     },
+     {
+      "x": 973,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.2,
+    "voidBox": {
+     "x": 0,
+     "y": 720,
+     "w": 1440,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    1,
+    0.94,
+    0.95,
+    0.95,
+    0.95,
+    1,
+    1,
+    1,
+    1,
+    0.97,
+    0.97
+   ],
+   "motion": {
+    "elements": 24,
+    "css": 22,
+    "transitions": 1,
+    "scripted": 1,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 11401,
+     "screens": 11.1,
+     "words": 280,
+     "img": 22,
+     "video": 1,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 12,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "02-agent-chat.webp",
+      "05-session-search.webp",
+      "04-chat-context.webp",
+      "03-group-chat.webp",
+      "11-group-private-dm.webp",
+      "08-agent-profile.webp",
+      "09-agent-market.webp",
+      "12-settings-general.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "iSee 我帮你 写文档 写 文 档",
+     "words": 6,
+     "chars": 18,
+     "lines": 2,
+     "size": 65.3,
+     "vw": 8.5,
+     "font": "Alimama ShuHeiTi",
+     "weight": 700,
+     "tracking": -0.03,
+     "leading": 1.04,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.62,
+     "top": 364,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "iSee 我帮你 写文档 写 文 档",
+     "words": 6,
+     "lines": 2,
+     "size": 65.3,
+     "font": "Alimama ShuHeiTi"
+    },
+    "headings": [
+     {
+      "text": "iSee 我帮你 写文档 写 文 档",
+      "words": 6,
+      "chars": 18,
+      "lines": 2,
+      "size": 65.3,
+      "vw": 8.5,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.62,
+      "top": 364,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "功能一览",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 50.7,
+      "vw": 6.6,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2067,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee 连接打通 你的办公生态",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 6746,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "选择适合的方案",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 7493,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Free",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7798,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$0",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.17,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 7846,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Pro",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 8308,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$10",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.17,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 8356,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Team",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 8852,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$40",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.17,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 8900,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "把重复交给 iSee",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 84.5,
+      "vw": 11,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 9594,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "把创造力留给自己",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 84.5,
+      "vw": 11,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 10477,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "免费开始， 无限可能。",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 10686,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 215,
+      "vw": 28,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 11265,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 5,
+     "centered": 3,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Alimama ShuHeiTi",
+       "share": 0.09,
+       "mono": false
+      },
+      {
+       "family": "-apple-system",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      24,
+      28,
+      32,
+      35,
+      48,
+      51,
+      65,
+      85,
+      215
+     ],
+     "sizeCount": 16,
+     "notLoaded": [
+      "PingFang SC"
+     ],
+     "body": {
+      "font": "PingFang SC",
+      "size": 16,
+      "leading": 1.8,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.6
+     },
+     "measureChars": 85,
+     "max": {
+      "size": 215,
+      "vw": 28,
+      "font": "Alimama ShuHeiTi",
+      "text": "iSee"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.08,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0d0d0d",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#1b1d22",
+       "top": 1236,
+       "hsl": {
+        "h": 223,
+        "s": 0.11,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#28b894",
+       "top": 1967,
+       "hsl": {
+        "h": 165,
+        "s": 0.64,
+        "l": 0.44
+       }
+      },
+      {
+       "color": "#f4f5f5",
+       "top": 7770,
+       "hsl": {
+        "h": 180,
+        "s": 0.05,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#111318",
+       "top": 10586,
+       "hsl": {
+        "h": 223,
+        "s": 0.17,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0d0d0d",
+       "share": 0.7
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.15
+      },
+      {
+       "color": "#666666",
+       "share": 0.08
+      },
+      {
+       "color": "#191a23",
+       "share": 0.03
+      },
+      {
+       "color": "#9aa3ad",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#0f7a5e",
+      "hsl": {
+       "h": 164,
+       "s": 0.78,
+       "l": 0.27
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 2,
+     "radius": 4,
+     "height": 64,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "下载 iSee",
+      "立即下载"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "ul.absolute.top-[54px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 17,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 15,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "alimama shuheiti"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 11401,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.relative.w-full",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "iSee 我帮你",
+       "size": 65,
+       "tag": "h1"
+      },
+      "left": 52,
+      "right": 52,
+      "textLeft": 52,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-5",
+      "tag": "section",
+      "top": 1024,
+      "height": 943,
+      "words": 12,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 284,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#features.bg-wb-green.text-wb-ink",
+      "tag": "section",
+      "top": 1967,
+      "height": 4679,
+      "words": 109,
+      "media": 12,
+      "middle": 0,
+      "heading": {
+       "text": "功能一览",
+       "size": 51,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#ecosystem.bg-white.py-[100px]",
+      "tag": "section",
+      "top": 6646,
+      "height": 747,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "iSee 连接打通",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 298,
+      "textLeft": 20,
+      "textRight": 298,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.w-full.bg-white",
+      "tag": "section",
+      "top": 7393,
+      "height": 2169,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "10",
+       "size": 48,
+       "tag": "span"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 442,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.flex.min-h-[100svh]",
+      "tag": "section",
+      "top": 9562,
+      "height": 1024,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "把重复交给 iSee",
+       "size": 84,
+       "tag": "h2"
+      },
+      "left": 56,
+      "right": 56,
+      "textLeft": 56,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.relative.overflow-hidden",
+      "tag": "footer",
+      "top": 10586,
+      "height": 815,
+      "words": 24,
+      "media": 0,
+      "middle": 124,
+      "heading": {
+       "text": "免费开始，",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 20,
+      "textLeft": 0,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 696,
+      "height": 448
+     },
+     {
+      "top": 9688,
+      "height": 352
+     },
+     {
+      "top": 10128,
+      "height": 336
+     }
+    ],
+    "h1s": [
+     {
+      "text": "iSee 我帮你 写文档 写 文 档",
+      "size": 65,
+      "top": 364,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 4
+     },
+     {
+      "x": 48,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.99,
+    0.99,
+    0.98,
+    0.96,
+    0.98,
+    0.96,
+    0.9,
+    0.91,
+    0.92,
+    0.89,
+    0.97,
+    0.99
+   ],
+   "motion": {
+    "elements": 23,
+    "css": 22,
+    "transitions": 1,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 13636,
+     "screens": 16.2,
+     "words": 280,
+     "img": 22,
+     "video": 1,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 12,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "02-agent-chat.webp",
+      "05-session-search.webp",
+      "04-chat-context.webp",
+      "03-group-chat.webp",
+      "11-group-private-dm.webp",
+      "08-agent-profile.webp",
+      "09-agent-market.webp",
+      "12-settings-general.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "iSee 我帮你 写文档 写 文 档",
+     "words": 6,
+     "chars": 18,
+     "lines": 2,
+     "size": 40,
+     "vw": 10.3,
+     "font": "Alimama ShuHeiTi",
+     "weight": 700,
+     "tracking": -0.03,
+     "leading": 1.04,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.75,
+     "top": 288,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "iSee 我帮你 写文档 写 文 档",
+     "words": 6,
+     "lines": 2,
+     "size": 40,
+     "font": "Alimama ShuHeiTi"
+    },
+    "headings": [
+     {
+      "text": "×",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "-apple-system",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.08,
+      "top": 21,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee 我帮你 写文档 写 文 档",
+      "words": 6,
+      "chars": 18,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 288,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "功能一览",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1706,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "会话工作台与 Agent 对话",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2080,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "会话搜索",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2699,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "聊天信息",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3269,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "群协作",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3864,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "群内 Agent 私信",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4458,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Agent 资料卡",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5053,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Agent 市场",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5623,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "通用设置",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6192,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "设备管理",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6762,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "快捷键",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7333,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "语音输入",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7903,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "账号与存储",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8448,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee 连接打通 你的办公生态",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9120,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "选择适合的方案",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9861,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Free",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 10166,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$0",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.17,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 10214,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Pro",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 10676,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$10",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.17,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 10724,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Team",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 11220,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$40",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.17,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 11268,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "把重复交给 iSee",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 52,
+      "vw": 13.3,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11962,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "把创造力留给自己",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 52,
+      "vw": 13.3,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 12698,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "免费开始， 无限可能。",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 12874,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "iSee",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 120,
+      "vw": 30.8,
+      "font": "Alimama ShuHeiTi",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 13560,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 27,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 5,
+     "centered": 4,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Alimama ShuHeiTi",
+       "share": 0.09,
+       "mono": false
+      },
+      {
+       "family": "-apple-system",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      24,
+      28,
+      32,
+      40,
+      48,
+      52,
+      120
+     ],
+     "sizeCount": 14,
+     "notLoaded": [
+      "PingFang SC"
+     ],
+     "body": {
+      "font": "PingFang SC",
+      "size": 16,
+      "leading": 1.8,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.6
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 120,
+      "vw": 30.8,
+      "font": "Alimama ShuHeiTi",
+      "text": "iSee"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.08,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0d0d0d",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#28b894",
+       "top": 1606,
+       "hsl": {
+        "h": 165,
+        "s": 0.64,
+        "l": 0.44
+       }
+      },
+      {
+       "color": "#f4f5f5",
+       "top": 10138,
+       "hsl": {
+        "h": 180,
+        "s": 0.05,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#111318",
+       "top": 12774,
+       "hsl": {
+        "h": 223,
+        "s": 0.17,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0d0d0d",
+       "share": 0.7
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.15
+      },
+      {
+       "color": "#666666",
+       "share": 0.08
+      },
+      {
+       "color": "#191a23",
+       "share": 0.03
+      },
+      {
+       "color": "#9aa3ad",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#0f7a5e",
+      "hsl": {
+       "h": 164,
+       "s": 0.78,
+       "l": 0.27
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 2,
+     "radius": 4,
+     "height": 64,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "下载 iSee",
+      "立即下载"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "ul.absolute.top-[54px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 17,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 15,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 10138
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "alimama shuheiti"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 13636,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.relative.w-full",
+      "tag": "section",
+      "top": 0,
+      "height": 844,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "iSee 我帮你",
+       "size": 40,
+       "tag": "h1"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-5",
+      "tag": "section",
+      "top": 844,
+      "height": 762,
+      "words": 12,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#features.bg-wb-green.text-wb-ink",
+      "tag": "section",
+      "top": 1606,
+      "height": 7414,
+      "words": 109,
+      "media": 12,
+      "middle": 0,
+      "heading": {
+       "text": "功能一览",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#ecosystem.bg-white.py-[100px]",
+      "tag": "section",
+      "top": 9020,
+      "height": 741,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "iSee 连接打通",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.w-full.bg-white",
+      "tag": "section",
+      "top": 9761,
+      "height": 2169,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "10",
+       "size": 48,
+       "tag": "span"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.flex.min-h-[100svh]",
+      "tag": "section",
+      "top": 11930,
+      "height": 844,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "把重复交给 iSee",
+       "size": 52,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 0,
+      "textLeft": 20,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.relative.overflow-hidden",
+      "tag": "footer",
+      "top": 12774,
+      "height": 862,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "免费开始，",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 20,
+      "textLeft": 0,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 588,
+      "height": 376
+     }
+    ],
+    "h1s": [
+     {
+      "text": "iSee 我帮你 写文档 写 文 档",
+      "size": 40,
+      "top": 288,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 4
+     },
+     {
+      "x": 48,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "1 box-shadow(s) on elements at rest: ul.absolute.top-[54px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (PingFang SC, Alimama ShuHeiTi, -apple-system).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-fallback",
+   "width": 1440,
+   "message": "Typeface(s) declared but not loaded, so a fallback is rendering: PingFang SC",
+   "fix": "Fix the font URL / family name, or the screenshots you are judging are not the design.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "15 different font sizes (13, 14, 15, 16, 17, 18, 20, 24, 28, 56, 64, 88, 120, 158, 403).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 768,
+   "message": "A 448px stretch at 696px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/.taste-skill/after/desktop-fold.jpg",
+   "pages": [
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/.taste-skill/after/desktop-page-01.jpg",
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/.taste-skill/after/desktop-page-02.jpg",
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/.taste-skill/after/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/.taste-skill/after/tablet-fold.jpg",
+   "pages": [
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/.taste-skill/after/tablet-page-01.jpg",
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/.taste-skill/after/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/.taste-skill/after/mobile-fold.jpg",
+   "pages": [
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/.taste-skill/after/mobile-page-01.jpg",
+    "/Users/fanbingbing/Documents/project/isee-website.isee-desktop/.taste-skill/after/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

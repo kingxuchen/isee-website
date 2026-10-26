@@ -5,14 +5,13 @@ import { Hero } from "@/components/Hero";
 import { ProductDemo } from "@/components/ProductDemo";
 import { Capabilities } from "@/components/Capabilities";
 import { Ecosystem } from "@/components/Ecosystem";
-import { Pricing } from "@/components/Pricing";
 import { CtaSection } from "@/components/CtaSection";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "iSee - AI Agent for Everyday Office Work",
   description:
-    "iSee 是一款全场景 AI 办公工作台。说出要求、开始执行任务、交付完整成果。连接 iSee 办公生态，你的办公好搭子",
+    "iSee is an all-scenario AI office workbench. Say what you need, let agents run the task, and get the finished result — connected to the office tools you already use.",
 };
 
 export default function AgentsPage() {
@@ -24,7 +23,6 @@ export default function AgentsPage() {
       <ProductDemo />
       <Capabilities />
       <Ecosystem />
-      <Pricing />
       <CtaSection />
       <Footer />
     </div>

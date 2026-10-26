@@ -1,205 +1,214 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import {
+  DESKTOP_FEATURES,
+  DESKTOP_FEATURE_GROUPS,
+  type DesktopFeature,
+  type DesktopFeatureGroupId,
+} from "@/data/desktop-features";
+import { cn } from "@/lib/utils";
 
-interface ScenarioTab {
-  id: string;
-  label: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  video: string;
-  poster: string;
-}
+/* ------------------------------------------------------------------ *
+ * What it does — 钉住的标题 + 经过的行（绿色饱和色场，全墨文字）。
+ *
+ * 左列钉住「What it does」与分组筛选（纯文字按钮，活跃项带实心圆点）；
+ * 右列 12 个功能块依次经过，每块一张真实客户端截图，左右交替。
+ * 截图点开仍是放大灯箱。
+ *
+ * 对比度说明：#28b894 绿场上半透明墨色最高只有 3.7:1，不达 AA，
+ * 因此本节文字一律全墨 #0d0d0d（7.2:1），层级只靠字号与字重。
+ * ------------------------------------------------------------------ */
 
-const TABS: ScenarioTab[] = [
-  {
-    id: "research",
-    label: "研究",
-    title: "深度调研",
-    subtitle: "从查资料到给结论，15 分钟交付报告",
-    description:
-      "告诉 iSee 你要研究的课题，它会拆出检索路径、对信息源交叉验证，再生成结构化报告、竞品矩阵和策略建议。",
-    video: "/cap/scene1.mp4",
-    poster: "/cap/scene1-poster.webp",
-  },
-  {
-    id: "docs",
-    label: "文档",
-    title: "办公文件生成",
-    subtitle: "Word、Excel、PPT 描述需求，拿到成品",
-    description:
-      "描述你要的文档、表格或演示，iSee 直接生成可编辑的 Word、Excel、PPT 成品。",
-    video: "/cap/scene2.mp4",
-    poster: "/cap/scene2-poster.webp",
-  },
-  {
-    id: "design",
-    label: "设计",
-    title: "AI 设计",
-    subtitle: "不用设计工具也能产出专业视觉",
-    description:
-      "说出想要的风格与内容，iSee 直接产出海报、配图与品牌视觉，拿到即可用。",
-    video: "/cap/scene3.mp4",
-    poster: "/cap/scene3-poster.webp",
-  },
-  {
-    id: "dev",
-    label: "开发",
-    title: "应用构建",
-    subtitle: "把想法变成能落地的应用",
-    description:
-      "从想法到可运行的应用，iSee 自动完成搭建、编码与调试，交付能落地的成果。",
-    video: "/cap/scene4.mp4",
-    poster: "/cap/scene4-poster.webp",
-  },
+type Filter = DesktopFeatureGroupId | "all";
+
+const FILTERS: { id: Filter; label: string }[] = [
+  { id: "all", label: "All" },
+  ...DESKTOP_FEATURE_GROUPS.map((g) => ({ id: g.id as Filter, label: g.label })),
 ];
 
-export function Capabilities() {
-  const [active, setActive] = useState(0);
-  const [playing, setPlaying] = useState(true);
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const tab = TABS[active];
+function Lightbox({
+  feature,
+  onClose,
+}: {
+  feature: DesktopFeature;
+  onClose: () => void;
+}) {
+  const closeRef = useRef<HTMLButtonElement>(null);
 
-  const togglePlay = () => {
-    const v = videoRef.current;
-    if (!v) return;
-    if (v.paused) {
-      v.play();
-      setPlaying(true);
-    } else {
-      v.pause();
-      setPlaying(false);
-    }
-  };
+  useEffect(() => {
+    closeRef.current?.focus();
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", onKeyDown);
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = previous;
+    };
+  }, [onClose]);
 
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-[1920px] px-5 lg:px-[60px]">
-        <div className="relative overflow-hidden rounded-[20px] bg-wb-panel pt-[60px] lg:rounded-[32px] lg:pt-[115px]">
-          {/* Header */}
-          <div className="mx-auto mb-[60px] max-w-[70%] text-center lg:mb-[160px]">
-            <div className="flex items-center justify-center gap-3">
-              <span className="font-heading text-[40px] leading-none font-bold text-wb-ink lg:text-[56px]">
-                iSee
-              </span>
-              <h2 className="font-heading text-[28px] leading-tight text-wb-ink lg:text-[48px]">
-                你的工作好帮手
-              </h2>
-            </div>
-            <p className="mt-4 text-sm text-wb-muted lg:text-base">
-              把任务交给它，iSee
-              会自主规划、调用工具、生成文件，并把过程与结果都留给你审核
-            </p>
-          </div>
-
-          {/* White content wrapper */}
-          <div className="relative grid grid-cols-1 gap-10 bg-white px-6 py-10 lg:grid-cols-[40%_60%] lg:px-[60px] lg:py-[60px]">
-            {/* Mascots anchored to the wrapper's top edge, sitting in the gray zone */}
-            <img
-              src="/cap/scenario1-feature1.png"
-              alt=""
-              aria-hidden
-              className="absolute -top-[96px] left-[40px] z-10 hidden w-[120px] lg:block"
-            />
-            <img
-              src="/cap/scenario1-feature2.png"
-              alt=""
-              aria-hidden
-              className="absolute -top-[165px] left-[150px] z-10 hidden w-[200px] lg:block"
-            />
-            <div className="text-left">
-              {/* Tabs */}
-              <div className="inline-flex gap-1 rounded-lg bg-wb-panel p-1">
-                {TABS.map((t, i) => (
-                  <button
-                    key={t.id}
-                    onClick={() => {
-                      setActive(i);
-                      setPlaying(true);
-                    }}
-                    className={`rounded px-[25px] py-2 text-base transition-all duration-300 lg:text-[21px] ${
-                      i === active
-                        ? "bg-wb-green text-white"
-                        : "text-black hover:bg-black/5"
-                    }`}
-                  >
-                    {t.label}
-                  </button>
-                ))}
-              </div>
-
-              <h3 className="mt-8 font-heading text-[26px] text-wb-ink lg:text-[32px]">
-                {tab.title}
-              </h3>
-              <h4 className="mt-2 text-lg font-semibold text-[#191A23] lg:text-xl">
-                {tab.subtitle}
-              </h4>
-              <p className="mt-4 max-w-[420px] text-sm leading-[26px] text-wb-muted lg:text-base">
-                {tab.description}
-              </p>
-              <a
-                href="#"
-                className="mt-8 flex h-12 w-12 items-center justify-center rounded-lg bg-black transition-colors duration-300 hover:bg-[#333]"
-                aria-label="scenario detail link"
-              >
-                <img
-                  src="/icons-inline/ArrowUpRightIcon.svg"
-                  alt=""
-                  aria-hidden
-                  className="h-[30px] w-[30px]"
-                />
-              </a>
-            </div>
-
-            {/* Laptop + video */}
-            <div className="relative">
-              <img src="/cap/mac.png" alt="MacBook" className="w-full" />
-              {/* Screen rect measured from mac.png (3072×2346): opaque black
-                  area x 436→3072, y 76→2067. Video (3:2) covers it with a ~40px
-                  inset gap on all sides so it doesn't touch the bezel edges. */}
-              <video
-                key={tab.id}
-                ref={videoRef}
-                src={tab.video}
-                poster={tab.poster}
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="absolute left-[15.5%] top-[4.94%] h-[81.5%] w-[83.2%] object-cover"
-              />
-            </div>
-          </div>
-
-          {/* Play controls */}
-          <div className="flex items-center justify-center gap-4 bg-white pb-[60px] pt-[40px] lg:pt-[100px]">
-            <button
-              onClick={togglePlay}
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-wb-line transition-colors hover:bg-black/5"
-              aria-label={playing ? "pause" : "play"}
-            >
-              {playing ? (
-                <span className="flex h-3 items-center gap-[3px]">
-                  <span className="h-3 w-[3px] bg-black" />
-                  <span className="h-3 w-[3px] bg-black" />
-                </span>
-              ) : (
-                <img
-                  src="/icons-inline/PlayIcon.svg"
-                  alt=""
-                  aria-hidden
-                  className="h-3 w-3"
-                />
-              )}
-            </button>
-            <div className="h-3 w-16 overflow-hidden rounded-full bg-[#E5E5E5]">
-              <div className="h-full w-[40%] rounded-full bg-black" />
-            </div>
-          </div>
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={`${feature.title} screenshot`}
+      className="fixed inset-0 z-[10050] flex items-center justify-center bg-black/80 p-4 lg:p-10"
+      onClick={onClose}
+    >
+      <div
+        className="relative w-full max-w-[1200px]"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <img
+          src={feature.image}
+          alt={feature.imageAlt}
+          className="block max-h-[82vh] w-full rounded-lg object-contain"
+        />
+        <div className="mt-3 flex items-center justify-between gap-4 text-white/85">
+          <p className="text-sm">
+            {feature.title} · {feature.summary}
+          </p>
+          <button
+            ref={closeRef}
+            type="button"
+            onClick={onClose}
+            className="shrink-0 cursor-pointer rounded-md px-3 py-1 text-sm underline decoration-white/40 underline-offset-4 transition-colors hover:text-white hover:decoration-white"
+          >
+            Close
+          </button>
         </div>
       </div>
     </div>
+  );
+}
+
+export function Capabilities() {
+  const [filter, setFilter] = useState<Filter>("all");
+  const [zoomed, setZoomed] = useState<DesktopFeature | null>(null);
+
+  const visible = useMemo(
+    () =>
+      filter === "all"
+        ? DESKTOP_FEATURES
+        : DESKTOP_FEATURES.filter((feature) => feature.group === filter),
+    [filter],
+  );
+
+  const groupBlurb =
+    filter === "all"
+      ? "Every screen below is the real iSee desktop client. Click one to zoom in."
+      : (DESKTOP_FEATURE_GROUPS.find((g) => g.id === filter)?.blurb ?? "");
+
+  return (
+    <section
+      id="features"
+      aria-labelledby="features-title"
+      className="bg-wb-green text-wb-ink"
+    >
+      <div className="mx-auto max-w-[1920px] px-5 py-[100px] lg:px-[60px] lg:py-[160px]">
+        <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+          {/* 钉住的标题列（cols 1–5） */}
+          <div className="lg:col-span-5">
+            <div className="lg:sticky lg:top-8">
+              <h2
+                id="features-title"
+                className="m-0 font-heading text-[clamp(40px,6.6vw,88px)] leading-[1.05] font-bold tracking-[-0.02em]"
+              >
+                What it does
+              </h2>
+              <p className="mt-5 max-w-[38ch] text-[16px] leading-[26px]">
+                Chats, agents, group collaboration, workspace and settings in one window. Every item below is a real screen with what it can do.
+              </p>
+
+              <div
+                role="group"
+                aria-label="Filter features by group"
+                className="mt-10 flex flex-wrap gap-x-7 gap-y-2 lg:flex-col lg:items-start lg:gap-y-1"
+              >
+                {FILTERS.map((item) => {
+                  const active = item.id === filter;
+                  return (
+                    <button
+                      key={item.id}
+                      type="button"
+                      aria-pressed={active}
+                      onClick={() => setFilter(item.id)}
+                      className={cn(
+                        "flex cursor-pointer items-center gap-3 py-1.5 text-[17px] leading-[28px] transition-colors duration-200",
+                        active ? "font-bold" : "font-normal hover:font-medium",
+                      )}
+                    >
+                      <span
+                        aria-hidden="true"
+                        className={cn(
+                          "h-2.5 w-2.5 shrink-0 rounded-full bg-wb-ink transition-[opacity,transform] duration-200",
+                          active ? "scale-100 opacity-100" : "scale-50 opacity-0",
+                        )}
+                      />
+                      {item.label}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <p aria-live="polite" className="mt-6 text-[14px] leading-[22px]">
+                {groupBlurb}
+              </p>
+            </div>
+          </div>
+
+          {/* 经过的功能行（cols 7–12） */}
+          <ul className="m-0 mt-16 flex list-none flex-col gap-[72px] p-0 lg:col-span-6 lg:col-start-7 lg:mt-0 lg:gap-[120px]">
+            {visible.map((feature, index) => (
+              <li key={feature.id}>
+                <h3 className="m-0 font-heading text-[24px] leading-[32px] font-bold lg:text-[28px]">
+                  {feature.title}
+                </h3>
+                <div
+                  className={cn(
+                    "mt-6 flex flex-col gap-7 sm:flex-row sm:items-start",
+                    index % 2 === 1 && "sm:flex-row-reverse",
+                  )}
+                >
+                  <button
+                    type="button"
+                    onClick={() => setZoomed(feature)}
+                    aria-label={`Zoom in on the ${feature.title} screenshot`}
+                    className="group block w-full shrink-0 cursor-zoom-in overflow-hidden rounded-[6px] bg-wb-ink sm:w-[300px]"
+                  >
+                    <img
+                      src={feature.image}
+                      alt={feature.imageAlt}
+                      width={1366}
+                      height={854}
+                      loading="lazy"
+                      className="aspect-[4/3] w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
+                    />
+                  </button>
+                  <div className="min-w-0">
+                    <p className="m-0 text-[17px] leading-[26px] font-medium">
+                      {feature.summary}
+                    </p>
+                    <ul className="m-0 mt-3 flex list-none flex-col gap-2 p-0 text-[16px] leading-[24px]">
+                      {feature.points.map((point) => (
+                        <li key={point}>{point}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      {zoomed ? (
+        <Lightbox feature={zoomed} onClose={() => setZoomed(null)} />
+      ) : null}
+    </section>
   );
 }

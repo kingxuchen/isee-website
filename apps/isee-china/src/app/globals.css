@@ -30,6 +30,9 @@
   --color-wb-green: #28b894;
   --color-wb-teal: #32e6b9;
   --color-wb-deepgreen: #00b578;
+  /* 动作绿：品牌绿 #28b894 上白字对比仅 2.5:1，按钮/文字级动作改用深绿（白字 5.3:1，AA 通过） */
+  --color-wb-action: #0f7a5e;
+  --color-wb-action-deep: #0b6a51;
   --color-wb-ink: #0d0d0d;
   --color-wb-ink-2: #191a23;
   --color-wb-text: #333333;
